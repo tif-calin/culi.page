@@ -852,5 +852,7 @@ const wikiColorsRgb = {
   ]
 };
 
+Object.freeze(wikiColors);
+
 export { colorsRgb, cssColors, cssColorsRgb, wikiColors, wikiColorsRgb };
 export default colors;
