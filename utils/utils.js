@@ -18,3 +18,8 @@ export const rgb2hsl = rgb => {
 
   return [h, s, l];
 };
+
+export const rgb2hslIntegers = rgb => {
+  const hsl = rgb2hsl(rgb);
+  return [Math.round(hsl[0]), Math.round(hsl[1] * 100), Math.round(hsl[2] * 100)];
+};
