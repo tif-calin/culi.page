@@ -122,6 +122,42 @@ main > nav {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* color2name */
+.color2name > .in {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "a b"
+    "a c"
+  ;
+  align-items: center;
+}
+
+.color2name > .in input {
+  grid-area: a;
+  margin-right: 1rem;
+}
+
+.color2name > .out {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.color2name label {
+  font-weight: 900;
+}
+
+.color2name ul {
+  margin-top: 0.5rem;
+}
+
+.color2name li {
+  display: grid;
+  grid-template-columns: 2.5rem 1rem 1fr;
+  align-items: center;
+  gap: 0.25rem;
+}
+
 /* catfood-cost-calc */
 .catfood-cost-calc {
   display: flex;

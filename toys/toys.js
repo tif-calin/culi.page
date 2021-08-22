@@ -2,6 +2,7 @@ import { getPrefs, updatePrefs } from '../utils/localStorage.js';
 import solarnoon from './solarnoon.js';
 import text2colorgradient from './text2colorgradient.js';
 import name2color from './name2color.js';
+import color2name from './color2name.js';
 import catfoodcostcalc from './catfoodcostcalc.js';
 
 // grab dom elements
@@ -25,6 +26,11 @@ const toyInfo = {
     name: 'name2color',
     description: '',
     renderer: name2color,
+  },
+  color2name: {
+    name: 'color2name',
+    description: '',
+    renderer: color2name,
   },
   catfoodcostcalc: {
     name: 'catfoodcostcalc',
