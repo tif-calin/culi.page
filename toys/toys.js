@@ -16,26 +16,31 @@ const toyInfo = {
     name: 'solarnoon',
     description: '',
     renderer: solarnoon,
+    category: 'time'
   },
   text2colorgradient: {
     name: 'text2colorgradient',
     description: '',
     renderer: text2colorgradient,
+    category: 'color'
   },
   name2color: {
     name: 'name2color',
     description: '',
     renderer: name2color,
+    category: 'color'
   },
   color2name: {
     name: 'color2name',
     description: '',
     renderer: color2name,
+    category: 'color'
   },
   catfoodcostcalc: {
     name: 'catfoodcostcalc',
     description: '',
-    renderer: catfoodcostcalc
+    renderer: catfoodcostcalc,
+    category: 'catfood'
   }
 };
 
@@ -84,13 +89,23 @@ const loadPrefs = () => {
       // else document.querySelectorAll(`.toy[name=${key}], .toy-title[name=${key}]`).forEach(el => el.remove());
 
       // update state
-      prefs['show_' + toy] = chk.checked;
+      const newPrefs = { ...prefs, ['show_' + toy]: chk.checked };
+
       // update localStorage
-      updatePrefs(prefs);
+      updatePrefs(newPrefs);
+
+      const refreshMssg = document.querySelector('.refresh-message');
+      refreshMssg.style.display = prefs !== newPrefs ? 'block' : 'none';
     });
 
     settingsContainer.append(chk, lbl);
   }
+
+  const refreshMssg = document.createElement('span');
+  refreshMssg.classList.add('refresh-message');
+  refreshMssg.textContent = 'Refresh to see changes';
+  refreshMssg.style.display = 'none';
+  settingsContainer.appendChild(refreshMssg);
 };
 loadPrefs()
 
