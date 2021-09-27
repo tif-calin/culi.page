@@ -2,7 +2,7 @@ import { colorsRgb, wikiColorsRgb } from '../data/colors.js';
 import { hex2rgb, rgb2hslIntegers } from '../utils/utils.js';
 const RGBCOLORS = { ...wikiColorsRgb, ...colorsRgb };
 
-const approximateColor = color => {
+const getClosestRGB = color => {
   const [R, G, B] = hex2rgb(color);
 
   // find distance for all the colors
@@ -67,6 +67,9 @@ export default options => {
   // create color input
   const divIn = document.createElement('div');
   divIn.className = 'in';
+  const textInput = document.createElement('input');
+  textInput.type = 'text';
+  textInput.placeholder = 'hex value of color';
   const colorInput = document.createElement('input');
   colorInput.type = 'color';
   const colorRGB = document.createElement('span');
@@ -75,23 +78,26 @@ export default options => {
   // create results list
   const divOut = document.createElement('div');
   divOut.className = 'out';
+  divOut.style.display = 'none';
   const resultsRGB = document.createElement('ul');
   const resultsHSL = document.createElement('ul');
 
   // event handler for color change
-  colorInput.addEventListener('change', e => {
+  const updateView = hex => {
+    divOut.style.display = 'flex';
+
     // reset results
     resultsRGB.innerHTML = '<label>rgb<label>';
     resultsHSL.innerHTML = '<label>hsl<label>';
 
     // update the color values for rgb and hsl
-    colorRGB.textContent = `rgb(${hex2rgb(e.target.value).join(', ')})`;
-    const HSL = rgb2hslIntegers(hex2rgb(e.target.value));
+    colorRGB.textContent = `rgb(${hex2rgb(hex).join(', ')})`;
+    const HSL = rgb2hslIntegers(hex2rgb(hex));
     colorHSL.textContent = `hsl(${HSL[0]}, ${HSL[1]}%, ${HSL[2]}%)`;
 
     // find the closest colors
-    const [rgbSorted, distsRGB] = approximateColor(e.target.value);
-    const [hslSorted, distsHSL] = getClosestHSL(e.target.value);
+    const [rgbSorted, distsRGB] = getClosestRGB(hex);
+    const [hslSorted, distsHSL] = getClosestHSL(hex);
 
     for (let i = 0; i <= 6; i++) {
       const rgbName = rgbSorted[i];
@@ -103,10 +109,32 @@ export default options => {
       resultsRGB.append(createListItem(distsRGB[rgbName], rgbName, rgbCSS));
       resultsHSL.append(createListItem(distsHSL[hslName], hslName, hslCSS));
     }
+  };
+
+  textInput.addEventListener('input', e => {
+    e.preventDefault();
+
+    let current = e.target.value.toLowerCase();
+    if (current[0] !== '#') current = `#${current}`;
+    if (current.length > 7) current = `#${current.slice(-6)}`;
+
+    e.target.value = current;
+    colorInput.value = current;
+    updateView(current);
+  });
+
+  colorInput.addEventListener('change', e => {
+    e.preventDefault();
+
+    textInput.value = e.target.value;
+
+    console.log(e.target.value);
+
+    updateView(e.target.value);
   });
 
   // append children and return parent
-  divIn.append(colorInput, colorRGB, colorHSL);
+  divIn.append(colorInput, textInput, colorRGB, colorHSL);
   divOut.append(resultsRGB, resultsHSL);
   parent.append(divIn, divOut);
   return parent;

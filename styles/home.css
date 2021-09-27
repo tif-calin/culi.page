@@ -2,10 +2,15 @@
 
 main {
   font-family: 'Inter', sans-serif;
+  accent-color: #c40233;
 }
 
 main > nav {
   margin: 1rem;
+}
+
+.refresh-message {
+  color: #c40233;
 }
 
 #toy-container {
@@ -38,6 +43,7 @@ main > nav {
 }
 
 /* solar-noon */
+/* #region */
 .solar-noon-visual {
   width: 100%;
   height: 2rem;
@@ -72,8 +78,10 @@ main > nav {
   height: 100%;
   border-left: 1px double gray;
 }
+/* #endregion */
 
 /* color-avatar */
+/* #region */
 .color-avatar {
   display: flex;
   flex-direction: column;
@@ -96,8 +104,10 @@ main > nav {
   border-radius: 5px;
   background: #f46a55;
 }
+/* #endregion */
 
 /* color-namer */
+/* #region */
 .color-namer {
   display: flex;
   flex-direction: column;
@@ -121,34 +131,38 @@ main > nav {
   background-color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
+/* #endregion */
 
 /* color2name */
+/* #region */
 .color2name > .in {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-areas:
-    "a b"
-    "a c"
-  ;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 0.5rem;
 }
 
-.color2name > .in input {
-  grid-area: a;
-  margin-right: 1rem;
+.color2name > .in input[type="text"] {
+  flex: 1 1 6rem;
+  max-width: 100%;
+}
+
+.color2name > .in input[type="color"] {
+  width: 2rem;
+  height: 2rem;
 }
 
 .color2name > .out {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  border-top: 1px solid #999;
 }
 
 .color2name label {
-  font-weight: 900;
-}
-
-.color2name ul {
-  margin-top: 0.5rem;
+  font-weight: 700;
 }
 
 .color2name li {
@@ -157,8 +171,10 @@ main > nav {
   align-items: center;
   gap: 0.25rem;
 }
+/* #endregion */
 
 /* catfood-cost-calc */
+/* #region */
 .catfood-cost-calc {
   display: flex;
   flex-direction: column;
@@ -176,3 +192,4 @@ main > nav {
   background-color: #f7f7f7;
   border: 1px solid #d9d9d9;
 }
+/* #endregion */

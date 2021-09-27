@@ -101,6 +101,7 @@ const approximateColorNames = (hash, num, loud) => {
 };
 
 const handleInputChange = (targ, opts, spnColorNames) => {
+
   // remove whitespace from input
   targ.value = targ.value.trim();
 
@@ -109,7 +110,9 @@ const handleInputChange = (targ, opts, spnColorNames) => {
   if (opts.loud) console.log(hash);
 
   // update color of avatar
+  const domAvatarContainer = document.querySelector('.avatar-container');
   const domAvatars = document.querySelectorAll('.avatar');
+  domAvatarContainer.style.display = 'flex';
   domAvatars[0].style.background = makeSpecialGradient(hash, opts.loud);
   for (let i = 0; i < domAvatars.length - 1; i++) {
     domAvatars[i + 1].style.background = makeGradient(hash, i + 2, hash % 360, 'linear', i === domAvatars.length - 1 && opts.loud);
@@ -137,6 +140,7 @@ export default options => {
   // create input and avatar divs
   const inpName = document.createElement('input');
   const avatars = document.createElement('div');
+  avatars.style.display = 'none';
   avatars.className = 'avatar-container';
   for (let i = 0; i < opts.numberOfAvatars; i++) {
     const div = document.createElement('div');
