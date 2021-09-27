@@ -1,3 +1,35 @@
+
+/*
+banan
+bleu
+clear
+coffee
+coquelicot
+falu
+gingerline 
+gunmetal
+incarnadine 
+labrador 
+mustard
+offwhite
+pervenche
+rosegold
+sinoper or sinople
+vanilla
+verditer
+watchet 
+
+https://www.mentalfloss.com/article/649758/amazon-movers-shakers-page
+https://bestlifeonline.com/obscure-colors/
+https://www.mentalfloss.com/article/55575/15-very-specific-colors-you-didnt-know-had-names
+https://www.eggradients.com/color-names
+https://www.toptenz.net/top-10-weird-colors.php
+https://www.colourlovers.com/blog/2009/03/26/lesser-known-color-vocabulary-d-through-l
+
+input a color palette and it'll automatically convert it to named colors
+*/
+
+
 const colors = {
   acid: '#00ff25',
   aero: '#7cb9e8',
