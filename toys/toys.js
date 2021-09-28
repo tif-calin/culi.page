@@ -89,6 +89,7 @@ const loadPrefs = () => {
       // else document.querySelectorAll(`.toy[name=${key}], .toy-title[name=${key}]`).forEach(el => el.remove());
 
       // update state
+      prefs = getPrefs();
       const newPrefs = { ...prefs, ['show_' + toy]: chk.checked };
 
       // update localStorage
