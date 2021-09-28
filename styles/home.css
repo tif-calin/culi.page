@@ -1,30 +1,65 @@
 @import url('./_style.css');
 
-main {
-  font-family: 'Inter', sans-serif;
-  accent-color: #c40233;
+body {
+  --clr-red: #c40233;
+  --clr-yellow: #ffd300;
+  --clr-green: #009f6b;
+  --clr-blue: #0087bd;
+  --clr-black: hsl(198, 100%, 7%);
+
+  --box-shadow: 0 0.5rem 1rem -0.125rem rgba(50, 50, 50, 0.1), inset 0 0.25rem 0.5rem -0.25rem rgba(0, 0, 0, 0.15);
+
+  /* display: flex;
+  justify-content: center; */
 }
 
-main > nav {
-  margin: 1rem;
+main {
+  font-family: 'Inter', sans-serif;
+  padding: 1rem;
+  accent-color: var(--clr-yellow);
+  min-width: min(300px + 5vw, 100%);
+  width: 55vw;
 }
 
 .refresh-message {
-  color: #c40233;
+  color: var(--clr-yellow);
+  font-weight: 600;
+}
+
+#settings-container {
+  border-radius: 0.25rem;
 }
 
 #toy-container {
   counter-reset: toyCounter;
+  margin-top: 1rem;
 }
 
-#toy-container > * {
-  margin: 0 1rem;
+#toy-container button {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--clr-yellow);
+  border: 1px solid var(--clr-black);
+  box-shadow: var(--box-shadow);
+}
+
+#toy-container input:not([type="color"]) {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+  border: 1px solid var(--clr-black);
+  box-shadow: inset var(--box-shadow);
+}
+
+#toy-container input:read-only:not([type="color"]) {
+  background: #0000;
 }
 
 #toy-container > .toy {
   padding: 1rem;
   border-radius: 5px;
-  border: 1px solid #8f8f9d99;
+  border: 2px solid var(--clr-black);
+  background: #ffd30011;
+  box-shadow: var(--box-shadow);
 }
 
 #toy-container > .toy-title {
@@ -38,10 +73,6 @@ main > nav {
   content: counter(toyCounter) '. ';
 }
 
-#settings-container {
-  margin: 1rem 1rem 0 1rem;
-}
-
 /* solar-noon */
 /* #region */
 .solar-noon-visual {
@@ -51,6 +82,8 @@ main > nav {
   display: grid;
   margin: 0;
   padding: 0;
+  border-radius: 0.25rem;
+  overflow: hidden;
 }
 
 .solar-noon-visual > div {
@@ -178,14 +211,20 @@ main > nav {
 .catfood-cost-calc {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.25rem;
+}
+
+.catfood-cost-calc > * {
+  max-width: 12rem;
 }
 
 .catfood-cost-calc button {
   text-align: left;
   width: min-content;
   font-weight: 600;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  width: 12rem;
+  text-align: center;
 }
 
 .catfood-cost-calc input:read-only {
