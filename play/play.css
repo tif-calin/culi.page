@@ -1,0 +1,24 @@
+#s001 > button {
+  width: 12rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #f9f9fb;
+  background-color: #f13c20;
+  border-radius: 0.25rem;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid #f9f9fb;
+  text-shadow: #36454f 1px 1px 1px, #36454f -1px -1px 1px, #36454f 1px -1px 1px, #36454f -1px 1px 1px, #36454f 0 1px 1px, #36454f 0 -1px 1px, #36454f 1px 0 1px, #36454f -1px 0 1px;
+}
+
+#s001 > button::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: repeating-linear-gradient(35deg, #f13c20 0, #36454f 19px, #f9f9fb 20px, #f9f9fb 24px, #f13c20 25px);
+  border: 2px solid #36454f;
+  border-radius: 0.35rem;
+  z-index: -1;
+  box-sizing: border-box;
+}
