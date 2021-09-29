@@ -62,7 +62,7 @@ export default options => {
 
   // create parent element
   const parent = document.createElement('form');
-  parent.className = 'color2name';
+  parent.className = 'color2nearestname';
 
   // create color input
   const divIn = document.createElement('div');

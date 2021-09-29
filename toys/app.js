@@ -2,7 +2,7 @@ import { getPrefs, updatePrefs } from '../utils/localStorage.js';
 import solarnoon from './solarnoon.js';
 import text2colorgradient from './text2colorgradient.js';
 import name2color from './name2color.js';
-import color2name from './color2name.js';
+import color2nearestname from './color2nearestname.js';
 import catfoodcostcalc from './catfoodcostcalc.js';
 
 // grab dom elements
@@ -30,10 +30,10 @@ const toyInfo = {
     renderer: name2color,
     category: 'color'
   },
-  color2name: {
-    name: 'color2name',
+  color2nearestname: {
+    name: 'color2nearestname',
     description: '',
-    renderer: color2name,
+    renderer: color2nearestname,
     category: 'color'
   },
   catfoodcostcalc: {
@@ -53,7 +53,10 @@ const loadToy = async key => {
   const toy = await toyInfo[key].renderer(prefs['opts_' + key]);
   toy.classList.add('toy');
   toy.name = key;
-  toyContainer.append(toyTitle, toy);
+
+  const h2Category = document.querySelector(`.category-${toyInfo[key].category}`).nextSibling;
+  toyContainer.insertBefore(toyTitle, h2Category);
+  toyContainer.insertBefore(toy, toyTitle.nextSibling);
 };
 
 // get prefs from localStorage if exist
@@ -111,6 +114,30 @@ const loadPrefs = () => {
 loadPrefs()
 
 // load toys
-Object.keys(toyInfo).forEach(async key => {
-  if (prefs['show_' + key]) loadToy(key);
-});
+const loadToysInCategories = () => {
+  const categories = Object.values(toyInfo).map(toy => toy.category).filter((v, i, a) => a.indexOf(v) === i);
+  for (let category of categories) {
+    const h2 = document.createElement('h2');
+    h2.textContent = category;
+    h2.className = `category-${category}`;
+    h2.style.display = 'none';
+    toyContainer.appendChild(h2);
+
+    for (let toy of Object.keys(toyInfo)) {
+      if (prefs['show_' + toy] && toyInfo[toy].category === category) {
+        h2.style.display = 'block';
+        loadToy(toy);
+      }
+    }
+  }
+}
+loadToysInCategories();
+
+// const toysToLoad = {};
+// Object.keys(toyInfo).forEach(async key => {
+//   if (prefs['show_' + key]) toysToLoad[key.category] = [...toysToLoad[key.category], key];
+// });
+// Object.keys(toysToLoad).forEach(category => {
+//   const h2 = document.createElement('h2').textContent = category;
+//   toyContainer.appendChild(h2);
+// })

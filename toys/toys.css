@@ -1,4 +1,4 @@
-@import url('./_style.css');
+@import url('../styles/_style.css');
 
 body {
   --clr-red: #c40233;
@@ -35,31 +35,42 @@ main {
   margin-top: 1rem;
 }
 
-#toy-container button {
+button {
   padding: 0.25rem;
   border-radius: 0.25rem;
   background: var(--clr-yellow);
   border: 1px solid var(--clr-black);
   box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 
-#toy-container input:not([type="color"]) {
+input:not([type="color"]) {
   padding: 0.25rem 0.5rem;
   border-radius: 0.125rem;
   border: 1px solid var(--clr-black);
   box-shadow: inset var(--box-shadow);
+  font-weight: 500;
 }
 
-#toy-container input:read-only:not([type="color"]) {
+input:read-only:not([type="color"]) {
   background: #0000;
 }
 
-#toy-container > .toy {
-  padding: 1rem;
-  border-radius: 5px;
-  border: 2px solid var(--clr-black);
-  background: #ffd30011;
-  box-shadow: var(--box-shadow);
+input[type="color"] {
+  cursor: pointer;
+}
+
+#toy-container > h2 {
+  margin-top: 1.5rem;
+  margin-bottom: -0.75rem;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: right;
+  border-bottom: 1px solid var(--clr-black);
+}
+
+#toy-container > .toy-title::before {
+  content: counter(toyCounter) '. ';
 }
 
 #toy-container > .toy-title {
@@ -69,8 +80,12 @@ main {
   counter-increment: toyCounter;
 }
 
-#toy-container > .toy-title::before {
-  content: counter(toyCounter) '. ';
+#toy-container > .toy {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--clr-black);
+  background: #ffd30011;
+  box-shadow: var(--box-shadow);
 }
 
 /* solar-noon */
@@ -149,11 +164,19 @@ main {
 .color-namer > span {
   background-color: #fffc;
   text-align: center;
+  padding: 0.25rem;
+}
+
+.color-namer > span a {
+  color: var(--clr-blue);
 }
 
 .color-namer > input {
   margin: 0;
   z-index: 1;
+  border-radius: 0;
+  border-right: none;
+  border-left: none;
 }
 
 .color-namer > input:focus {
@@ -161,31 +184,31 @@ main {
 }
 
 .color-namer pre {
-  background-color: whitesmoke;
+  background-color: #fffc;
   font-family: 'Courier New', Courier, monospace;
 }
 /* #endregion */
 
-/* color2name */
+/* color2nearestname */
 /* #region */
-.color2name > .in {
+.color2nearestname > .in {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }
 
-.color2name > .in input[type="text"] {
+.color2nearestname > .in input[type="text"] {
   flex: 1 1 6rem;
   max-width: 100%;
 }
 
-.color2name > .in input[type="color"] {
+.color2nearestname > .in input[type="color"] {
   width: 2rem;
   height: 2rem;
 }
 
-.color2name > .out {
+.color2nearestname > .out {
   display: flex;
   gap: 1rem;
   padding-top: 1rem;
@@ -194,11 +217,11 @@ main {
   border-top: 1px solid #999;
 }
 
-.color2name label {
+.color2nearestname label {
   font-weight: 700;
 }
 
-.color2name li {
+.color2nearestname li {
   display: grid;
   grid-template-columns: 2.5rem 1rem 1fr;
   align-items: center;
@@ -211,7 +234,7 @@ main {
 .catfood-cost-calc {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.35rem;
 }
 
 .catfood-cost-calc > * {
