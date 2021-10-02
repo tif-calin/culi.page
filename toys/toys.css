@@ -5,7 +5,7 @@ body {
   --clr-yellow: #ffd300;
   --clr-green: #009f6b;
   --clr-blue: #0087bd;
-  --clr-black: hsl(198, 100%, 7%);
+  --clr-black: #001924;
 
   --box-shadow: 0 0.5rem 1rem -0.125rem rgba(50, 50, 50, 0.1), inset 0 0.25rem 0.5rem -0.25rem rgba(0, 0, 0, 0.15);
 
