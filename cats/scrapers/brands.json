@@ -1,0 +1,63 @@
+{
+  "blue": {
+    "name": "Blue Buffalo",
+    "slug": "blue",
+    "domain": "https://bluebuffalo.com/",
+    "site": {
+      "all": "https://bluebuffalo.com/product-finder/cat/",
+      "dry": "https://bluebuffalo.com/product-finder/cat/dry-food/",
+      "wet": "https://bluebuffalo.com/product-finder/cat/wet-food/",
+      "treats": "https://bluebuffalo.com/product-finder/cat/treats"
+    },
+    "counts": {
+      "all": 116,
+      "dry": 46,
+      "wet": 58,
+      "treats": 12
+    },
+    "lines": [
+      {
+        "name": "Life Protection Formula",
+        "slug": "life-protection-formula",
+        "facet_id": 158,
+        "count": 27
+      },
+      {
+        "name": "BLUE Freedom",
+        "slug": "freedom",
+        "facet_id": 159,
+        "count": 10
+      },
+      {
+        "name": "BLUE Basics",
+        "slug": "basics",
+        "facet_id": 160,
+        "count": 8
+      },
+      {
+        "name": "BLUE Wilderness",
+        "slug": "wilderness",
+        "facet_id": 161,
+        "count": 41
+      },
+      {
+        "name": "BLUE Natural Veterinary Diet",
+        "slug": "natural-veterinary-diet",
+        "facet_id": 306,
+        "count": 10
+      },
+      {
+        "name": "BLUE True Solutions",
+        "slug": "true-solutions",
+        "facet_id": 450,
+        "count": 9
+      },
+      {
+        "name": "Baby BLUE",
+        "slug": "baby-blue",
+        "facet_id": 445,
+        "count": 7
+      }
+    ]
+  }
+}

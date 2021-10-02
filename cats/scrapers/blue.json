@@ -1,0 +1,1394 @@
+[
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/kitten-chicken-brown-rice/",
+    "slug": "kitten-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_health_growth_kitten_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 506
+    },
+    "sku": "111210032"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/kitten-chicken/",
+    "slug": "kitten-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Kitten Chicken",
+    "rating": {
+      "average": 3.4,
+      "count": 5
+    },
+    "sku": "111210063"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-kitten-chicken/",
+    "slug": "indoor-kitten-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_dry_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Kitten Chicken Recipe",
+    "rating": {
+      "average": 4.7,
+      "count": 14
+    },
+    "sku": "111210255"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/baby-blue/kitten-chicken-brown-rice/",
+    "slug": "kitten-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-chicken-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.9,
+      "count": 30
+    },
+    "sku": "840243134625"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/baby-blue/kitten-high-protein-chicken-pea-recipe/",
+    "slug": "kitten-high-protein-chicken-pea-recipe",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-gf-chicken-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten High-Protein, Grain-Free Chicken Formula",
+    "rating": {
+      "average": 4.9,
+      "count": 29
+    },
+    "sku": "840243135141"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/chicken-brown-rice/",
+    "slug": "chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_healthy_living_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.7,
+      "count": 65
+    },
+    "sku": "111210014"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/multi-cat-chicken-turkey/",
+    "slug": "multi-cat-chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_multi_cat_health_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Turkey Recipe",
+    "rating": {
+      "average": 3.9,
+      "count": 8
+    },
+    "sku": "111210016"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/weight-control-chicken-brown-rice/",
+    "slug": "weight-control-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_weight_control_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 6
+    },
+    "sku": "111210018"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/sensitive-stomach-chicken-brown-rice/",
+    "slug": "sensitive-stomach-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_sensitive_stomach_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 102
+    },
+    "sku": "111210017"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-chicken-brown-rice/",
+    "slug": "indoor-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_health_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 93
+    },
+    "sku": "111210015"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-salmon-brown-rice/",
+    "slug": "indoor-salmon-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_health_slm_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Salmon & Brown Rice Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 5
+    },
+    "sku": "111210022"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-hairball-control-chicken-brown-rice/",
+    "slug": "indoor-hairball-control-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 2
+    },
+    "sku": "111210251"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-weight-control-hairball-chicken/",
+    "slug": "indoor-weight-control-hairball-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_weight_control_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 39
+    },
+    "sku": "111210253"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/chicken/",
+    "slug": "chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Chicken",
+    "rating": {
+      "average": 4.9,
+      "count": 7
+    },
+    "sku": "111210052"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/duck/",
+    "slug": "duck",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_duck_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Duck",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210057"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/denali-dinner-salmon-venison-halibut/",
+    "slug": "denali-dinner-salmon-venison-halibut",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_denalidry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Wild Salmon, Venison & Halibut",
+    "rating": {
+      "average": 3.7,
+      "count": 3
+    },
+    "sku": "111210744"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/flatland-feast-turkey-quail-duck/",
+    "slug": "flatland-feast-turkey-quail-duck",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_flatlanddry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Turkey, Quail, & Duck",
+    "rating": {
+      "average": 4.6,
+      "count": 10
+    },
+    "sku": "111210745"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/salmon/",
+    "slug": "salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_slm_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Salmon",
+    "rating": {
+      "average": 4.9,
+      "count": 36
+    },
+    "sku": "111210059"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/weight-control-chicken/",
+    "slug": "weight-control-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_weight_control_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Weight Control",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210054"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-chicken/",
+    "slug": "indoor-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Indoor Chicken",
+    "rating": {
+      "average": 4.8,
+      "count": 139
+    },
+    "sku": "111210053"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-chicken-hairball/",
+    "slug": "indoor-chicken-hairball",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Indoor Hairball",
+    "rating": {
+      "average": 4.8,
+      "count": 11
+    },
+    "sku": "111210222"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-weight-control-hairball-chicken/",
+    "slug": "indoor-weight-control-hairball-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_wc_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Adult Indoor Hairball & Weight Control",
+    "rating": {
+      "average": 4.8,
+      "count": 9
+    },
+    "sku": "111210225"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-trout/",
+    "slug": "rocky-mountain-recipe-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_trout_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Trout",
+    "rating": {
+      "average": 5.0,
+      "count": 2
+    },
+    "sku": "111210260"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-rabbit/",
+    "slug": "rocky-mountain-recipe-rabbit",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_rabbit_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Rabbit",
+    "rating": {
+      "average": 4.7,
+      "count": 11
+    },
+    "sku": "111210267"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-red-meat/",
+    "slug": "rocky-mountain-recipe-red-meat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Red Meat",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210256"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-chicken/",
+    "slug": "indoor-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_dry_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Adult Indoor Chicken Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 10
+    },
+    "sku": "111210041"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-fish/",
+    "slug": "indoor-fish",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_fish_dry_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Adult Indoor Fish Recipe",
+    "rating": {
+      "average": 4.9,
+      "count": 19
+    },
+    "sku": "111210189"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-weight-control-chicken/",
+    "slug": "indoor-weight-control-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_hw_ckn_dry_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Weight Control Chicken Recipe",
+    "rating": {
+      "average": 4.5,
+      "count": 2
+    },
+    "sku": "111210191"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-duck-potato/",
+    "slug": "indoor-duck-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_duck_dry_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Duck and Potato Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 13
+    },
+    "sku": "111210001"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-grain-free-fish-potato/",
+    "slug": "indoor-grain-free-fish-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_fish_dry_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Fish and Potato Recipe",
+    "rating": {
+      "average": 4.6,
+      "count": 17
+    },
+    "sku": "111210002"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-grain-free-turkey/",
+    "slug": "indoor-grain-free-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_tky_dry_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Turkey and Potato Recipe",
+    "rating": {
+      "average": 4.0,
+      "count": 2
+    },
+    "sku": "111210004"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/hairball-control-cat/",
+    "slug": "hairball-control-cat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_hairball_us_new.png",
+    "line": "true-solutions",
+    "name": "Hairball Control Formula",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210898"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/digestive-care/",
+    "slug": "digestive-care",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_blissfulbelly_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Blissful Belly Digestive Care",
+    "rating": {
+      "average": 4.9,
+      "count": 36
+    },
+    "sku": "111210801"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/skin-coat-care/",
+    "slug": "skin-coat-care",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_perfectcoat_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Perfect Coat Skin & Coat Care",
+    "rating": {
+      "average": 4.7,
+      "count": 32
+    },
+    "sku": "111210803"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/weight-control/",
+    "slug": "weight-control",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fithealthy_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Fit & Healthy Weight Control",
+    "rating": {
+      "average": 4.6,
+      "count": 29
+    },
+    "sku": "111210802"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/indoor-cat/",
+    "slug": "indoor-cat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fabfeline_us_new.png",
+    "line": "true-solutions",
+    "name": "Fab Feline Indoor Formula",
+    "rating": {
+      "average": 5.0,
+      "count": 18
+    },
+    "sku": "111210848"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/mature-chicken-brown-rice/",
+    "slug": "mature-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_healthy_aging_mature_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Mature Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 4
+    },
+    "sku": "111210033"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/mature-indoor-hairball-chicken/",
+    "slug": "mature-indoor-hairball-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_mature_ckn_dry_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Mature Chicken & Brown Rice Recipe",
+    "rating": {
+      "average": 4.7,
+      "count": 44
+    },
+    "sku": "111210254"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/mature-chicken/",
+    "slug": "mature-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_mature_ckn_dry_teaser.png",
+    "line": "wilderness",
+    "name": "Mature Chicken",
+    "rating": {
+      "average": 4.8,
+      "count": 9
+    },
+    "sku": "111210064"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/freedom/mature-indoor-chicken/",
+    "slug": "mature-indoor-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_mature_ckn_dry_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Mature Indoor Chicken Recipe",
+    "rating": {
+      "average": 4.9,
+      "count": 26
+    },
+    "sku": "111210190"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-mature-grain-free-turkey/",
+    "slug": "indoor-mature-grain-free-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_mature_turkey_dry_teaser.png",
+    "line": "basics",
+    "name": "Mature Grain-Free Turkey and Potato Recipe",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210257"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/novel-protein-alligator/",
+    "slug": "novel-protein-alligator",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/vet_np_cat_teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "NP Novel Protein",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210735"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/kidney-mobility/",
+    "slug": "kidney-mobility",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-dry-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "K+M Kidney + Mobility Support",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210635"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/hydrolyzed-intolerance/",
+    "slug": "hydrolyzed-intolerance",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_hf_diet_slm_dry_teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "HF Hydrolyzed for Food Intolerance",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210610"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/gastrointestinal-support/",
+    "slug": "gastrointestinal-support",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_gi_diet_ckn_dry_teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "GI Gastrointestinal Support",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210608"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/weight-management-urinary-care/",
+    "slug": "weight-management-urinary-care",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_wu_diet_dry_smallbag_teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "W+U Weight Management & Urinary Care",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210621"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/weight-control/",
+    "slug": "weight-control",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fithealthy_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Fit & Healthy Weight Control",
+    "rating": {
+      "average": 4.8,
+      "count": 13
+    },
+    "sku": "111210805"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/kitten-chicken/",
+    "slug": "kitten-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_kitten_chicken_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Kitten Chicken Pat\u00e9",
+    "rating": {
+      "average": 4.5,
+      "count": 156
+    },
+    "sku": "111210829"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-chicken/",
+    "slug": "kitten-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Kitten Chicken Recipe",
+    "rating": {
+      "average": 4.7,
+      "count": 21
+    },
+    "sku": "111210187"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-salmon/",
+    "slug": "kitten-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_slm_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Kitten Salmon Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 40
+    },
+    "sku": "111210303"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-flaked-chicken-trout/",
+    "slug": "kitten-flaked-chicken-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_kitten_trout_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Flaked Chicken & Trout",
+    "rating": {
+      "average": 4.4,
+      "count": 14
+    },
+    "sku": "111210555"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/freedom/kitten-grain-free-indoor-chicken/",
+    "slug": "kitten-grain-free-indoor-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_wet_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Kitten Chicken Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 4
+    },
+    "sku": "111210306"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/basics/kitten-grain-free-turkey-potato/",
+    "slug": "kitten-grain-free-turkey-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_kitten_tky_wet_teaser.png",
+    "line": "basics",
+    "name": "Kitten Grain-Free Turkey Recipe",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210118"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-high-protein-salmon/",
+    "slug": "kitten-high-protein-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-salmon-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten High-Protein, Grain-Free Salmon Formula",
+    "rating": {
+      "average": 4.8,
+      "count": 34
+    },
+    "sku": "840243134403"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-high-protein-chicken/",
+    "slug": "kitten-high-protein-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-chicken-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten High-Protein, Grain-Free Chicken Formula",
+    "rating": {
+      "average": 4.8,
+      "count": 30
+    },
+    "sku": "840243134427"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-chicken/",
+    "slug": "kitten-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-chicken-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Chicken Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 37
+    },
+    "sku": "840243134380"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/beef-pate/",
+    "slug": "beef-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_beef_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Beef Pat\u00e9",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210850"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-pate/",
+    "slug": "chicken-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Chicken Pat\u00e9",
+    "rating": {
+      "average": 4.6,
+      "count": 527
+    },
+    "sku": "111210830"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/ocean-fish-tuna-pate/",
+    "slug": "ocean-fish-tuna-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_fish_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Ocean Fish & Tuna Pat\u00e9\t",
+    "rating": {
+      "average": 4.6,
+      "count": 167
+    },
+    "sku": "111210832"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-pate/",
+    "slug": "salmon-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Salmon Pat\u00e9",
+    "rating": {
+      "average": 4.4,
+      "count": 165
+    },
+    "sku": "111210834"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/turkey-chicken-pate/",
+    "slug": "turkey-chicken-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_turkey_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Turkey & Chicken Pat\u00e9",
+    "rating": {
+      "average": 4.6,
+      "count": 163
+    },
+    "sku": "111210831"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/tuna-flaked/",
+    "slug": "tuna-flaked",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_flake_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Flaked Tuna",
+    "rating": {
+      "average": 4.6,
+      "count": 395
+    },
+    "sku": "111210837"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-flaked/",
+    "slug": "chicken-flaked",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_flake_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Flaked Chicken",
+    "rating": {
+      "average": 4.6,
+      "count": 154
+    },
+    "sku": "111210835"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/fish-shrimp-flaked/",
+    "slug": "fish-shrimp-flaked",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_shrimp_flake_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Flaked Fish & Shrimp",
+    "rating": {
+      "average": 4.6,
+      "count": 155
+    },
+    "sku": "111210838"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-flaked/",
+    "slug": "salmon-flaked",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_flake_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Flaked Salmon",
+    "rating": {
+      "average": 4.6,
+      "count": 156
+    },
+    "sku": "111210836"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/tuna-morsels/",
+    "slug": "tuna-morsels",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_morsels_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Tuna Morsels",
+    "rating": {
+      "average": 4.6,
+      "count": 166
+    },
+    "sku": "111210840"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-morsels/",
+    "slug": "chicken-morsels",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_morsel_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Chicken Morsels",
+    "rating": {
+      "average": 4.6,
+      "count": 335
+    },
+    "sku": "111210839"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken/",
+    "slug": "chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_ckn_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Chicken Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210178"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/duck/",
+    "slug": "duck",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_duck_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Duck Recipe",
+    "rating": {
+      "average": 3.0,
+      "count": 5
+    },
+    "sku": "111210179"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/denali-dinner-salmon-venison-halibut/",
+    "slug": "denali-dinner-salmon-venison-halibut",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_denaliwet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Wild Salmon, Venison & Halibut",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210746"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/turkey/",
+    "slug": "turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_tky_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Turkey Recipe",
+    "rating": {
+      "average": 4.0,
+      "count": 2
+    },
+    "sku": "111210184"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flatland-feast-turkey-quail-duck/",
+    "slug": "flatland-feast-turkey-quail-duck",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_flatlandwet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Turkey, Quail & Duck",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210747"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/salmon/",
+    "slug": "salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_slm_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Salmon Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 4
+    },
+    "sku": "111210181"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/trout/",
+    "slug": "trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_trout_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Trout Feast",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210551"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/red-meat/",
+    "slug": "red-meat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Red Meat Feast",
+    "rating": {
+      "average": 4.5,
+      "count": 2
+    },
+    "sku": "111210552"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-trout/",
+    "slug": "flaked-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat-rmr-flaked-trout-adult-wet-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Flaked Trout Feast",
+    "rating": {
+      "average": 3.8,
+      "count": 5
+    },
+    "sku": "111210556"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-red-meat/",
+    "slug": "flaked-red-meat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_flaked_red_meat_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Flaked Red Meat Feast",
+    "rating": {
+      "average": 4.9,
+      "count": 7
+    },
+    "sku": "111210557"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-chicken-turkey/",
+    "slug": "flaked-chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_tky_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Flaked Chicken & Turkey Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 10
+    },
+    "sku": "111210205"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-chicken-trout/",
+    "slug": "flaked-chicken-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_trout_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Flaked Chicken & Trout Recipe",
+    "rating": {
+      "average": 4.7,
+      "count": 111
+    },
+    "sku": "111210206"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-gravy/",
+    "slug": "chicken-gravy",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_chicken_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Tasty Chicken Morsels",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210559"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/duck-gravy/",
+    "slug": "duck-gravy",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_duck_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Tasty Duck Morsels",
+    "rating": {
+      "average": 4.7,
+      "count": 12
+    },
+    "sku": "111210560"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/salmon-gravy/",
+    "slug": "salmon-gravy",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_slm_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Tasty Salmon Morsels",
+    "rating": {
+      "average": 4.8,
+      "count": 37
+    },
+    "sku": "111210561"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-turkey/",
+    "slug": "chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_tky_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Chicken & Turkey Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210177"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-salmon/",
+    "slug": "chicken-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_slm_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Chicken & Salmon Recipe",
+    "rating": {
+      "average": 3.7,
+      "count": 3
+    },
+    "sku": "111210175"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-trout/",
+    "slug": "chicken-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_trout_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Chicken & Trout Recipe",
+    "rating": {
+      "average": 5.0,
+      "count": 4
+    },
+    "sku": "111210176"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/minced-chicken-turkey/",
+    "slug": "minced-chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_tky_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Minced Chicken & Turkey Recipe",
+    "rating": {
+      "average": 4.8,
+      "count": 13
+    },
+    "sku": "111210554"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/minced-chicken-trout/",
+    "slug": "minced-chicken-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_trout_wet_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Adult Minced Chicken & Trout Recipe",
+    "rating": {
+      "average": 4.5,
+      "count": 13
+    },
+    "sku": "111210553"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-chicken/",
+    "slug": "grain-free-indoor-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_wet_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Chicken Recipe",
+    "rating": {
+      "average": 4.3,
+      "count": 11
+    },
+    "sku": "111210164"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-fish/",
+    "slug": "grain-free-indoor-fish",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_fish_wet_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Fish Recipe",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210307"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/freedom/gain-free-indoor-flaked-chicken/",
+    "slug": "gain-free-indoor-flaked-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_flaked_ckn_wet_teaser.png",
+    "line": "freedom",
+    "name": "Flaked Grain-Free Indoor Adult Chicken Recipe",
+    "rating": {
+      "average": 4.3,
+      "count": 7
+    },
+    "sku": "111210547"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-duck-potato/",
+    "slug": "grain-free-indoor-duck-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_duck_wet_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Duck and Potato",
+    "rating": {
+      "average": 4.5,
+      "count": 21
+    },
+    "sku": "111210111"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-fish-potato/",
+    "slug": "grain-free-indoor-fish-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_fish_wet_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Fish and Potato",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210112"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-turkey-potato/",
+    "slug": "grain-free-indoor-turkey-potato",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_tky_wet_teaser.png",
+    "line": "basics",
+    "name": "Adult Grain-Free Turkey and Potato",
+    "rating": {
+      "average": 4.7,
+      "count": 7
+    },
+    "sku": "111210114"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/digestive-care/",
+    "slug": "digestive-care",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_blissfulbelly_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Blissful Belly Digestive Care",
+    "rating": {
+      "average": 4.4,
+      "count": 16
+    },
+    "sku": "111210804"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/skin-coat-care/",
+    "slug": "skin-coat-care",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_perfectcoat_us_teaser.png",
+    "line": "true-solutions",
+    "name": "Perfect Coat Skin & Coat Care",
+    "rating": {
+      "average": 4.6,
+      "count": 14
+    },
+    "sku": "111210806"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/indoor-cat/",
+    "slug": "indoor-cat",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fabfeline_us_new.png",
+    "line": "true-solutions",
+    "name": "Fab Feline Indoor Formula",
+    "rating": {
+      "average": 4.8,
+      "count": 21
+    },
+    "sku": "111210849"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/mature-chicken-pate/",
+    "slug": "mature-chicken-pate",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_mature_chicken_pate_teaser.png",
+    "line": "tastefuls",
+    "name": "Mature Chicken Pat\u00e9",
+    "rating": {
+      "average": 4.6,
+      "count": 172
+    },
+    "sku": "111210833"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/wilderness/mature-chicken/",
+    "slug": "mature-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_mature_ckn_wet_teaser.png",
+    "line": "wilderness",
+    "name": "Mature Chicken Recipe",
+    "rating": {
+      "average": 3.4,
+      "count": 5
+    },
+    "sku": "111210204"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-mature-chicken/",
+    "slug": "grain-free-indoor-mature-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_mature_ckn_wet_teaser.png",
+    "line": "freedom",
+    "name": "Grain-Free Indoor Mature Chicken Recipe",
+    "rating": {
+      "average": 4.5,
+      "count": 4
+    },
+    "sku": "111210545"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/novel-protein-alligator/",
+    "slug": "novel-protein-alligator",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-np-cat-wet-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "NP Novel Protein",
+    "rating": {
+      "average": 3.0,
+      "count": 1
+    },
+    "sku": "111210742"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/kidney-mobility/",
+    "slug": "kidney-mobility",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-wet-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "K+M Kidney + Mobility Support",
+    "rating": {
+      "average": 4.3,
+      "count": 4
+    },
+    "sku": "111210658"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/hydrolyzed-food-intolerance/",
+    "slug": "hydrolyzed-food-intolerance",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-hf-cat-wet-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "HF Hydrolyzed for Food Intolerance",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210740"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/weight-management-urinary/",
+    "slug": "weight-management-urinary",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-wu-wet-5oz-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "W+U Weight Management + Urinary Care",
+    "rating": {
+      "average": 5.0,
+      "count": 1
+    },
+    "sku": "111210649"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/gastrointestinal/",
+    "slug": "gastrointestinal",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-gi-wet-5oz-teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "GI Gastrointestinal Support",
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "sku": "111210639"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/baby-blue/kitten-crunchies-chicken/",
+    "slug": "kitten-crunchies-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/baby-blue/teaser-product-image/baby-blue-kitten-crunchy-treat-chicken-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Crunchies Chicken Treats",
+    "rating": {
+      "average": 4.9,
+      "count": 35
+    },
+    "sku": "840243134748"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/baby-blue/kitten-crunchies-salmon/",
+    "slug": "kitten-crunchies-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/baby-blue/teaser-product-image/baby-blue-kitten-crunchy-treat-salmon-teaser.png",
+    "line": "life-protection-formula",
+    "name": "Kitten Crunchies Salmon Treats",
+    "rating": {
+      "average": 4.8,
+      "count": 32
+    },
+    "sku": "840243137091"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-chicken/",
+    "slug": "blue-bursts-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_ckn_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Paw-Lickin\u2019 Chicken Cat Treats",
+    "rating": {
+      "average": 4.8,
+      "count": 24
+    },
+    "sku": "111210797"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-liver-beef/",
+    "slug": "blue-bursts-liver-beef",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_lvrbef_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Delish Liver & Beef Cat Treats",
+    "rating": {
+      "average": 4.7,
+      "count": 9
+    },
+    "sku": "111210799"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-seafood/",
+    "slug": "blue-bursts-seafood",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_sea_teaser.png",
+    "line": "life-protection-formula",
+    "name": "Savory Seafood Cat Treats",
+    "rating": {
+      "average": 4.7,
+      "count": 21
+    },
+    "sku": "111210798"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-trout/",
+    "slug": "grain-free-crunchy-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-trt-teaser.png",
+    "line": "wilderness",
+    "name": "Trout Flavor",
+    "rating": {
+      "average": 4.9,
+      "count": 18
+    },
+    "sku": "111210697"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-chicken/",
+    "slug": "grain-free-crunchy-chicken",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-ckn-teaser.png",
+    "line": "wilderness",
+    "name": "Chicken Flavor",
+    "rating": {
+      "average": 4.9,
+      "count": 91
+    },
+    "sku": "111210695"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-salmon/",
+    "slug": "grain-free-crunchy-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-slm-teaser.png",
+    "line": "wilderness",
+    "name": "Salmon Flavor",
+    "rating": {
+      "average": 4.7,
+      "count": 118
+    },
+    "sku": "111210696"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-duck/",
+    "slug": "grain-free-soft-chicken-duck",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_duck_treats_teaser.png",
+    "line": "wilderness",
+    "name": "Chicken & Duck Cat Treats",
+    "rating": {
+      "average": 4.8,
+      "count": 129
+    },
+    "sku": "111210207"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-turkey/",
+    "slug": "grain-free-soft-chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_tky_treats_teaser.png",
+    "line": "wilderness",
+    "name": "Chicken & Turkey Cat Treats",
+    "rating": {
+      "average": 4.5,
+      "count": 8
+    },
+    "sku": "111210105"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-chicken-salmon/",
+    "slug": "grain-free-chicken-salmon",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_slm_treats_teaser.png",
+    "line": "wilderness",
+    "name": "Chicken & Salmon Cat Treats",
+    "rating": {
+      "average": 4.0,
+      "count": 14
+    },
+    "sku": "111210208"
+  },
+  {
+    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-trout/",
+    "slug": "grain-free-soft-chicken-trout",
+    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_trout_treats_teaser.png",
+    "line": "wilderness",
+    "name": "Chicken & Trout Cat Treats",
+    "rating": {
+      "average": 4.2,
+      "count": 13
+    },
+    "sku": "111210104"
+  }
+]
