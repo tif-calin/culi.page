@@ -1,5 +1,5 @@
 import { colorsRgb, wikiColorsRgb } from '../data/colors.js';
-import { hex2rgb, rgb2hslIntegers } from '../utils/utils.js';
+import { hex2rgb, rgb2hsl } from '../utils/utils.js';
 const RGBCOLORS = { ...wikiColorsRgb, ...colorsRgb };
 
 const getClosestRGB = color => {
@@ -20,11 +20,11 @@ const getClosestRGB = color => {
 };
 
 const getClosestHSL = color => {
-  const [H, S, L] = rgb2hslIntegers(hex2rgb(color));
+  const [H, S, L] = rgb2hsl(hex2rgb(color), true);
 
   // find distances for all the colors
   const distances = Object.keys(RGBCOLORS).reduce((acc, clr) => {
-    const [h, s, l] = rgb2hslIntegers(RGBCOLORS[clr]);
+    const [h, s, l] = rgb2hsl(RGBCOLORS[clr], true);
     const dist = Math.sqrt(Math.pow(h - H, 2) + Math.pow(s - S, 2) + Math.pow(l - L, 2));
 
     return { ...acc, [clr]: dist };
@@ -92,7 +92,7 @@ export default options => {
 
     // update the color values for rgb and hsl
     colorRGB.textContent = `rgb(${hex2rgb(hex).join(', ')})`;
-    const HSL = rgb2hslIntegers(hex2rgb(hex));
+    const HSL = rgb2hsl(hex2rgb(hex), true);
     colorHSL.textContent = `hsl(${HSL[0]}, ${HSL[1]}%, ${HSL[2]}%)`;
 
     // find the closest colors
@@ -103,7 +103,7 @@ export default options => {
       const rgbName = rgbSorted[i];
       const rgbCSS = `rgb(${RGBCOLORS[rgbName].join(', ')})`;
       const hslName = hslSorted[i];
-      const hsl = rgb2hslIntegers(RGBCOLORS[hslName]);
+      const hsl = rgb2hsl(RGBCOLORS[hslName], true);
       const hslCSS = `hsl(${hsl[0]}, ${hsl[1]}%, ${hsl[2]}%)`;
 
       resultsRGB.append(createListItem(distsRGB[rgbName], rgbName, rgbCSS));
