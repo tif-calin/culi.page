@@ -22,20 +22,25 @@ const updateFullList = questions => {
   });
 };
 
+const getRandomQuestions = data => {
+  '🔊';
+  const howMany = Number(document.querySelector('#selection > input[type=number]').value) || 4;
+
+  const list = document.querySelector('#selected-list');
+  list.innerHTML = '';
+
+  getRandom(data, howMany).forEach(question => {
+    const li = document.createElement('li');
+    li.innerHTML = question;
+    list.appendChild(li);
+  });
+};
+
 const initializeUI = data => {
   updateFullList(data);
 
   const randomButton = document.querySelector('#selection > button');
-  randomButton.addEventListener('click', () => {
-    const list = document.querySelector('#selected-list');
-    list.innerHTML = '';
-
-    getRandom(data, 4).forEach(question => {
-      const li = document.createElement('li');
-      li.innerHTML = question;
-      list.appendChild(li);
-    });
-  });
+  randomButton.addEventListener('click', () => getRandomQuestions(data));
 };
 
 loadData().then(initializeUI);
