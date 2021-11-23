@@ -54,6 +54,10 @@ body > * {
   padding: 0.5rem;
 }
 
+header {
+  text-align: center;
+}
+
 main {
   padding: 0;
   display: flex;
@@ -69,6 +73,7 @@ main > section {
   padding: 0.5rem;
   box-shadow: var(--box-shadow);
 
+  min-width: calc(100px + 60vw);
   width: calc(150px + 40vw);
   max-width: calc(900px + 10vw);
 }
@@ -106,6 +111,15 @@ ul {
 }
 
 ul > li button {
-  margin: 0 0.25rem;
-  padding: 0;
+  margin-left: 0.25rem;
+  padding: 0 0.25rem;
+  border: none;
+  background: none;
+  box-shadow: none;
+  transition: all 0.25s;
+}
+
+ul > li button:hover {
+  box-shadow: var(--box-shadow);
+  background: var(--clr-yellow);
 }
