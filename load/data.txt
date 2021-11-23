@@ -8,6 +8,7 @@ Fill in the blank: I would eat 20 live cockroaches if they were covered in "___"
 Fill in the blank: I would like to be known as the world's greatest "___".
 Fill in the blank: My breath smells like "___"."
 Fill in the blank: Oh no! "___"! My only weakness!
+Fill in the blank: Sure I'd love to join you, but I really need to "___".
 Fill in the blank: This workplace has been [0] days without "___".
 For what one thing would you like to have a daily reminder?
 Have you been so far even as decided to use even go want to do look more like?
@@ -43,22 +44,28 @@ If you could level up humans as a species, what stat or ability would you increa
 If you could live in any other era, which would you choose?
 If you could make one thing grow on trees, what would it be?
 If you could magically be granted one new talent, what would you choose?
+If you could rename your parents, what names would you choose?
 If you got $10,000 for every year of your life you traded away, how many years would you trade?
 If you had to fight Danny Devito, could you? And how?
 If you had to rename a person next to you, what would you rename them to?
+If you have been in the hot sun for 12 hours, what would quench your thirst most?
 If you invented a perfume what would you call it?
 If you owned an enormous yacht, what would you name it?
 If you went into a coma and woke up in the year 2120, what would be the first thing you would want to know?
 If you went to a psychiatrist, what would they say you suffer from?
 If you were a naked superhero, what would be your name?
 If you were a professional wrestler, what would your ring name be?
+If you were an adult film star, what would be your screen name?
 If you were an ice cream flavor, what would you be?
 If you were held at gun point and told that if you didn't impress them with your dance moves you would be killed, what dance moves would you bust out?
 If you were invisible, where would you go?
 If you were on a deserted island, what two books would you want with you?
 If you were on a professional sports team, what number would you wear on your uniform?
 If you were the Lorax, who speaks for the trees, how would you stop the Oncler's bad deeds?
+If you were to have sex in a tub of one food or drink item, what would you choose?
+If you were to wipe one country off the map, which would you choose?
 If you were to write an autobiography, what would you title it?
+Knowing what you know now, what one thing would you change about your high-school career?
 The world is ending exactly one year from now and only you know it. What do you do?
 What always makes you sad when you see it?
 What amazing thing did you do that no one was around to see?
@@ -76,10 +83,13 @@ What car is too obnoxious to drive?
 What celebrity do you resemble most?
 What could you buy for your home to make it seem much more impressive?
 What dirty word always makes you laugh?
+What do people often tell you you need to focus less on?
+What do people often tell you you need to focus more on?
 What do the three most important people in your life have in common?
 What do you collect?
 What do you consider the worst household chore?
 What do you consider to be the most dangerous creature on Earth?
+What do you find yourself justifying to people, even when no justification is needed?
 What do you give to someone to show them you appreciate them?
 What do you like to do in your free time?
 What do you miss about life 10 or 20 years ago?
@@ -96,6 +106,7 @@ What invention should be made next?
 What is a better thing to whisper than to shout?
 What is a phrase that nobody has ever uttered?
 What is a strange way to get the attention of someone you like?
+What is a sure sign you are dating a psycho?
 What is a terrible excuse for being late?
 What is a terrible thing to accidentally throw away?
 What is an instant 'mood killer'?
@@ -103,6 +114,7 @@ What is not a good housewarming present?
 What is NOT a good thing to bring to show-and-tell?
 What is one class you would love to take?
 What is one place/activity that would never make your bucket list?
+What is the one thing that could make you happy, but you refuse to do it because you’re afraid of what others would think?
 What is one thing you always wanted as a kid but never got?
 What is one way you organize your things that more people should do? 
 What is something that many people take seriously but shouldn't?
@@ -117,6 +129,7 @@ What is the best part of growing up in your shoes?
 What is the best purchase you've ever made?
 What is the best word or phrase for a fart/farting?
 What is the biggest inconvenience about the place you are currently living in?
+What is the grossest thing you have ever done in public?
 What is the key to success?
 What is the last thing you fixed?
 What is the last thing you searched for on your phone?
@@ -141,10 +154,10 @@ What is your weapon of choice in the revolution?
 What is your worst habit?
 What is Obama's superpower?
 What job do you think you would be really good at?
+What kind of camp would you never want to attend?
 What kind of old person would you like to become?
 What kind of personality traits do you associate with certain names?
 What kind of pet would Karl Marx have?
-What kind of camp would you never want to attend?
 What language would you like to master?
 What looks disgusting but tastes delicious?
 What makes a good life? 
@@ -153,6 +166,7 @@ What news headline would you most like to see?
 What nicknames do you have for people in your life?
 What no longer holds your interest?
 What one object in your home are you most embarassed about owning?
+What one thing would you like to have more of?
 What part of your life do you still seek validation for?
 What question do you hate being asked?
 What question would you not mind being asked more?
@@ -202,15 +216,19 @@ What's your favorite song?
 What's your go-to strategy to deflect criticism?
 What's your least favorite movie you've ever seen?
 What's your stripper name?
+When are you most likely to shut people out?
 When did you realize your parents could be wrong?
 When did you screw everything up, but no one ever found out it was you?
+When was the last time you tried to please someone who made you angry?
 Where is the farthest you’ve traveled?
 Where is your ideal location to be proposed to?
 Where is your ideal place to live?
+Where would be a terrible place to see an ex?
 Which animal looks like a knock-off Pokemon?
 Which apocalyptic dystopia do you think is most likely? 
 Which artist are you most ashamed to admit you love?
 Which fictional character, if any, did you have a crush on or think was totally hot as a teen?
+Which insecurity would shock people if they knew about it?
 Which movie do they need to a sequel to?
 Which skill should everyone have?
 Which store in the mall would you never be caught in?
@@ -222,7 +240,9 @@ Who have you exploited today?
 Who have you hurt the most?
 Who is the most bizarre person you've met?
 Who is the most fabulous person in this room?
+Who is the most famous person you have ever met?
 Who makes the most stylish clothes in the world?
+Whose mind, beside your own, would you like to control?
 Whose voice can you best imitate?
 Would you rather be super huge like a giant or very tiny like an ant? Explain why.
 Vibe check! What's your vibe?
