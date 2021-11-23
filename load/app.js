@@ -1,5 +1,8 @@
 import { getRandom } from './utils.js';
 
+const utterance = new SpeechSynthesisUtterance();
+utterance.lang = 'en-US';
+
 const loadData = async () => {
   const data = await fetch('./data.txt')
     .then(response => response.text())
@@ -23,7 +26,6 @@ const updateFullList = questions => {
 };
 
 const getRandomQuestions = data => {
-  '🔊';
   const howMany = Number(document.querySelector('#selection > input[type=number]').value) || 4;
 
   const list = document.querySelector('#selected-list');
@@ -32,6 +34,13 @@ const getRandomQuestions = data => {
   getRandom(data, howMany).forEach(question => {
     const li = document.createElement('li');
     li.innerHTML = question;
+    const speakButton = document.createElement('button');
+    speakButton.innerHTML = '🔊';
+    speakButton.addEventListener('click', () => {
+      utterance.text = question;
+      window.speechSynthesis.speak(utterance);
+    });
+    li.append(speakButton);
     list.appendChild(li);
   });
 };
