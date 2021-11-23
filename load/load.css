@@ -87,8 +87,11 @@ input[type=number] {
 }
 
 button {
-  background: var(--clr-yellow);
   box-shadow: var(--box-shadow);
+}
+
+button.primary {
+  background: var(--clr-yellow);
 }
 
 /* other */
@@ -100,4 +103,9 @@ button {
 
 ul {
   margin-top: 0.5rem;
+}
+
+ul > li button {
+  margin: 0 0.25rem;
+  padding: 0;
 }
