@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wiki | culi.page</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="wiki.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Culi's wiki tools</h1>
+  </header>
+  <main>
+    <section class='clade-converter'>
+      <p>input newick strings, output wikipedia {{clade}} template</p>
+      <textarea id='newick-input'>
+        (((erHomoC:0.28006,erCaelC:0.22089):0.40998,(erHomoA:0.32304,(erpCaelC:0.58815,((erHomoB:0.5807,erCaelB:0.23569):0.03586,erCaelA:0.38272):0.06516):0.03492):0.14265):0.63594,(TRXHomo:0.65866,TRXSacch:0.38791):0.32147,TRXEcoli:0.57336)
+      </textarea>
+      <button type="submit" id='button-convert'>convert</button>
+      <textarea id='newick-output'></textarea>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
