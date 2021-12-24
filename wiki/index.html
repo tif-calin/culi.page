@@ -13,13 +13,30 @@
     <h1>Culi's wiki tools</h1>
   </header>
   <main>
-    <section class='clade-converter'>
+    <section class="clade-converter">
+      <h2>newick2wikiclade</h2>
       <p>input newick strings, output wikipedia {{clade}} template</p>
-      <textarea id='newick-input'>
-        (((erHomoC:0.28006,erCaelC:0.22089):0.40998,(erHomoA:0.32304,(erpCaelC:0.58815,((erHomoB:0.5807,erCaelB:0.23569):0.03586,erCaelA:0.38272):0.06516):0.03492):0.14265):0.63594,(TRXHomo:0.65866,TRXSacch:0.38791):0.32147,TRXEcoli:0.57336)
-      </textarea>
-      <button type="submit" id='button-convert'>convert</button>
-      <textarea id='newick-output'></textarea>
+      <textarea id="newick-input">(((erHomoC:0.28006,erCaelC:0.22089):0.40998,(erHomoA:0.32304,(erpCaelC:0.58815,((erHomoB:0.5807,erCaelB:0.23569):0.03586,erCaelA:0.38272):0.06516):0.03492):0.14265):0.63594,(TRXHomo:0.65866,TRXSacch:0.38791):0.32147,TRXEcoli:0.57336)</textarea>
+      <button type="submit" id="button-clade">convert</button>
+      <textarea id="newick-output"></textarea>
+    </section>
+
+    <section class="ottol">
+      <h2>latin2ottid</h2>
+      <p>input the latin name of a taxon and get it&apos;s ottol id</p>
+
+      <input type="text" id="input-ottol" placeholder="Latin name" />
+      <button type="submit" id="button-ottol">convert</button>
+      <output id="output-ottol"></output>
+    </section>
+
+    <section>
+      <h2>latin2wikiclade</h2>
+      <ol>
+        <li>use latin name to get ottol (or get wikidata id and use that for ottol)</li>
+        <li>use ott_id to get newick of parent. if children less than 12 or not at genus level, repeat</li>
+        <li>once found desired newick, convert into wikipedia {{clade}} template!</li>
+      </ol>
     </section>
   </main>
   <footer>

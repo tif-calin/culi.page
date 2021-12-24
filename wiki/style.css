@@ -1,0 +1,12 @@
+.clade-converter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  max-width: 100%;
+  width: calc(100px + 50vw);
+}
+
+.clade-converter textarea {
+  height: 4rem;
+}
