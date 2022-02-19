@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home | culi.page</title>
-    <link rel="stylesheet" href="../styles/votevote.css">
-    <script type="module" src="votevote.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vote | culi.page</title>
+  <meta name="description" content="Check out votevote, the single-winner voting systems simulator, at its new home: votevote.page">
+  <link rel="stylesheet" href="../styles/votevote.css">
+  <script type="module" src="votevote.js" defer></script>
 </head>
 <body>
-    <header>
+  <header>
 
-    </header>
-    <main>
-        <section class='interactive-input'>
-            <div class='wrapper'>
-                <select id='select-candidates'></select>
-                <button id='button-candidates'>add</button>
-            </div>
-            <div class='roster' id='roster-candidates'></div>
+  </header>
+  <main>
+    <div>
+      Hey, so this prototype is deprecated. Please check out the new and improved version of votevote at <a href="https://votevote.page">votevote.page</a>. 
 
-            <div class='wrapper'>
-                <select id='select-voters'></select>
-                <button id='button-voters'>add</button>
-            </div>
-            <div class='roster' id='roster-voters'></div>
-            <button id='button-main'>simulate elections</button>
-        </section>
+      The goal for votevote is to be able to simulate a large number of electoral voting systems from a single election. This includes systems like FPTP, Borda Count, STAR Voting, Approval, Combined Approval, Condorcet, Copeland, River, Quadratic, and many other more niche ones.
+    </div>
+    <section class='interactive-input'>
+      <div class='wrapper'>
+        <select id='select-candidates'></select>
+        <button id='button-candidates'>add</button>
+      </div>
+      <div class='roster' id='roster-candidates'></div>
 
-        <section class='interactive-output'>
-            hello
-        </section>
-    </main>
-    <footer>
+      <div class='wrapper'>
+        <select id='select-voters'></select>
+        <button id='button-voters'>add</button>
+      </div>
+      <div class='roster' id='roster-voters'></div>
+      <button id='button-main'>simulate elections</button>
+    </section>
 
-    </footer>
+    <section class='interactive-output'>
+      hello
+    </section>
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
