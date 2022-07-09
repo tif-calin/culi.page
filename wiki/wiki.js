@@ -1,14 +1,42 @@
 const newick2wikiclade = () => {
   const textAreaInput = document.getElementById('newick-input');
   const textAreaOutput = document.getElementById('newick-output');
-  const button = document.getElementById('button-clade');
+  const buttonMain = document.getElementById('button-clade');
+  const buttonFormat = document.getElementById('button-clade-format');
+
+  const cleanInput = (newick) => {
+    const chopped = newick.endsWith(';') ? newick.slice(0, -1) : newick;
+
+    let stack = 0;
+    const spaced = chopped
+      .replaceAll(/[\(,\)]/g, match => {
+        if (match === ')') {
+          stack -= 1;
+          const spaces = ' '.repeat(stack);
+          return `\n${spaces}${match}`;
+        }
+        if (match === '(') {
+          stack += 1;
+        }
+        const spaces = ' '.repeat(stack);
+        return `${match}\n${spaces}`
+      })
+    ;
+
+    const cleaned = spaced.replaceAll(/\(\s[.\s\w,]+\)\w/g, match => {
+      return match.at(-1);
+    });
+
+    return cleaned;
+  };
 
   const newickToWiki = (newick) => {
     const last = newick.lastIndexOf(')');
     const first = newick.indexOf('(');
     let output = newick.trim().slice(first, last + 1).replaceAll('(', '[').replaceAll(')', ']');
     output = output.replaceAll(/:\d.\d*/g, '');
-    output = output.replaceAll(/(\w+)/g, '"$1"');
+    output = output.replaceAll(/([\w.]+)/g, '"$1"');
+    console.log(output);
     output = JSON.parse(output);
 
     const recurse = (arr, level) => {
@@ -30,11 +58,32 @@ const newick2wikiclade = () => {
     return output;
   };
 
-  button.addEventListener('click', () => {
-    const input = textAreaInput.value;
-    const output = newickToWiki(input);
+  const formatForWikipedia = (wikiClade) => {
+    const nodes = wikiClade.match(/(?<=\|\d+=)(.*)(?=\n)/g)
+      .filter(node => !node.startsWith('{{clade'))
+      .map(leaf => leaf.split('_').slice(0, 2))
+      .map(leaf => `[[${leaf.join(' ')}|${leaf[0][0]}. ${leaf[1]}]]`);
+    ;
+    
+    return wikiClade.replaceAll(/(?<=\|\d+=)(.*)(?=\n)/g, (match, p1, offset) => {
+      if (p1.startsWith('{{clade')) return p1;
+
+      const latin = p1.split('_').slice(0, 2);
+      return `[[${latin.join(' ')}|${latin[0][0]}. ${latin[1]}]]`;
+    });
+  }
+
+  buttonMain.addEventListener('click', () => {
+    const cleanedInput = cleanInput(textAreaInput.value);
+    textAreaInput.value = cleanedInput;
+
+    const output = newickToWiki(cleanedInput);
     textAreaOutput.value = output;
-  });  
+  }); 
+  
+  buttonFormat.addEventListener('click', () => {
+    textAreaOutput.value = formatForWikipedia(textAreaOutput.value);
+  });
 };
 
 newick2wikiclade();
