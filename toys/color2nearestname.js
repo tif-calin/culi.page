@@ -25,7 +25,7 @@ const getClosestHSL = color => {
   // find distances for all the colors
   const distances = Object.keys(RGBCOLORS).reduce((acc, clr) => {
     const [h, s, l] = rgb2hsl(RGBCOLORS[clr], true);
-    const hDist = Math.min(Math.abs(h - H), 360 - Math.abs(h + H));
+    const hDist = Math.min(Math.abs(h - H), Math.abs(360 - Math.abs(h + H)));
     const dist = Math.sqrt(Math.pow(hDist, 2) + Math.pow(s - S, 2) + Math.pow(l - L, 2));
 
     return { ...acc, [clr]: dist };

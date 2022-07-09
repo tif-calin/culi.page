@@ -1,7 +1,8 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  font-family: sans-serif;
 }
 
 main > section {
@@ -73,6 +74,24 @@ main > section {
   inset: 0;
   border-width: 0;
 }
+
+#s2 .options {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#s2 .options button {
+  border: 2px solid var(--clr-black);
+  color: var(--clr-black);
+  transition: all 0.25s;
+}
+
+#s2 .options button:hover {
+  background-color: var(--clr-secondary);
+  color: #fff;
+}
 /* #endregion */
 
 /* #region section3 */
@@ -87,7 +106,7 @@ main > section {
 }
 
 #s3 form {
-  width: 24rem;
+  width: 16rem;
   border: 2px solid var(--clr-bg-dark);
   padding: 1rem;
   display: flex;
@@ -155,5 +174,38 @@ main > section {
     inset 0.125rem 0.125rem 0.1rem var(--clr-bg-dark),
     inset -0.125rem -0.125rem 0.1rem #fff
   ;
+}
+/* #endregion */
+
+/* #region section4 */
+/* #endregion */
+
+/* #region section5 */
+#s5 {
+  color: #36454fee;
+  font-size: 0.85rem;
+}
+
+#s5 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border: 1px solid #36454f;
+  width: 12.5rem;
+  padding: 0.5rem;
+}
+
+#s5 [draggable] {
+  cursor: move;
+  border: 1px solid #36454f;
+  width: 12rem;
+  padding: 0.25rem;
+  border-radius: 0.125rem;
+  user-select: none;
+  transition: border 0.1s, opacity 0.1s;
+}
+
+#s5 [draggable].over {
+  border-style: dotted;
 }
 /* #endregion */
