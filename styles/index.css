@@ -49,6 +49,24 @@ header .title {
   font-size: 2.25rem;
   font-weight: 900;
 }
+header .title .domain {
+  cursor: pointer;
+}
+header .title .domain input {
+  display: none;
+}
+header .title .symbol {
+  font-size: 1.6rem;
+}
+header .title input:not(:checked) + .symbol {
+  display: none;
+}
+header .title input:checked ~ * {
+  display: none;
+}
+header .title input:checked + .symbol {
+  display: initial;
+}
 
 main::before {
   content: "";
@@ -92,11 +110,14 @@ main .list-label ~ :is(ul, ol) {
   list-style: initial;
   margin-left: 1.5rem;
 }
+main .list-label {
+  margin-bottom: 0.25rem;
+}
 main p,
 main > hr,
-main .welcome {
-  margin-bottom: 0.75rem;
+main section {
   color: #000;
+  margin-bottom: 0.75rem;
 }
 main h2 + p {
   font-size: 1.2rem;
@@ -106,6 +127,7 @@ main h2 + p {
 main .hobbies-container {
   max-height: 7rem;
   overflow-y: auto;
+  margin-top: 0.25rem;
   margin-bottom: 1.25rem;
 }
 main .hobbies {

@@ -13,7 +13,17 @@
 <body>
   <header>
     <h1 class="title">
-      <span class="name">culi</span>.<span class="tld">page</span>
+      <label class="domain">
+        <input type="checkbox" aria-label="site title toy toggle emoji"  />
+        <span class="symbol">&#128169;</span>
+        <span>culi</span>
+      </label>
+      .
+      <label class="domain">
+        <input type="checkbox" aria-label="site title toy toggle emoji" />
+        <span class="symbol">&#x1F310;</span>
+        <span>page</span>
+      </label>
     </h1>
   </header>
 
@@ -21,7 +31,7 @@
     <section>
       <h2 class="welcome">Bună ziua! 👋</h2>
       <p class="intro-paragraph">
-        My name is Culi (<i>kuh-lee</i>). I use <a href="https://pronoun.is/they/.../themselves">they/them</a> or <a href="https://pronoun.is/they/.../themself">he/him</a> pronouns. I play with <a href="https://github.com/tif-calin/">code a lot</a> (currently mainly JS, TS, Ruby, Python, and occasionally try out Rust or Clojure but never have enough time), but if you're here for that you probably meant to check out <a href="https://work.culi.page">my portfolio site</a>! Although I really enjoy coding, code tends to just act as the glue that allows me to tie together my varied interests including, but not limited to:
+        My name is Culi (<i>kuh-lee</i>). I use <a href="https://pronoun.is/they/.../themselves">they/them</a> or <a href="https://pronoun.is/they/.../themself">he/him</a> pronouns. I play with <a href="https://github.com/tif-calin/">code a lot</a> (currently mainly JS, TS, Ruby, Python, and occasionally try out Rust or Clojure but there&apos;s never have enough time), but if you're here for that you probably meant to check out <a href="https://work.culi.page">my portfolio site</a>! Although I really enjoy coding, code tends to just act as the glue that allows me to tie together my varied interests including, but not limited to:
       </p>
       <div class="hobbies-container">
         <ul class="hobbies">
@@ -50,7 +60,9 @@
         </ul>
       </div>
     </section>
+
     <hr />
+
     <section>
       <h2>What&apos;s there to do here?</h2>
       <p>
@@ -87,36 +99,44 @@
       </p>
       <ul>
         <li>
-          I had big plans for this highly-specific <a href="https://angry-joliot-5a3345.netlify.app/">portfolios project</a> aiming to highlight the portfolio projects of other developers. Kinda started with me trying to collect inspo, but I got really excited about implementing this tag-based voting system that I never actually implemented
+          I had big plans for this highly-specific <a href="https://angry-joliot-5a3345.netlify.app/">portfolios project</a> aiming to aggregate and highlight the <b class="semi">portfolio websites</b> of other developers. Kinda started with me trying to collect inspo, but I got really excited about implementing this tag-based voting system that I never actually implemented
         </li>
         <li>
           This one didn&apos;t even get passed the "market research" phase to see what similar projects already exist out there, but it was a very interesting investigation so I wanna share anyways. I've always wanted to build a <b class="semi">learning resource aggregator</b> mean to be extensible for learning pretty much anything. This is a natural evolution from my hobby of creating syllabi for myself to some day follow and study a particular subject. However, as usual, <a href="https://dontplaywithculi.netlify.app/learn">I discovered I&apos;m far from the first to have this idea</a>.
         </li>
         <li>
-          Here&apos;s some <a href="https://dontplaywithculi.netlify.app/partisanlean">graphs showing how each US State&apos;s Partisan Lean Index</a> has changed over the years since 1968. The PLI is a measure of how a state votes relative to the nation as a whole. My plan
+          Here&apos;s some <a href="https://dontplaywithculi.netlify.app/partisanlean">graphs showing how each <b class="semi">US State&apos;s Partisan Lean Index</b></a> has changed over the years since 1968. The PLI is a measure of how a state votes relative to the nation as a whole. My plan
+        </li>
+        <li>
+          This one&apos;s more straightforward. I was trying to play with some new styles I hadn't tried much of before and I ended up using a <a href="https://dontplay.netlify.app/compost">compost guide</a> as my excuse to do so. Has some cute easter eggs which I spent a good amount of time on and is probably the reason I didn&apos;t finish, haha. I'll probably submit it to <a href="https://whimsical.club/">whimsical.club</a> if I do finish it.
         </li>
       </ul>
     </section>
-    <nav style="display:none">
-      <a href="/toys">toys</a>
-      <a href="https://plant-planter.github.io/Plant-planter-2021/">plantplans</a>
-      <a href="https://www.bookbookbook.club/">bookbook</a>
-      <a href="https://www.curbee.app/">curbee</a>
-      <a href="./vote/">votevote</a>
-      <a href="https://objective-jackson-dcf265.netlify.app/">culireads</a>
-    </nav>
+
     <hr />
-    <h2>Other cornors of the internet I crawl</h2>
-    <p>
-      Other places I maintain an internet presence but won't link here include BookWyrm, Mastodon, Wikipedia, iNaturalist, various forums (votingtheory.org, bananas.org, talkelections.org, and hackernews). Accounts I'm ashamed to hold include LinkedIn, Reddit, and Twitter. I also like coding challenge sites like codewars.com, exercism.org, and, yes, even leetcode.com.
-    </p>
+
+    <section>
+      <h2>Other cornors of the internet I crawl</h2>
+      <p>
+        Other places I maintain an internet presence but won't link here include BookWyrm, Mastodon, Wikipedia, iNaturalist, various forums (votingtheory.org, bananas.org, talkelections.org, and hackernews). Accounts I'm ashamed to hold include LinkedIn, Reddit, and Twitter. I also like coding challenge sites like codewars.com, exercism.org, and, yes, even leetcode.com.
+      </p>
+    </section>
   </main>
+
+  <ul style="display:none">
+    <a href="/toys">toys</a>
+    <a href="https://plant-planter.github.io/Plant-planter-2021/">plantplans</a>
+    <a href="https://www.bookbookbook.club/">bookbook</a>
+    <a href="https://www.curbee.app/">curbee</a>
+    <a href="./vote/">votevote</a>
+    <a href="https://objective-jackson-dcf265.netlify.app/">culireads</a>
+  </ul>
 
   <footer>
     <a class="source" href="https://github.com/tif-calin/culi.page">
       <!--&#x1F12F;-->steal this
     </a>
-    <p class="disclaimer">this site is made possible by harnessing <a href="http://html.energy/">the power of HTML</a></p>
+    <p class="disclaimer">this site is made possible by harnessing <a href="http://html.energy/">the power of HTML</a> (no JS!)</p>
   </footer>
 </body>
 
