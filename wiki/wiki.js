@@ -2,6 +2,7 @@ const newick2wikiclade = () => {
   const textAreaInput = document.getElementById('newick-input');
   const textAreaOutput = document.getElementById('newick-output');
   const buttonMain = document.getElementById('button-clade');
+  const buttonCleanInput = document.getElementById('button-clade-clean-input');
   const buttonFormat = document.getElementById('button-clade-format');
 
   const cleanInput = (newick) => {
@@ -59,27 +60,22 @@ const newick2wikiclade = () => {
   };
 
   const formatForWikipedia = (wikiClade) => {
-    const nodes = wikiClade.match(/(?<=\|\d+=)(.*)(?=\n)/g)
-      .filter(node => !node.startsWith('{{clade'))
-      .map(leaf => leaf.split('_').slice(0, 2))
-      .map(leaf => `[[${leaf.join(' ')}|${leaf[0][0]}. ${leaf[1]}]]`);
-    ;
-    
     return wikiClade.replaceAll(/(?<=\|\d+=)(.*)(?=\n)/g, (match, p1, offset) => {
       if (p1.startsWith('{{clade')) return p1;
 
       const latin = p1.split('_').slice(0, 2);
-      return `[[${latin.join(' ')}|${latin[0][0]}. ${latin[1]}]]`;
+      return `''[[${latin.join(' ')}|${latin[0][0]}. ${latin[1]}]]''`;
     });
   }
 
   buttonMain.addEventListener('click', () => {
-    const cleanedInput = cleanInput(textAreaInput.value);
-    textAreaInput.value = cleanedInput;
-
-    const output = newickToWiki(cleanedInput);
+    const output = newickToWiki(textAreaInput.value);
     textAreaOutput.value = output;
   }); 
+
+  buttonCleanInput.addEventListener('click', () => {
+    textAreaInput.value = cleanInput(textAreaInput.value);
+  });
   
   buttonFormat.addEventListener('click', () => {
     textAreaOutput.value = formatForWikipedia(textAreaOutput.value);

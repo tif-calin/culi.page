@@ -18,6 +18,7 @@
       <p>input newick strings, output wikipedia {{clade}} template</p>
       <textarea id="newick-input">(((erHomoC:0.28006,erCaelC:0.22089):0.40998,(erHomoA:0.32304,(erpCaelC:0.58815,((erHomoB:0.5807,erCaelB:0.23569):0.03586,erCaelA:0.38272):0.06516):0.03492):0.14265):0.63594,(TRXHomo:0.65866,TRXSacch:0.38791):0.32147,TRXEcoli:0.57336)</textarea>
       <button type="submit" id="button-clade">convert</button>
+      <button type="button" id="button-clade-clean-input">clean input</button>
       <textarea id="newick-output"></textarea>
       <button type="button" id="button-clade-format">format for wikipedia</button>
     </section>
@@ -38,6 +39,11 @@
         <li>use ott_id to get newick of parent. if children less than 12 or not at genus level, repeat</li>
         <li>once found desired newick, convert into wikipedia {{clade}} template!</li>
       </ol>
+    </section>
+
+    <section>
+      <h2>ottid2onezoom</h2>
+      https://www.onezoom.org/popularity/list?key=0&otts={{YOUR_OTTID_HERE}}&expand_taxa=True&max=99&names=True&include_raw=True&sort=standard
     </section>
   </main>
   <footer>
