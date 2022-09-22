@@ -1,5 +1,6 @@
 {
-    "liveServer.settings.port": 5501,
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "liveServer.settings.port": 5501
 }

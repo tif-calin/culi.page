@@ -6,33 +6,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home | culi.page</title>
-  <link rel="stylesheet" href="./styles/home.css">
-  <script type="module" src="./app.js" defer></script>
+  <link rel="stylesheet" href="./styles/index.css">
+  <!-- <script type="module" src="./app.js" defer></script> -->
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <h1 class="title">
+      <span class="name">culi</span>.<span class="tld">page</span>
+    </h1>
+  </header>
 
   <main>
-    <nav>
+    <section>
+      <h2 class="welcome">Bună ziua! 👋</h2>
+      <p class="intro-paragraph">
+        My name is Culi (<i>kuh-lee</i>). I use <a href="https://pronoun.is/they/.../themselves">they/them</a> or <a href="https://pronoun.is/they/.../themself">he/him</a> pronouns. I play with <a href="https://github.com/tif-calin/">code a lot</a> (currently mainly JS, TS, Ruby, Python, and occasionally try out Rust or Clojure but never have enough time), but if you're here for that you probably meant to check out <a href="https://work.culi.page">my portfolio site</a>! Although I really enjoy coding, code tends to just act as the glue that allows me to tie together my varied interests including, but not limited to:
+      </p>
+      <div class="hobbies-container">
+        <ul class="hobbies">
+          <li>botany</li>
+          <li>citizen science</li>
+          <li>dumpster diving</li>
+          <li>editing Wikipedia (another hobby that tends to be a "glue")</li>
+          <li>building community</li>
+          <li>oh shit this has a scroll wheel</li>
+          <li>soil ecology</li>
+          <li>conlanging, especially auxlangs (but not the colonial type)</li>
+          <li>keeping up with Annual Reviews in order to occasionally reference an article or major development within a field and make people think I know more than I do</li>
+          <li>maths; particularly social choice, game theory, and cellular automata</li>
+          <li>making long syllabi and learning plans to learn about topics I never got a chance to study (but not actually following those plans)</li>
+          <li>finding refuge from the reddit/hnews hiveminds by participating in niche online communities/forums</li>
+          <li>linguistics</li>
+          <li>reading just enough of a book to quote the one part of the book that stuck out to me (again, making me seem a lot more well-read than I am)</li>
+          <li>composting</li>
+          <li>gardening</li>
+          <li>sourdough starters</li>
+          <li>appropriate technologies</li>
+          <li>data visualization</li>
+          <li>traditional architecure techniques</li>
+          <li>bikes</li>
+          <li>electoral politics and modelling</li>
+        </ul>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h2>What&apos;s there to do here?</h2>
+      <p>
+        I do this thing where I make some main repo for my million of quick project ideas. Usually it serves as a nest for projects and if I'm really into it I'll spin it up into a separate project. A good example is my project VoteVote which is a little toy I'm working on to allow you to compare dozens of different voting systems in one go using color as a metaphor. Voters and candidates are both represented by color and how much a voter prefers a candidate is determined by their RGB distance to that candidate. It actually started <a href="/vote">here</a> and then I learned D3 to make <a href="https://dontplaywithculi.netlify.app/charts/rcv">this</a> which soon turned into <a href="https://dontplaywithculi.netlify.app/votevote">an exploration</a> of a few more. Then it finally got it's own domain at <a href="https://votevote.page/">votevote.page</a>!
+      </p>
+      <p>
+        The first attempt to collect my miniprojects happened at <a href="/toys">/toys</a> and was made with vanilla HTML/CSS/JS. Then I decided to try a create-react-app for <a href="https://dontplaywithculi.netlify.app/">my second attempt</a> at it. I made some architectural mistakes I eventually got fed up with enough to make a third attempt at <a href="https://dontplay.netlify.app/">dontplay.netlify.app</a>. Still a create-react-app and I haven&apos;t even finished setting it up. But since then I&apos;ve tried out Svelte, Elm, Next.js, Preact, and a few other alternatives to the one big SPA approach CRA lends itself for. So I'm researching micro-frontends to see if I can still do it all in one for my next big iteration of this.
+      </p>
+      <p>
+        Other places you may find remnants of my projects are <a href="https://codepen.io/tif-calin">CodePen</a> (a few experiments), Are.na (not yet), <a href="https://replit.com/@CuliTif">ReplIt</a> (a few slightly larger experiments), <a href="https://www.freecodecamp.org/culi">FreeCodeCamp</a> (I actually never really learned much here but I like the community), Dribble (not yet), <a href="https://openprocessing.org/user/331632">OpenProcessing</a> (not much there yet)
+      </p>
+      <hr class="soft" />
+      <h3>Functioning projects</h3>
+      <p>Here&apos;s some stuff you can actually play with.</p>
+      <h4 class="list-label">Mostly my own works</h4>
       <ul>
-        <li><a href="/toys">toys</a></li>
-        <li><a href="https://angry-joliot-5a3345.netlify.app/">portfolios</a></li>
-        <li><a href="https://www.bookbookbook.club/">bookbook</a></li>
+        <li>
+          <a href="https://votevote.page/">VoteVote</a>
+        </li>
+        <li>
+          <a href="https://www.bookbookbook.club/">BookBook</a>
+        </li>
+      </ul>
+      <h4 class="list-label">Worked on with other people</h4>
+      <ul>
         <li><a href="https://www.curbee.app/">curbee</a></li>
         <li><a href="http://www.citypark.world/">citypark</a></li>
+        <li><a href="https://acp-index.netlify.app/">acp-index</a></li>
       </ul>
-    </nav>
+      <hr class="soft" />
+      <h3 class="list-label">Unfinished projects</h3>
+      <p>
+        This will probably be the most in depth because the possibility of someone "stealing" my idea and wanting to do/finish these projects thrills me (though I recognize the unlikelihood).
+      </p>
+      <ul>
+        <li>
+          I had big plans for this highly-specific <a href="https://angry-joliot-5a3345.netlify.app/">portfolios project</a> aiming to highlight the portfolio projects of other developers. Kinda started with me trying to collect inspo, but I got really excited about implementing this tag-based voting system that I never actually implemented
+        </li>
+        <li>
+          This one didn&apos;t even get passed the "market research" phase to see what similar projects already exist out there, but it was a very interesting investigation so I wanna share anyways. I've always wanted to build a <b class="semi">learning resource aggregator</b> mean to be extensible for learning pretty much anything. This is a natural evolution from my hobby of creating syllabi for myself to some day follow and study a particular subject. However, as usual, <a href="https://dontplaywithculi.netlify.app/learn">I discovered I&apos;m far from the first to have this idea</a>.
+        </li>
+        <li>
+          Here&apos;s some <a href="https://dontplaywithculi.netlify.app/partisanlean">graphs showing how each US State&apos;s Partisan Lean Index</a> has changed over the years since 1968. The PLI is a measure of how a state votes relative to the nation as a whole. My plan
+        </li>
+      </ul>
+    </section>
     <nav style="display:none">
+      <a href="/toys">toys</a>
       <a href="https://plant-planter.github.io/Plant-planter-2021/">plantplans</a>
       <a href="https://www.bookbookbook.club/">bookbook</a>
       <a href="https://www.curbee.app/">curbee</a>
-      <a href="./votevote/">votevote</a>
+      <a href="./vote/">votevote</a>
       <a href="https://objective-jackson-dcf265.netlify.app/">culireads</a>
     </nav>
+    <hr />
+    <h2>Other cornors of the internet I crawl</h2>
+    <p>
+      Other places I maintain an internet presence but won't link here include BookWyrm, Mastodon, Wikipedia, iNaturalist, various forums (votingtheory.org, bananas.org, talkelections.org, and hackernews). Accounts I'm ashamed to hold include LinkedIn, Reddit, and Twitter. I also like coding challenge sites like codewars.com, exercism.org, and, yes, even leetcode.com.
+    </p>
   </main>
 
-  <footer></footer>
+  <footer>
+    <a class="source" href="https://github.com/tif-calin/culi.page">
+      <!--&#x1F12F;-->steal this
+    </a>
+    <p class="disclaimer">this site is made possible by harnessing <a href="http://html.energy/">the power of HTML</a></p>
+  </footer>
 </body>
 
 </html>
