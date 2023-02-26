@@ -128,6 +128,9 @@ main .list-label ~ :is(ul, ol) {
   list-style: initial;
   margin-left: 1.5rem;
 }
+main .list-label ~ :where(ul, ol) li {
+  margin-bottom: 0.5rem;
+}
 main .list-label {
   margin-bottom: 0.25rem;
 }
@@ -152,9 +155,12 @@ main .hobbies-container::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
+main .mini-list > li {
+  margin-bottom: 0;
+}
 
 footer {
-  margin-top: 10rem;
+  margin-top: 6rem;
   text-align: center;
 }
 footer .source {
