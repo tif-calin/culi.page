@@ -1,16 +1,23 @@
 :root {
-  --color-oc-gray-1: #f8f9fa;
-  --color-oc-gray-2: #f1f3f5;
+  --color-calico-orange: #e8ab75;
+  --color-calico-dark: #756e75;
+  --color-calico-white: #fefcfb;
+  --color-oc-gray-0: #f8f9fa;
+  --color-oc-gray-1: #f1f3f5;
   --color-oc-gray-7: #495057;
   --color-oc-gray-8: #343a40;
   --color-oc-gray-9: #212529;
+  --color-oc-orange-4: #ffa94d;
   --dimensions-gap: 1rem;
   --font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
   --font-handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
   --font-rounded-sans: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 
-  --clr-bg: var(--color-oc-gray-2);
-  --clr-fg: var(--color-oc-gray-1);
+  --clr-brand-1: var(--color-calico-dark);
+  --clr-brand-2: var(--color-calico-white);
+  --clr-brand-3: var(--color-calico-orange);
+  --clr-bg: var(--color-oc-gray-1);
+  --clr-fg: var(--color-oc-gray-0);
   --clr-text: var(--color-oc-gray-9);
   --clr-text-sub: var(--color-oc-gray-7);
   --dim-gap: var(--dimensions-gap);
@@ -60,12 +67,38 @@ b {
 }
 
 .layout.wrapper > *:not(:empty) {
+  background-color: var(--clr-fg);
+  border: 1px solid #ccc;
   border-radius: 0.2rem;
+  padding: var(--dim-gap);
+  position: relative;
   width: min(70ch, calc(100vw - 4rem));
+}
+
+.layout.wrapper > *::after {
+  content: '';
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  position: absolute;
+    inset: -3px;
+  z-index: -1;
+}
+
+.layout.wrapper > *:nth-child(even)::after {
+  background: repeating-linear-gradient(112deg,
+    var(--clr-brand-1) 25px, var(--clr-brand-1) 49px,
+    var(--clr-brand-2) 50px, var(--clr-brand-2) 99px,
+    var(--clr-brand-3) 100px, var(--clr-brand-3) 149px,
+    var(--clr-brand-1) 150px
+  );
 }
 
 /* ------------------------ */
 /* #region HEADER           */
+
+header {
+  padding: 1rem;
+}
 
 header h1 {
   font-weight: 900;
@@ -90,10 +123,7 @@ header h1::after {
 
 main {
   background-color: var(--clr-fg);
-  border: 1px solid #ccc;
   flex: 1;
-  margin-bottom: calc(2 * var(--dim-gap));
-  padding: var(--dim-gap);
 }
 
 main h2 {
