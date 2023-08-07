@@ -12,6 +12,8 @@
   --border-skinny: 2px solid var(--color-black);
 }
 
+.hide { display: none; }
+
 body {
   accent-color: var(--color-accent);
   background: var(--color-bg);
