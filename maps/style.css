@@ -1,0 +1,32 @@
+:root {
+  --color-oc-gray-0: #f8f9fa;
+  --color-oc-gray-1: #f1f3f5;
+  --color-oc-gray-7: #495057;
+  --color-oc-gray-8: #343a40;
+  --color-oc-gray-9: #212529;
+  --color-oc-orange-4: #ffa94d;
+  --dimensions-gap: 1rem;
+  --font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+  --font-handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+  --font-rounded-sans: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+
+  --clr-bg: var(--color-oc-gray-1);
+  --clr-fg: var(--color-oc-gray-0);
+  --clr-text: var(--color-oc-gray-9);
+  --clr-text-sub: var(--color-oc-gray-7);
+  --dim-gap: var(--dimensions-gap);
+  --fnt-sans: var(--font-rounded-sans);
+  --fnt-script: var(--font-handwritten);
+  --fnt-serif: var(--font-didone);
+
+  min-height: 100vh;
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: var(--fnt-sans);
+}
+
+#map {
+  min-height: 500px;
+  min-width: 500px;
+  background: var(--clr-fg);
+}
