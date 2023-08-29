@@ -30,3 +30,43 @@
   min-width: 500px;
   background: var(--clr-fg);
 }
+
+#map .map-popup {
+  position: relative;
+
+  & *:last-of-type,
+  & *:first-of-type {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  & .name {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  & .address {
+    margin-top: 0;
+  }
+
+  & .comment {
+    border-left: 3px solid var(--clr-text-sub);
+    padding-left: 0.5rem;
+  }
+
+  & .timestamp {
+    opacity: 0.8;
+    font-style: italic;
+    text-align: right;
+  }
+
+  & .go {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+#table thead td {
+  font-weight: 700;
+  text-align: center;
+}

@@ -5,7 +5,7 @@ const leaflet = ({ latitude, longitude }) => {
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: 'OSM'
+    attribution: '🄯 OSM'
   }).addTo(map);
 
   L.marker([latitude, longitude]).addTo(map);
@@ -21,6 +21,8 @@ const refuge = async ({ latitude, longitude }) => {
 };
 
 const main = async () => {
+  const LISTINGS_CONTAINER = document.querySelector('#table > tbody');
+
   const successCallback = async (position) => {
     const { timestamp, coords } = position;
 
@@ -36,10 +38,35 @@ const main = async () => {
 
     leaflet(data);
     const jsonRefuge = await refuge(data);
-    console.log(jsonRefuge)
-    jsonRefuge.forEach(({ latitude, longitude }) => {
-      L.marker([latitude, longitude]).addTo(map);
-    })
+    console.log(jsonRefuge);
+
+    LISTINGS_CONTAINER.innerHTML = '';
+    jsonRefuge.forEach(({ latitude, longitude, comment, updated_at, distance, name, street, city, state }) => {
+      const fillOpacity = 1 / (distance || 1);
+      const radius = 4 + fillOpacity;
+      const address = `${street.trim()}, ${city.trim()}, ${state.trim()}`;
+
+      const marker = L.circleMarker([latitude, longitude], { radius, color: 'white', fillColor: 'black', fillOpacity, weight: 1.5 }).addTo(map);
+      marker.bindPopup(`
+        <div class="map-popup">
+          <p class="name">${name}</p>
+          <p class="address">${address}</p>
+          <p class="comment">${comment}</p>
+          <p class="distance">${Math.round(distance * 1_000) / 1_000} miles away</p>
+          <p class="timestamp">${new Date(updated_at).toLocaleString()}</p>
+          <div class="go"><a href='maps://?address="${address}"&near="${latitude},${longitude}"&q="${name}"'>GO</a></div>
+        </div>
+      `);
+
+      const listing = document.createElement('tr');
+      listing.innerHTML = `
+        <td>${name}</td>
+        <td>${address}</td>
+        <td>${Math.round(distance * 1_000) / 1_000} miles</td>
+      `;
+      LISTINGS_CONTAINER.appendChild(listing);
+
+    });
 
     return { timestamp, coords };
   };
