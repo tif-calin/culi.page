@@ -29,44 +29,70 @@
   min-height: 500px;
   min-width: 500px;
   background: var(--clr-fg);
+
+  & *.map-popup {
+    position: relative;
+    font-size: 0.85rem;
+
+    & *:last-of-type,
+    & *:first-of-type {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    & .name {
+      font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 1.1;
+
+      & > a:first-of-type {
+        margin-right: 0.25rem;
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+      }
+    }
+
+    & .distance {
+      display: block;
+      font-weight: 300;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      vertical-align: top;
+    }
+
+    & .comment {
+      border-left: 3px solid var(--clr-text-sub);
+      padding-left: 0.5rem;
+    }
+
+    & .timestamp {
+      opacity: 0.8;
+      font-style: italic;
+      font-size: 0.75rem;
+      font-weight: 300;
+      margin-right: 3rem;
+    }
+
+    & .action {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      & a {
+        padding: 0.25rem;
+      }
+    }
+  }
 }
 
-#map .map-popup {
-  position: relative;
-
-  & *:last-of-type,
-  & *:first-of-type {
-    margin-top: 0;
-    margin-bottom: 0;
+#table {
+  & thead td {
+    font-weight: 700;
+    text-align: center;
   }
 
-  & .name {
-    font-size: 1.5rem;
-    font-weight: 800;
+  & tr:has(td:target) {
+    outline: 2px solid var(--clr-text);
   }
-
-  & .address {
-    margin-top: 0;
-  }
-
-  & .comment {
-    border-left: 3px solid var(--clr-text-sub);
-    padding-left: 0.5rem;
-  }
-
-  & .timestamp {
-    opacity: 0.8;
-    font-style: italic;
-    text-align: right;
-  }
-
-  & .go {
-    position: absolute;
-    bottom: 0;
-  }
-}
-
-#table thead td {
-  font-weight: 700;
-  text-align: center;
 }
