@@ -7,6 +7,7 @@
   --color-oc-orange-4: #ffa94d;
   --dimensions-gap: 1rem;
   --font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+  --font-geometric-humanist: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   --font-handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
   --font-rounded-sans: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 
@@ -15,14 +16,41 @@
   --clr-text: var(--color-oc-gray-9);
   --clr-text-sub: var(--color-oc-gray-7);
   --dim-gap: var(--dimensions-gap);
-  --fnt-sans: var(--font-rounded-sans);
+  --fnt-sans: var(--font-geometric-humanist);
   --fnt-script: var(--font-handwritten);
   --fnt-serif: var(--font-didone);
 
+  box-sizing: border-box;
   min-height: 100vh;
   background: var(--clr-bg);
   color: var(--clr-text);
   font-family: var(--fnt-sans);
+}
+
+header, main {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+
+  & :where(h2, h3, h4) {
+    margin: unset;
+  }
+
+  & > * {
+    background: var(--clr-fg);
+    border: 1.5px solid var(--clr-text-sub);
+    border-radius: 0.15rem;
+    box-shadow: 0 0 4px #3333, inset 0 0 8px #fff;
+    padding: 0.5rem;
+    width: max(250px, min(95vw, 200px + 60vw));
+
+    & > * { width: 100%; }
+  }
 }
 
 #map {
@@ -94,5 +122,9 @@
 
   & tr:has(td:target) {
     outline: 2px solid var(--clr-text);
+  }
+
+  & tbody tr:nth-of-type(odd) {
+    backdrop-filter: brightness(0.9);
   }
 }

@@ -5,6 +5,9 @@ const TABLE_CONTAINER = document.querySelector('#other > ul');
 // Data
 let MAP;
 const TILES = {
+  positron: {
+    url: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
+  },
   stadiaOutdoors: {
     url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}',
     options: {
@@ -21,7 +24,8 @@ const OTHER_MAPS = [
   { label: 'NYTimes 2020 election vote precinct map', url: 'https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html' },
   { label: 'NYTimes 2016 election vote precinct map', url: 'https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html#10.95/%LAT%/%LNG%/4069' },
   { label: 'co-op grocery stores map', url: 'https://grocerystory.coop/food-co-op-directory' },
-  { label: 'free air pumps', url: 'https://www.freeairpump.com/map/' }
+  { label: 'free air pumps', url: 'https://www.freeairpump.com/map/' },
+  { label: 'coffee', url: 'https://www.findmecoffee.com/' }
 ];
 
 // Logic
@@ -29,7 +33,7 @@ console.table(OTHER_MAPS);
 
 const leaflet = ({ latitude, longitude }) => {
   MAP = L.map('map').setView([latitude, longitude], 13);
-  L.tileLayer(TILES.stadiaOutdoors.url, TILES.stadiaOutdoors.options).addTo(MAP);
+  L.tileLayer(TILES.positron.url, TILES.positron.options).addTo(MAP);
   L.marker([latitude, longitude]).addTo(MAP);
 
   return MAP;
