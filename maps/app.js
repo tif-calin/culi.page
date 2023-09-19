@@ -20,12 +20,28 @@ const TILES = {
 };
 const OTHER_MAPS = [
   { label: 'GasBuddy gas price heatmap', url: 'https://www.gasbuddy.com/gaspricemap?lat=%LAT%&lng=%LNG%&z=7' },
-  { label: 'iNaturalist species observations', url: 'https://www.inaturalist.org/observations?lat=%LAT%&lng=%LNG%&radius=7&subview=species' },
+  { label: 'REFUGE restrooms', url: 'https://www.refugerestrooms.org/restrooms?utf8=%E2%9C%93&lat=%LAT%&long=%LNG%' },
+  { label: 'iNaturalist species observations', url: 'https://www.inaturalist.org/observations?lat=%LAT%&lng=%LNG%&place_id=any&radius=7&view=species' },
   { label: 'NYTimes 2020 election vote precinct map', url: 'https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html' },
   { label: 'NYTimes 2016 election vote precinct map', url: 'https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html#10.95/%LAT%/%LNG%/4069' },
   { label: 'co-op grocery stores map', url: 'https://grocerystory.coop/food-co-op-directory' },
   { label: 'free air pumps', url: 'https://www.freeairpump.com/map/' },
-  { label: 'coffee', url: 'https://www.findmecoffee.com/' }
+  { label: 'coffee', url: 'https://www.findmecoffee.com/' },
+  { label: 'weed legality by state', url: 'https://disa.com/marijuana-legality-by-state' },
+  { label: 'boondocking', list: [
+    { label: 'boondockerswelcome.com', url: 'https://www.boondockerswelcome.com/', comment: 'boondocking, $80/year for stays, $180/year to also stay at wineries, farms, breweries, etc' },
+    { label: 'boondocking.org', url: 'https://boondocking.org/', comment: 'boondocking, community-submitted tips' },
+    { label: 'campendium.com', url: 'https://www.campendium.com/', comment: 'camping, parks, hosting, for-profit' },
+    { label: 'freeroam.app', url: 'https://freeroam.app/', comment: 'nature-loving free campers, 501c3' },
+    { label: 'freecampsites.net', url: 'https://freecampsites.net/', comment: 'free campsites, community-submitted tips' },
+    { label: 'harvesthosts.com', url: 'https://harvesthosts.com/', comment: 'rv camping membership' },
+    { label: 'kift.com', url: 'https://www.kift.com/', comment: 'very bougie/expensive hipster, van life membership and blockchain thing' },
+    { label: 'landcamp.org', url: 'https://www.landcamp.org/', comment: 'hosting, 3 stays free $100/year otherwise, CA only' },
+    { label: 'warmshowers.org', url: 'https://www.warmshowers.org/', comment: 'bicycle tourists' },
+    { label: 'couchsurfing.com', url: 'https://www.couchsurfing.com/', comment: 'couchsurfing, social network' },
+    { label: 'vanly.app', url: 'https://vanly.app/', comment: 'airbnb for driveways basically, very expensive' },
+    { label: 'boondockersbible.com', url: 'https://www.boondockersbible.com/list-of-places-for-boondocking/', comment: 'a small map of boondocking sites' },
+  ] },
 ];
 
 // Logic
@@ -52,15 +68,25 @@ const populateOtherMaps = (lat = '', lng = '') => {
   const TABLE_CONTAINER = document.querySelector('#other > ul');
 
   TABLE_CONTAINER.innerHTML = '';
-  OTHER_MAPS.forEach(({ label, url }) => {
+  OTHER_MAPS.forEach(link => {
     const li = document.createElement('li');
-    const a = document.createElement('a');
+    const span = document.createElement('span');
+    li.appendChild(span);
 
-    a.href = url.replace('%LAT%', lat).replace('%LNG%', lng);
-    a.target = '_blank';
-    a.innerText = label;
+    const urls = link.list || [link];
 
-    li.appendChild(a);
+    urls.forEach(({ label, url, comment }, i) => {
+      const a = document.createElement('a');
+
+      a.href = url.replace('%LAT%', lat).replace('%LNG%', lng);
+      a.target = '_blank';
+      a.innerText = label;
+      if (comment) a.title = comment;
+
+      span.appendChild(a);
+      if (i < urls.length - 1) span.appendChild(document.createTextNode(' | '))
+    });
+
     TABLE_CONTAINER.appendChild(li);
   });
 };
