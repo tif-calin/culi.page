@@ -42,6 +42,8 @@ const OTHER_MAPS = [
     { label: 'vanly.app', url: 'https://vanly.app/', comment: 'airbnb for driveways basically, very expensive' },
     { label: 'boondockersbible.com', url: 'https://www.boondockersbible.com/list-of-places-for-boondocking/', comment: 'a small map of boondocking sites' },
   ] },
+  { label: 'OneEarth bioregions', url: 'https://www.oneearth.org/navigator/' },
+  { label: 'LocalHarvest', url: 'https://www.localharvest.org/search.jsp?jmp&scale=8&lat=%LAT%&lon=%LNG%' }
 ];
 
 // Logic
@@ -66,6 +68,8 @@ const refuge = async ({ latitude, longitude }) => {
 
 const populateOtherMaps = (lat = '', lng = '') => {
   const TABLE_CONTAINER = document.querySelector('#other > ul');
+
+  if (!TABLE_CONTAINER) return;
 
   TABLE_CONTAINER.innerHTML = '';
   OTHER_MAPS.forEach(link => {
@@ -116,7 +120,7 @@ const main = async () => {
 
     populateOtherMaps(latitude, longitude);
 
-    LISTINGS_CONTAINER.innerHTML = '';
+    if (LISTINGS_CONTAINER) LISTINGS_CONTAINER.innerHTML = '';
     jsonRefuge.forEach(({
       id, latitude, longitude,
       comment, updated_at, distance, name,
@@ -153,7 +157,7 @@ const main = async () => {
         <td>${Math.round(distance * 100) / 100}m</td>
       `;
 
-      LISTINGS_CONTAINER.appendChild(listing);
+      LISTINGS_CONTAINER?.appendChild(listing);
     });
 
     return { timestamp, coords };

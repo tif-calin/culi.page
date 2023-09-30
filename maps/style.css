@@ -27,6 +27,10 @@
   background: var(--clr-bg);
   color: var(--clr-text);
   font-family: var(--fnt-sans);
+
+  & * {
+    box-sizing: border-box;
+  }
 }
 
 header, main {
@@ -34,22 +38,63 @@ header, main {
   justify-content: center;
 }
 
+main > .grouping {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: min-content;
+
+  & > * { width: max(250px, min(95vw, 200px + 60vw)); }
+
+  & > :first-child {
+    width: unset;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+  }
+  & > :not(h1, h2, h3) {
+    margin-left: 1.75rem;
+    position: relative;
+    width: calc(max(250px, min(95vw, 200px + 60vw)) - 1.75rem);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: calc(-0.75rem - 3px);
+      bottom: -1.5px;
+      left: calc(-1.75rem - 1.5px);
+      width: 0.75rem;
+
+      background: var(--clr-fg);
+      border: 1.5px solid var(--clr-text-sub);
+      border-top: none;
+      border-bottom: none;
+    }
+
+    &:last-child::before {
+      border-bottom: 1.5px solid var(--clr-text-sub);
+      border-bottom-left-radius: 0.5rem;
+    }
+  }
+}
+
 main {
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
 
   & :where(h2, h3, h4) {
     margin: unset;
   }
 
-  & > * {
+  & .island {
     background: var(--clr-fg);
     border: 1.5px solid var(--clr-text-sub);
     border-radius: 0.15rem;
     box-shadow: 0 0 4px #3333, inset 0 0 8px #fff;
     padding: 0.5rem;
-    width: max(250px, min(95vw, 200px + 60vw));
 
     & > * { width: 100%; }
   }
@@ -130,4 +175,30 @@ main {
   & tr > td:first-of-type { text-align: left; }
   & tr > td:last-of-type { text-align: right; }
   & tr:has(td:target) { outline: 2px solid var(--clr-text); }
+}
+
+& .button-wrapper {
+  margin: 0.25rem 0;
+  text-align: right;
+  width: 100%;
+
+  & > *:where(button, a) {
+    color: var(--clr-bg);
+    background: var(--clr-text);
+    border: 1px solid var(--clr-text-sub);
+    border-radius: 0.15rem;
+    padding: 0.1rem 0.35rem;
+    text-decoration: none;
+
+    transition-property: background-color, border-width, color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+
+    &:hover,
+    &:focus {
+      background-color: var(--clr-bg);
+      border-width: 2px;
+      color: var(--clr-text);
+    }
+  }
 }

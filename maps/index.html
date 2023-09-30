@@ -26,21 +26,31 @@
     </header>
 
     <main>
-      <div id="map"></div>
-      <section>
-        <table id="table">
-          <thead>
-            <tr><td>info</td><td>address</td><td>distance</td></tr>
-          </thead>
-          <tbody>
-            <noscript>please enable javascript to see results</noscript>
-          </tbody>
-        </table>
-      </section>
+      <div class="grouping">
+        <h2 class="island">Restrooms</h2>
+        <div class="island">
+          <div id="map"></div>
+        </div>
+        <section class="island">
+          <table id="table">
+            <thead>
+              <tr><td>info</td><td>address</td><td>distance</td></tr>
+            </thead>
+            <tbody>
+              <noscript>please enable javascript to see results</noscript>
+            </tbody>
+          </table>
+          <div class="button-wrapper center">
+            <a href="https://www.refugerestrooms.org/restrooms/new">submit a new restroom</a>
+          </div>
+        </section>
+      </div>
 
-      <div id="other">
-        <h2>Other Maps</h2>
-        <ul></ul>
+      <div class="grouping">
+        <h2 class="island">Other Maps</h2>
+        <div class="island" id="other">
+          <ul></ul>
+        </div>
       </div>
     </main>
 
