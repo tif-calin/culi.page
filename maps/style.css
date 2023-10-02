@@ -1,10 +1,21 @@
 :root {
+  --color-oc-cyan-0: #e3fafc;
+  --color-oc-cyan-9: #0b7285;
   --color-oc-gray-0: #f8f9fa;
   --color-oc-gray-1: #f1f3f5;
+  --color-oc-gray-2: #e9ecef;
+  --color-oc-gray-3: #dee2e6;
+  --color-oc-gray-4: #ced4da;
+  --color-oc-gray-5: #adb5bd;
+  --color-oc-gray-6: #868e96;
   --color-oc-gray-7: #495057;
   --color-oc-gray-8: #343a40;
   --color-oc-gray-9: #212529;
+  --color-oc-lime-0: #f4fce3;
+  --color-oc-lime-9: #5c940d;
+  --color-oc-orange-0: #fff4e6;
   --color-oc-orange-4: #ffa94d;
+  --color-oc-orange-9: #d9480f;
   --dimensions-gap: 1rem;
   --font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
   --font-geometric-humanist: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -14,8 +25,10 @@
 
   --clr-bg: var(--color-oc-gray-1);
   --clr-fg: var(--color-oc-gray-0);
-  --clr-text: var(--color-oc-gray-9);
-  --clr-text-sub: var(--color-oc-gray-7);
+  --clr-line: var(--color-oc-gray-7);
+  --clr-shadow: var(--color-oc-gray-3);
+  --clr-txt-sub: var(--color-oc-gray-7);
+  --clr-txt: var(--color-oc-gray-9);
   --dim-gap: var(--dimensions-gap);
   --fnt-mono: var(--font-monospace-code);
   --fnt-sans: var(--font-geometric-humanist);
@@ -25,7 +38,7 @@
   box-sizing: border-box;
   min-height: 100vh;
   background: var(--clr-bg);
-  color: var(--clr-text);
+  color: var(--clr-txt);
   font-family: var(--fnt-sans);
 
   & * {
@@ -48,14 +61,21 @@ main > .grouping {
   position: relative;
   width: min-content;
 
+  &:nth-of-type(1) { --clr-brnd-bg: var(--color-oc-cyan-9); --clr-brnd-fg: var(--color-oc-cyan-0); }
+  &:nth-of-type(2) { --clr-brnd-bg: var(--color-oc-lime-9); --clr-brnd-fg: var(--color-oc-lime-0); }
+  &:nth-of-type(3) { --clr-brnd-bg: var(--color-oc-orange-9); --clr-brnd-fg: var(--color-oc-orange-0); }
+
   & > * { width: max(250px, min(95vw, 200px + 60vw)); }
 
   & > :first-child {
-    width: unset;
     align-self: flex-start;
+    background: var(--clr-brnd-bg);
     border-bottom-left-radius: 0;
+    box-shadow: none;
+    color: var(--clr-brnd-fg);
+    width: unset;
   }
-  & > :not(h1, h2, h3) {
+  & > :not(:first-child) {
     margin-left: 1.75rem;
     position: relative;
     width: calc(max(250px, min(95vw, 200px + 60vw)) - 1.75rem);
@@ -68,15 +88,15 @@ main > .grouping {
       left: calc(-1.75rem - 1.5px);
       width: 0.75rem;
 
-      background: var(--clr-fg);
-      border: 1.5px solid var(--clr-text-sub);
+      background: var(--clr-brnd-bg);
+      border: 1.5px solid var(--clr-line);
       border-top: none;
       border-bottom: none;
     }
 
     &:last-child::before {
-      border-bottom: 1.5px solid var(--clr-text-sub);
-      border-bottom-left-radius: 0.5rem;
+      border-bottom: 1.5px solid var(--clr-line);
+      border-bottom-left-radius: 3px;
     }
   }
 }
@@ -91,9 +111,9 @@ main {
 
   & .island {
     background: var(--clr-fg);
-    border: 1.5px solid var(--clr-text-sub);
+    border: 1.5px solid var(--clr-line);
     border-radius: 0.15rem;
-    box-shadow: 0 0 4px #3333, inset 0 0 8px #fff;
+    box-shadow: 0 0 4px var(--clr-shadow);
     padding: 0.5rem;
 
     & > * { width: 100%; }
@@ -137,7 +157,7 @@ main {
     }
 
     & .comment {
-      border-left: 3px solid var(--clr-text-sub);
+      border-left: 3px solid var(--clr-txt-sub);
       padding-left: 0.5rem;
     }
 
@@ -174,7 +194,9 @@ main {
 
   & tr > td:first-of-type { text-align: left; }
   & tr > td:last-of-type { text-align: right; }
-  & tr:has(td:target) { outline: 2px solid var(--clr-text); }
+  & tr:has(td:target) { outline: 2px solid var(--clr-txt); }
+
+  &:has(tbody:not(:empty)) + div { margin-top: 2rem; }
 }
 
 & .button-wrapper {
@@ -184,8 +206,8 @@ main {
 
   & > *:where(button, a) {
     color: var(--clr-bg);
-    background: var(--clr-text);
-    border: 1px solid var(--clr-text-sub);
+    background: var(--clr-txt);
+    border: 1px solid var(--clr-txt-sub);
     border-radius: 0.15rem;
     padding: 0.1rem 0.35rem;
     text-decoration: none;
@@ -198,7 +220,7 @@ main {
     &:focus {
       background-color: var(--clr-bg);
       border-width: 2px;
-      color: var(--clr-text);
+      color: var(--clr-txt);
     }
   }
 }

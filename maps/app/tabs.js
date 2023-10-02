@@ -21,6 +21,7 @@ const SERVICES = [
     params: { urf8: '%E2%9C%93', lat: '%LAT%', long: '%LNG%' }
   },
   // need: local info
+  { category: 'indigeneity', label: 'Native Lands', url: 'https://native-land.ca/' },
   {
     category: 'nature', label: 'iNaturalist', sublabel: 'species observations',
     url: 'https://www.inaturalist.org/observations',
@@ -37,7 +38,7 @@ const SERVICES = [
   },
   { category: 'grocery', label: 'co-op grocery stores map', url: 'https://grocerystory.coop/food-co-op-directory' },
   {
-    category: 'LocalHarvest', label: 'LocalHarvest',
+    category: 'food', label: 'LocalHarvest',
     sublabel: 'local food: farms, farmer\'s markets, grocery stores, restaurants, etc',
     url: 'https://www.localharvest.org/search.jsp?jmp&scale=8&lat=%LAT%&lon=%LNG%',
     params: { scale: 8, lat: '%LAT%', lon: '%LNG%' }

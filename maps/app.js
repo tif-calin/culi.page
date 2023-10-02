@@ -152,7 +152,7 @@ const main = async () => {
 
       const listing = document.createElement('tr');
       listing.innerHTML = `
-        <td id=${id}>${label}</td>
+        <td id=${id}>${icons} ${label}</td>
         <td>${address}</td>
         <td>${Math.round(distance * 100) / 100}m</td>
       `;
