@@ -12,20 +12,23 @@ const SERVICES = [
   // need: transportation
   {
     category: 'vehicle', label: 'GasBuddy', sublabel: 'gas price heatmap', url: 'https://www.gasbuddy.com/gaspricemap',
-    params: { lat: '%LAT%', lng: '%LNG%', z: 7 }
+    params: { lat: '%LAT%', lng: '%LNG%', z: 8, }
   },
   { category: 'vehicle', label: 'free air pumps', url: 'https://www.freeairpump.com/map/' },
+
   // need: toilet
   {
     category: 'restrooms', label: 'REFUGE', sublabel: 'restrooms', url: 'https://www.refugerestrooms.org/restrooms',
     params: { urf8: '%E2%9C%93', lat: '%LAT%', long: '%LNG%' }
   },
+  //   https://americanrestroom.org/restroom-locations/
+
   // need: local info
   { category: 'indigeneity', label: 'Native Lands', url: 'https://native-land.ca/' },
   {
     category: 'nature', label: 'iNaturalist', sublabel: 'species observations',
     url: 'https://www.inaturalist.org/observations',
-    params: { lat: '%LAT%', lng: '%LNG%', place_id: 'any', radius: 7, view: 'species' }
+    params: { lat: '%LAT%', lng: '%LNG%', place_id: 'any', radius: 7, view: 'species', quality_grade: 'research' }
   },
   { category: 'nature', label: 'OneEarth', sublabel: 'bioregions', url: 'https://www.oneearth.org/navigator/' },
   {
@@ -45,6 +48,7 @@ const SERVICES = [
   },
   { category: 'shops & rec', label: 'FindMeCoffee', sublabel: 'coffee', url: 'https://www.findmecoffee.com/' },
   { category: 'drugs', label: 'weed legality by state', url: 'https://disa.com/marijuana-legality-by-state' },
+
   // need: sleep
   { category: 'boondocking', label: 'boondockerswelcome.com', url: 'https://www.boondockerswelcome.com/', comment: 'boondocking, $80/year for stays, $180/year to also stay at wineries, farms, breweries, etc' },
   { category: 'boondocking', label: 'boondocking.org', url: 'https://boondocking.org/', comment: 'boondocking, community-submitted tips' },
@@ -58,6 +62,7 @@ const SERVICES = [
   { category: 'boondocking', label: 'couchsurfing.com', url: 'https://www.couchsurfing.com/', comment: 'couchsurfing, social network' },
   { category: 'boondocking', label: 'vanly.app', url: 'https://vanly.app/', comment: 'airbnb for driveways basically, very expensive' },
   { category: 'boondocking', label: 'boondockersbible.com', url: 'https://www.boondockersbible.com/list-of-places-for-boondocking/', comment: 'a small map of boondocking sites' },
+
   // need: weather
   { category: 'weather', label: 'Windy', sublabel: 'rain map', url: 'https://www.windy.com/-Rain-thunder-rain?rain,%LAT%,%LNG%,9,i:pressure' },
 ];
@@ -84,3 +89,5 @@ const CATEGORIES = [
   { id: 'shop', label: 'Shops & Groceries' },
   { id: 'nature', label: 'Nature' },
 ];
+
+console.log('SERVICES', SERVICES);

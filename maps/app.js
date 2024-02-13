@@ -1,3 +1,5 @@
+import './app/tabs.js';
+
 // Containers
 const OTHER_MAPS_CONTAINER = document.querySelector('#other > ul');
 const TABLE_CONTAINER = document.querySelector('#other > ul');
@@ -5,9 +7,7 @@ const TABLE_CONTAINER = document.querySelector('#other > ul');
 // Data
 let MAP;
 const TILES = {
-  positron: {
-    url: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
-  },
+  positron: { url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png' },
   stadiaOutdoors: {
     url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}',
     options: {
@@ -18,6 +18,7 @@ const TILES = {
     }
   },
 };
+
 const OTHER_MAPS = [
   { label: 'GasBuddy gas price heatmap', url: 'https://www.gasbuddy.com/gaspricemap?lat=%LAT%&lng=%LNG%&z=7' },
   { label: 'REFUGE restrooms', url: 'https://www.refugerestrooms.org/restrooms?utf8=%E2%9C%93&lat=%LAT%&long=%LNG%' },
@@ -41,6 +42,9 @@ const OTHER_MAPS = [
     { label: 'couchsurfing.com', url: 'https://www.couchsurfing.com/', comment: 'couchsurfing, social network' },
     { label: 'vanly.app', url: 'https://vanly.app/', comment: 'airbnb for driveways basically, very expensive' },
     { label: 'boondockersbible.com', url: 'https://www.boondockersbible.com/list-of-places-for-boondocking/', comment: 'a small map of boondocking sites' },
+    { label: 'allstays.com', url: 'https://www.allstays.com/', comment: 'ugly UI free to browse, pay to get no ads, Walamrt parking info, truck stops, dump sites, etc' },
+    { label: 'ioverlander.com', url: 'https://www.ioverlander.com/', comment: 'nonprofit, aggregator of many different overlays incl. campsites, wifi, showers, etc' },
+    { label: 'sekr.com', url: 'https://sekr.com/', comment: 'van life social network and maps' },
   ] },
   { label: 'OneEarth bioregions', url: 'https://www.oneearth.org/navigator/' },
   { label: 'LocalHarvest', url: 'https://www.localharvest.org/search.jsp?jmp&scale=8&lat=%LAT%&lon=%LNG%' }
@@ -79,7 +83,9 @@ const populateOtherMaps = (lat = '', lng = '') => {
 
     const urls = link.list || [link];
 
-    urls.forEach(({ label, url, comment }, i) => {
+    urls.forEach(({ label, url }, i) => {
+      const comment = link.comment;
+
       const a = document.createElement('a');
 
       a.href = url.replace('%LAT%', lat).replace('%LNG%', lng);
@@ -114,11 +120,11 @@ const main = async () => {
 
     const data = { latitude, longitude, speed, heading, accuracy, altitude, altitudeAccuracy };
 
+    populateOtherMaps(latitude, longitude);
+
     const map = leaflet(data);
     const jsonRefuge = await refuge(data);
     console.log(jsonRefuge);
-
-    populateOtherMaps(latitude, longitude);
 
     if (LISTINGS_CONTAINER) LISTINGS_CONTAINER.innerHTML = '';
     jsonRefuge.forEach(({
