@@ -20,14 +20,14 @@ const TILES = {
 };
 
 const OTHER_MAPS = [
-  { label: 'GasBuddy gas price heatmap', url: 'https://www.gasbuddy.com/gaspricemap?lat=%LAT%&lng=%LNG%&z=7' },
+  { label: 'GasBuddy gas price heatmap', url: 'https://www.gasbuddy.com/gaspricemap?lat=%LAT%&lng=%LNG%&z=8' },
   { label: 'REFUGE restrooms', url: 'https://www.refugerestrooms.org/restrooms?utf8=%E2%9C%93&lat=%LAT%&long=%LNG%' },
   { label: 'iNaturalist species observations', url: 'https://www.inaturalist.org/observations?lat=%LAT%&lng=%LNG%&place_id=any&radius=7&view=species' },
   { label: 'NYTimes 2020 election vote precinct map', url: 'https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html' },
   { label: 'NYTimes 2016 election vote precinct map', url: 'https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html#10.95/%LAT%/%LNG%/4069' },
   { label: 'co-op grocery stores map', url: 'https://grocerystory.coop/food-co-op-directory' },
   { label: 'free air pumps', url: 'https://www.freeairpump.com/map/' },
-  { label: 'coffee', url: 'https://www.findmecoffee.com/' },
+  { label: 'coffeeshops', url: 'https://www.findmecoffee.com/en/listings/1?latitude=%LAT%&&longitude=%LNG%&pagesize=50' },
   { label: 'weed legality by state', url: 'https://disa.com/marijuana-legality-by-state' },
   { label: 'boondocking', list: [
     { label: 'boondockerswelcome.com', url: 'https://www.boondockerswelcome.com/', comment: 'boondocking, $80/year for stays, $180/year to also stay at wineries, farms, breweries, etc' },
@@ -102,12 +102,14 @@ const populateOtherMaps = (lat = '', lng = '') => {
 };
 
 const main = async () => {
-  const LISTINGS_CONTAINER = document.querySelector('#table > tbody');
+  const RESTROOMS_TABLE = document.querySelector('#table');
+  const LISTINGS_CONTAINER = RESTROOMS_TABLE?.querySelector('#table > tbody');
   const OTHER_MAPS_CONTAINER = document.querySelector('#other > ul');
 
   populateOtherMaps();
 
   const successCallback = async (position) => {
+    RESTROOMS_TABLE?.classList.add('reserve-height');
     const { timestamp, coords } = position;
 
     const latitude = coords.latitude;
@@ -166,6 +168,8 @@ const main = async () => {
       LISTINGS_CONTAINER?.appendChild(listing);
     });
 
+
+    RESTROOMS_TABLE?.classList.remove('reserve-height');
     return { timestamp, coords };
   };
 

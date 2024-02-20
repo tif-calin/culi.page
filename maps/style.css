@@ -225,7 +225,10 @@ main .title {
 }
 
 #table {
-  min-height: 652px;
+  &.reserve-height {
+    min-height: 652px;
+    & tbody { min-height: 622px; }
+  }
 
   & thead {
     max-height: 24px;
@@ -238,7 +241,6 @@ main .title {
   }
 
   & tbody {
-    min-height: 622px;
     & tr > td:last-of-type { font-family: var(--fnt-mono); }
     & tr:nth-of-type(odd) { backdrop-filter: brightness(0.9); }
   }
