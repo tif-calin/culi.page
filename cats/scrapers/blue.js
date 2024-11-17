@@ -1,10 +1,13 @@
 import BRANDS from './_brands.js';
-const brandData = BRANDS.blue;
+const brandData = BRANDS?.blue;
+const URL = brandData?.site?.all
+
+// const URL = "https://bluebuffalo.com/product-finder/cat/";
 
 const LOUD = true;
 
 const scraper = async () => {
-  const html = await fetch(brandData.site.all)
+  const html = await fetch(URL)
     .then(res => res.text())
     .then(res => {
       if (LOUD) console.log(res);

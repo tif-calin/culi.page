@@ -1,0 +1,1 @@
+import './scrapers/blue.js';

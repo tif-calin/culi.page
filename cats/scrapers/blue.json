@@ -1,1394 +1,2645 @@
 [
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/kitten-chicken-brown-rice/",
-    "slug": "kitten-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_health_growth_kitten_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-kitten-chicken-brown-rice/",
+    "slug": "tastefuls-kitten-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_kitten_teaser.png",
+    "line": "tastefuls",
     "name": "Kitten Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.8,
-      "count": 506
+      "count": 519
     },
-    "sku": "111210032"
+    "sku": "111210032",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_kitten_dry_chicken_mobile.png",
+    "life_stage": "kitten",
+    "description": "Formulated to support the health and well-being of your kitten, BLUE Tastefuls starts with delicious deboned chicken and features wholesome whole grains and vegetables. Specially made for kittens, this recipe includes high-quality proteins to support muscle growth, plus DHA for cognitive development.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/kitten-chicken/",
     "slug": "kitten-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Kitten Chicken",
     "rating": {
-      "average": 3.4,
-      "count": 5
+      "average": 4.1,
+      "count": 10
     },
-    "sku": "111210063"
+    "sku": "111210063",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_kitten_chicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Inspired by the spirit of the lynx, this BLUE Wilderness recipe for kittens is packed with delicious, protein-rich deboned chicken to help build strong muscles, plus DHA to support your kitten's cognitive development.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      2267.96
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-kitten-chicken/",
     "slug": "indoor-kitten-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_dry_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Kitten Chicken Recipe",
     "rating": {
       "average": 4.7,
-      "count": 14
+      "count": 18
     },
-    "sku": "111210255"
+    "sku": "111210255",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/mobile-product-image/freedom_cat_dry_kitten_chicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "BLUE Freedom is a grain-free recipe featuring real deboned chicken and nutritious carrots, sweet potatoes, peas, blueberries and cranberries. It is formulated to support the needs of indoor kittens to help them grow up healthy and strong.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/baby-blue/kitten-chicken-brown-rice/",
     "slug": "kitten-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-chicken-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-chicken-teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.9,
-      "count": 30
+      "count": 31
     },
-    "sku": "840243134625"
+    "sku": "840243134625",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/baby-blue/mobile-product-image/babyblue_cat_dry_chickenbrownrice_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Formulated for healthy growth and development, our natural Baby BLUE recipe starts with high-quality chicken and features healthy brown rice, fruits, veggies and antioxidant-rich LifeSource Bits.\u00ae Enhanced with vitamins, minerals and other nutrients like DHA to support cognitive development and taurine for heart health, Baby BLUE gives your kitten the nutrition she needs to grow and play.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      1360.7759999999998,
+      2267.96
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/baby-blue/kitten-high-protein-chicken-pea-recipe/",
     "slug": "kitten-high-protein-chicken-pea-recipe",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-gf-chicken-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/baby-blue/teaser-product-image/baby-blue-kitten-dry-gf-chicken-teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten High-Protein, Grain-Free Chicken Formula",
     "rating": {
       "average": 4.9,
       "count": 29
     },
-    "sku": "840243135141"
+    "sku": "840243135141",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/baby-blue/mobile-product-image/babyblue_cat_dry_hpchickenpea_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Support your kitten\u2019s higher energy needs with our grain-free, high-protein Baby BLUE recipe. Starting with more protein-rich chicken, this natural recipe features wholesome fruits and veggies and is free of grains. Enhanced with vitamins, minerals and other nutrients like DHA which supports cognitive development and taurine to support heart health, Baby BLUE supports healthy growth.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      2041.164
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/chicken-brown-rice/",
-    "slug": "chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_healthy_living_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Chicken & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-chicken-brown-rice/",
+    "slug": "tastefuls-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_active_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Active Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.7,
-      "count": 65
+      "count": 70
     },
-    "sku": "111210014"
+    "sku": "111210014",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-adult_dry_active_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the health and well-being of your feline friend, BLUE Tastefuls features the finest natural ingredients enhanced with vitamins, minerals and other nutrients. Starting with delicious deboned chicken, it's packed with wholesome whole grains and vegetables.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144,
+      4535.92,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/multi-cat-chicken-turkey/",
-    "slug": "multi-cat-chicken-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_multi_cat_health_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Chicken & Turkey Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-multi-cat-chicken-turkey/",
+    "slug": "tastefuls-multi-cat-chicken-turkey",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_multicat_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Mult-Cat Chicken & Turkey Recipe",
     "rating": {
-      "average": 3.9,
-      "count": 8
+      "average": 4.2,
+      "count": 17
     },
-    "sku": "111210016"
+    "sku": "111210016",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_multicat_-adult_dry_turkey_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the health and well-being of your feline friends, BLUE Tastefuls starts with delicious deboned chicken and turkey, and is packed with wholesome whole grains and vegetables to satisfy the palate of all of your felines in one tasty feast.",
+    "tag_lines": [],
+    "sizes": [
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/weight-control-chicken-brown-rice/",
-    "slug": "weight-control-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_weight_control_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Chicken & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-weight-control-chicken-brown-rice/",
+    "slug": "tastefuls-weight-control-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_weight-control_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Weight Control Chicken & Brown Rice Recipe",
     "rating": {
-      "average": 5.0,
-      "count": 6
+      "average": 4.6,
+      "count": 14
     },
-    "sku": "111210018"
+    "sku": "111210018",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-adult_dry_weightcontrol_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the health and well-being of your feline friend, BLUE Tastefuls starts with delicious deboned chicken and is packed with wholesome whole grains and vegetables. This recipe contains carefully balanced calories to help your cat achieve and maintain a healthy weight.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/sensitive-stomach-chicken-brown-rice/",
-    "slug": "sensitive-stomach-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_sensitive_stomach_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Chicken & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-sensitive-stomach-chicken-brown-rice/",
+    "slug": "tastefuls-sensitive-stomach-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_sensitivestomach_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Sensitive Stomach Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.8,
-      "count": 102
+      "count": 136
     },
-    "sku": "111210017"
+    "sku": "111210017",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-adult_dry_sensitivestomach_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the digestive health of your feline friend, BLUE Tastefuls starts with delicious deboned chicken and is packed with wholesome whole grains and vegetables, plus fructooligosaccharides to increase healthy bacteria in the intestine.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      3175.144,
+      4535.92,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-chicken-brown-rice/",
-    "slug": "indoor-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_health_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Chicken & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-indoor-chicken-brown-rice/",
+    "slug": "tastefuls-indoor-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_indoor_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Indoor Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.8,
-      "count": 93
+      "count": 115
     },
-    "sku": "111210015"
+    "sku": "111210015",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-adult_dry_indoorchicken_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the health and well-being of your indoor cat, BLUE Tastefuls starts with delicious deboned chicken and is packed with wholesome whole grains and vegetables.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144,
+      4535.92,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-salmon-brown-rice/",
-    "slug": "indoor-salmon-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_health_slm_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Salmon & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-indoor-salmon-brown-rice/",
+    "slug": "tastefuls-indoor-salmon-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_adult_indoor_salmon_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Indoor Salmon & Brown Rice Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 5
+      "average": 4.3,
+      "count": 9
     },
-    "sku": "111210022"
+    "sku": "111210022",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-adult_dry_indoorsalmon_mobile.png",
+    "life_stage": "adult",
+    "description": "Formulated to support the health and well-being of your indoor cat, BLUE Tastefuls starts with delicious deboned salmon and is packed with wholesome whole grains and vegetables. BLUE is made with carefully balanced calories to help maintain a healthy weight.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      3175.144,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-hairball-control-chicken-brown-rice/",
-    "slug": "indoor-hairball-control-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_ckn_dry_teaser.png",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-indoor-hairball-control-chicken-brown-rice/",
+    "slug": "tastefuls-indoor-hairball-control-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/teaser_tastefuls_dry_hairball.png",
     "line": "life-protection-formula",
     "name": "Adult Chicken & Brown Rice Recipe",
     "rating": {
       "average": 5.0,
       "count": 2
     },
-    "sku": "111210251"
+    "sku": "111210251",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/pdp_mobile_tastefuls_dry_hairball.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Tastefuls Indoor Hairball Recipe for indoor cats features delicious, high-quality chicken with carefully balanced calories to help maintain a healthy weight and a unique blend of three natural fiber sources to help reduce hairball formation.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144,
+      6803.88
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/indoor-weight-control-hairball-chicken/",
-    "slug": "indoor-weight-control-hairball-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_weight_control_ckn_dry_teaser.png",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-indoor-weight-control-hairball-chicken/",
+    "slug": "tastefuls-indoor-weight-control-hairball-chicken",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/teaser_tastefuls_dry_weightcontrolhairball.png",
     "line": "life-protection-formula",
     "name": "Adult Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.8,
-      "count": 39
+      "count": 76
     },
-    "sku": "111210253"
+    "sku": "111210253",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/pdp_mobile_tastefuls_dry_weightcontrolhairball.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Tastefuls Indoor Hairball Recipe for indoor cats starts with delicious, high-quality chicken. Formulated with carefully balanced calories, plus a unique blend of natural fiber sources, this recipe can help your cat maintain a healthy weight and reduce hairballs.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/chicken/",
     "slug": "chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Chicken",
     "rating": {
       "average": 4.9,
-      "count": 7
+      "count": 9
     },
-    "sku": "111210052"
+    "sku": "111210052",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_chicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of our feline friends, BLUE Wilderness contains delicious, protein-rich deboned chicken, plus healthy ingredients including sweet potatoes, cranberries and blueberries.",
+    "tag_lines": [],
+    "sizes": [
+      2721.5519999999997,
+      5443.103999999999
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/duck/",
     "slug": "duck",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_duck_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_duck_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Duck",
     "rating": {
       "average": 5.0,
-      "count": 1
+      "count": 2
     },
-    "sku": "111210057"
+    "sku": "111210057",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_duck_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of our feline friends, high-protein BLUE Wilderness contains delicious, protein-rich deboned duck, plus healthy ingredients including sweet potatoes, cranberries and blueberries.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/denali-dinner-salmon-venison-halibut/",
     "slug": "denali-dinner-salmon-venison-halibut",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_denalidry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_denalidry_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Wild Salmon, Venison & Halibut",
     "rating": {
-      "average": 3.7,
-      "count": 3
+      "average": 4.0,
+      "count": 4
     },
-    "sku": "111210744"
+    "sku": "111210744",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_regional_denalidinner_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx who hunts in the mountains of Alaska, meat-rich BLUE Wilderness Denali Dinner is a tantalizing blend of wild salmon, venison and halibut. This recipe harnesses the best of the Alaskan frontier to satisfy your cat's wild instincts.",
+    "tag_lines": [],
+    "sizes": null,
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/flatland-feast-turkey-quail-duck/",
     "slug": "flatland-feast-turkey-quail-duck",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_flatlanddry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/wildernesscat_flatlanddry_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Turkey, Quail, & Duck",
     "rating": {
-      "average": 4.6,
-      "count": 10
+      "average": 4.7,
+      "count": 21
     },
-    "sku": "111210745"
+    "sku": "111210745",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_regional_flatlandfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the Great Plains where the graceful lynx once hunted freely, high-protein Wilderness Flatland Feast is a protein-packed blend of turkey, quail and duck. Feed your feline this ancestral diet to satisfy the spirit of the lynx that lives inside her.",
+    "tag_lines": [],
+    "sizes": null,
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/salmon/",
     "slug": "salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_slm_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_slm_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Salmon",
     "rating": {
       "average": 4.9,
-      "count": 36
+      "count": 53
     },
-    "sku": "111210059"
+    "sku": "111210059",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_salmon_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of our feline friends, BLUE Wilderness contains delicious, protein-rich deboned salmon, plus healthy ingredients including sweet potatoes, cranberries and blueberries.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/weight-control-chicken/",
     "slug": "weight-control-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_weight_control_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_weight_control_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Weight Control",
     "rating": {
       "average": 5.0,
-      "count": 1
+      "count": 3
     },
-    "sku": "111210054"
+    "sku": "111210054",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_weightcontrolchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of your indoor cat, BLUE Wilderness contains delicious, protein-rich deboned chicken, plus healthy ingredients including sweet potatoes, cranberries and blueberries. Formulated with carefully balanced calories, this recipe can help your cat maintain an ideal weight.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-chicken/",
     "slug": "indoor-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Indoor Chicken",
     "rating": {
-      "average": 4.8,
-      "count": 139
+      "average": 4.9,
+      "count": 157
     },
-    "sku": "111210053"
+    "sku": "111210053",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_indoorchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of your indoor cat, BLUE Wilderness contains delicious, protein-rich deboned chicken, plus healthy ingredients including sweet potatoes, cranberries and blueberries.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      1814.368,
+      2267.96,
+      4309.124,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-chicken-hairball/",
     "slug": "indoor-chicken-hairball",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Indoor Hairball",
     "rating": {
       "average": 4.8,
-      "count": 11
+      "count": 13
     },
-    "sku": "111210222"
+    "sku": "111210222",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_indoorhairballchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of your indoor cat, BLUE Wilderness contains real chicken and garden fruits and vegetables to help maintain a healthy body weight. Plus, a unique blend of natural fiber sources to help reduce hairballs.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/indoor-weight-control-hairball-chicken/",
     "slug": "indoor-weight-control-hairball-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_wc_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_indoor_hb_wc_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Adult Indoor Hairball & Weight Control",
     "rating": {
       "average": 4.8,
       "count": 9
     },
-    "sku": "111210225"
+    "sku": "111210225",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_adult_indoorhairballweightcontrolchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, a wild relative of your indoor cat, BLUE Wilderness is packed with protein-rich chicken, plus garden vegetables. Formulated to help maintain a healthy body weight, it also contains a unique blend of natural fiber sources to help reduce hairballs.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-trout/",
     "slug": "rocky-mountain-recipe-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_trout_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_trout_dry_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Trout",
     "rating": {
       "average": 5.0,
       "count": 2
     },
-    "sku": "111210260"
-  },
-  {
-    "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-rabbit/",
-    "slug": "rocky-mountain-recipe-rabbit",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_rabbit_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Adult Rabbit",
-    "rating": {
-      "average": 4.7,
-      "count": 11
-    },
-    "sku": "111210267"
+    "sku": "111210260",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wildrmr_cat_dry_adult_trout_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx with chicken-free Rocky Mountain Recipe, featuring protein-rich deboned trout and nutritious fruits and vegetables.",
+    "tag_lines": [],
+    "sizes": [
+      1814.368,
+      4535.92
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/rocky-mountain-recipe-red-meat/",
     "slug": "rocky-mountain-recipe-red-meat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_dry_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Red Meat",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210256"
+    "sku": "111210256",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wildrmr_cat_dry_adult_redmeat_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx with chicken-free Rocky Mountain Recipe, featuring protein-rich deboned beef, bison, lamb and venison.",
+    "tag_lines": [],
+    "sizes": [
+      1814.368,
+      4535.92
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-chicken/",
     "slug": "indoor-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_dry_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Adult Indoor Chicken Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 10
+      "average": 4.9,
+      "count": 14
     },
-    "sku": "111210041"
+    "sku": "111210041",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/mobile-product-image/freedom_cat_dry_adult_chicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom is a grain-free recipe featuring real chicken and nutritious carrots, sweet potatoes, peas, blueberries and cranberries. It is formulated to support the needs of indoor cats with carefully balanced calories to help maintain a healthy body weight.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-fish/",
     "slug": "indoor-fish",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_fish_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_fish_dry_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Adult Indoor Fish Recipe",
     "rating": {
-      "average": 4.9,
-      "count": 19
+      "average": 4.8,
+      "count": 31
     },
-    "sku": "111210189"
+    "sku": "111210189",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/mobile-product-image/freedom_cat_dry_adult_fish_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom is a grain-free recipe featuring real whitefish and nutritious carrots, sweet potatoes, peas, blueberries and cranberries. It is formulated to support the needs of indoor cats with carefully balanced calories to help maintain a healthy body weight.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/freedom/indoor-weight-control-chicken/",
     "slug": "indoor-weight-control-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_hw_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_hw_ckn_dry_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Weight Control Chicken Recipe",
     "rating": {
-      "average": 4.5,
-      "count": 2
+      "average": 4.7,
+      "count": 6
     },
-    "sku": "111210191"
+    "sku": "111210191",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/mobile-product-image/freedom_cat_dry_adult_wcchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom is a grain-free recipe featuring real chicken and nutritious fruits and vegetables. It is formulated to help indoor cats achieve and maintain a healthy weight with ingredients carefully selected by our animal nutritionists.",
+    "tag_lines": [],
+    "sizes": [
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-duck-potato/",
     "slug": "indoor-duck-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_duck_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_duck_dry_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Duck and Potato Recipe",
     "rating": {
       "average": 5.0,
       "count": 13
     },
-    "sku": "111210001"
+    "sku": "111210001",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/mobile-product-image/basics_cat_dry_adult_gfduckpotato_transition_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Duck and Potato Recipe is a limited-ingredient diet formulated for cats with food sensitivities. BLUE Basics is a chicken-free formula featuring a single animal protein source and wholesome, easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-grain-free-fish-potato/",
     "slug": "indoor-grain-free-fish-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_fish_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_fish_dry_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Fish and Potato Recipe",
     "rating": {
-      "average": 4.6,
-      "count": 17
+      "average": 4.5,
+      "count": 20
     },
-    "sku": "111210002"
+    "sku": "111210002",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/mobile-product-image/basics_cat_dry_adult_gffishpotato_transition_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Fish and Potato Recipe is a limited-ingredient diet formulated for cats with food sensitivities. BLUE Basics is a chicken-free formula featuring a single animal protein source and wholesome, easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-grain-free-turkey/",
     "slug": "indoor-grain-free-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_tky_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_tky_dry_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Turkey and Potato Recipe",
     "rating": {
-      "average": 4.0,
-      "count": 2
+      "average": 4.6,
+      "count": 5
     },
-    "sku": "111210004"
+    "sku": "111210004",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/mobile-product-image/basics_cat_dry_adult_gfturkeypotato_transition_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Turkey and Potato Recipe is a limited-ingredient diet formulated for cats with food sensitivities. BLUE Basics is a chicken-free formula featuring a single animal protein source and wholesome, easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/hairball-control-cat/",
     "slug": "hairball-control-cat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_hairball_us_new.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_hairball_us_teaser.png",
     "line": "true-solutions",
     "name": "Hairball Control Formula",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210898"
+    "sku": "111210898",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/mobile-product-image/truesolutions_cat_dry_hairball_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Help reduce your cat\u2019s hairballs naturally with the unique blend of cellulose and psyllium seed husks in BLUE True Solutions Hairball Control. Our natural, chicken-first recipe, formulated by veterinarians and PhD animal nutritionists, supports digestion with clinically proven prebiotic fiber, contains omega 3 & 6 fatty acids for healthy skin and shiny coat, and is enhanced with vitamins, minerals and other nutrients.",
+    "tag_lines": [],
+    "sizes": [
+      1587.572,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/digestive-care/",
     "slug": "digestive-care",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_blissfulbelly_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_blissfulbelly_us_teaser.png",
     "line": "true-solutions",
     "name": "Blissful Belly Digestive Care",
     "rating": {
-      "average": 4.9,
-      "count": 36
+      "average": 5.0,
+      "count": 45
     },
-    "sku": "111210801"
+    "sku": "111210801",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/mobile-product-image/updated/truesolutions_cat_dry_blissfulbelly_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Support your cat\u2019s digestive health naturally with prebiotic fiber, clinically proven to support digestive health. Formulated by veterinarians and PhD animal nutritionists, chicken-first Blissful Belly is gentle on the stomach and made with natural ingredients enhanced with vitamins, minerals and other nutrients.",
+    "tag_lines": [],
+    "sizes": [
+      1587.572,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/skin-coat-care/",
     "slug": "skin-coat-care",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_perfectcoat_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_perfectcoat_us_teaser.png",
     "line": "true-solutions",
     "name": "Perfect Coat Skin & Coat Care",
     "rating": {
       "average": 4.7,
-      "count": 32
+      "count": 36
     },
-    "sku": "111210803"
+    "sku": "111210803",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/mobile-product-image/updated/truesolutions_cat_dry_perfectcoat_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Help your cat shine naturally with omega 3 & 6 fatty acids, clinically proven to support healthy skin and shiny coat. Formulated by veterinarians and PhD animal nutritionists, Perfect Coat is made with natural ingredients starting with real salmon, is enhanced with vitamins, minerals and other nutrients, and contains NO corn, wheat, soy, dairy or eggs.",
+    "tag_lines": [],
+    "sizes": [
+      1587.572,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/weight-control/",
     "slug": "weight-control",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fithealthy_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fithealthy_us_teaser.png",
     "line": "true-solutions",
     "name": "Fit & Healthy Weight Control",
     "rating": {
       "average": 4.6,
-      "count": 29
+      "count": 31
     },
-    "sku": "111210802"
+    "sku": "111210802",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/mobile-product-image/updated/truesolutions_cat_dry_fithealthy_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Help manage your cat\u2019s weight naturally with L-Carnitine, clinically proven to support ideal weight, plus added fiber to help cats feel full. Formulated by veterinarians and PhD animal nutritionists, chicken-first Fit & Healthy is made with natural ingredients enhanced with vitamins, minerals and other nutrients.",
+    "tag_lines": [],
+    "sizes": [
+      1587.572,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/true-solutions/indoor-cat/",
     "slug": "indoor-cat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fabfeline_us_new.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/teaser-product-imgae/truesolutions_cat_dry_fabfeline_us_teaser.png",
     "line": "true-solutions",
     "name": "Fab Feline Indoor Formula",
     "rating": {
       "average": 5.0,
       "count": 18
     },
-    "sku": "111210848"
+    "sku": "111210848",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/true-solutions/mobile-product-image/updated/truesolutions_cat_dry_fabfeline_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Veterinarian-formulated Fab Feline starts with protein-rich chicken, plus L-Carnitine to support ideal weight. It\u2019s made with natural ingredients plus includes vitamins, minerals and other nutrients, antioxidant-rich LifeSource Bits\u2122, and prebiotic fiber, clinically proven to support digestive health.",
+    "tag_lines": [],
+    "sizes": [
+      1587.572,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/mature-chicken-brown-rice/",
-    "slug": "mature-chicken-brown-rice",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_healthy_aging_mature_ckn_dry_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Mature Chicken & Brown Rice Recipe",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-mature-chicken-brown-rice/",
+    "slug": "tastefuls-mature-chicken-brown-rice",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/tastefuls_cat_dry_mature_7_teaser.png",
+    "line": "tastefuls",
+    "name": "Adult Cat 7+ Chicken & Brown Rice Recipe",
     "rating": {
-      "average": 5.0,
-      "count": 4
+      "average": 4.9,
+      "count": 10
     },
-    "sku": "111210033"
+    "sku": "111210033",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/tastefuls_cat_-mature_dry_chicken_mobile.png",
+    "life_stage": "senior",
+    "description": "Formulated to support the health and well-being of your mature cat, BLUE Tastefuls starts with delicious deboned chicken and features wholesome whole grains and vegetables to provide your older cat with the right balance of high-quality proteins and complex carbohydrates to help maintain an active life.",
+    "tag_lines": [],
+    "sizes": [
+      1360.7759999999998,
+      2267.96,
+      3175.144
+    ],
+    "container": "bag"
   },
   {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue/mature-indoor-hairball-chicken/",
-    "slug": "mature-indoor-hairball-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/blue-for-cat/teaser-product-image/cat_blue_indoor_hairball_mature_ckn_dry_teaser.png",
+    "url": "https://bluebuffalo.com/dry-cat-food/blue/tastefuls-mature-indoor-hairball-chicken/",
+    "slug": "tastefuls-mature-indoor-hairball-chicken",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/teaser-product-image/teaser_tastefuls_dry_maturehairball.png",
     "line": "life-protection-formula",
     "name": "Mature Chicken & Brown Rice Recipe",
     "rating": {
       "average": 4.7,
-      "count": 44
+      "count": 45
     },
-    "sku": "111210254"
+    "sku": "111210254",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/tastefuls/mobile-product-image/pdp_mobile_tastefuls_dry_maturehairball.jpg",
+    "life_stage": "senior",
+    "description": "Formulated to support the health of your mature indoor cat, BLUE Tastefuls for Cats starts with real chicken, a high-quality protein that helps your cat maintain energy for an active life. Packed with wholesome whole grains and vegetables, this recipe also includes a unique blend of natural fiber sources to help reduce hairballs.",
+    "tag_lines": [],
+    "sizes": [
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/wilderness/mature-chicken/",
     "slug": "mature-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_mature_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/teaser-product-image/cat_wild_mature_ckn_dry_teaser.png",
     "line": "wilderness",
     "name": "Mature Chicken",
     "rating": {
       "average": 4.8,
-      "count": 9
+      "count": 12
     },
-    "sku": "111210064"
+    "sku": "111210064",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/wilderness/mobile-product-image/wild_cat_dry_mature_chicken_mobile.jpg",
+    "life_stage": "senior",
+    "description": "Inspired by the spirit of the lynx, this BLUE Wilderness recipe for mature cats is packed with delicious, protein-rich deboned chicken plus garden fruits and vegetables to provide your older cat with the right balance of high-quality protein and complex carbohydrates to maintain energy for an active life.",
+    "tag_lines": [],
+    "sizes": [
+      907.184,
+      2267.96
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/freedom/mature-indoor-chicken/",
     "slug": "mature-indoor-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_mature_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/teaser-product-image/cat_freedom_indoor_mature_ckn_dry_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Mature Indoor Chicken Recipe",
     "rating": {
       "average": 4.9,
-      "count": 26
+      "count": 27
     },
-    "sku": "111210190"
+    "sku": "111210190",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/freedom/mobile-product-image/freedom_cat_dry_mature_chicken_mobile.jpg",
+    "life_stage": "senior",
+    "description": "BLUE Freedom is a grain-free recipe featuring real chicken and nutritious carrots, sweet potatoes, peas, blueberries and cranberries. It is formulated to support the needs of mature indoor cats with the right balance of high-quality protein and complex carbohydrates to help maintain energy for an active life.",
+    "tag_lines": [],
+    "sizes": [
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/basics/indoor-mature-grain-free-turkey/",
     "slug": "indoor-mature-grain-free-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_mature_turkey_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/teaser-product-image/cat_basics_gf_indoor_mature_turkey_dry_teaser.png",
     "line": "basics",
     "name": "Mature Grain-Free Turkey and Potato Recipe",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210257"
+    "sku": "111210257",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/basics/mobile-product-image/basics_cat_dry_mature_gfturkeypotato_transition_mobile.jpg",
+    "life_stage": "senior",
+    "description": "BLUE Basics Grain-Free Turkey & Potato Recipe is a limited-ingredient diet formulated for mature cats with food sensitivities. BLUE Basics is a chicken-free formula providing your older cat with the right balance of high-quality protein and complex carbohydrates to help maintain energy for an active life, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [],
+    "sizes": [
+      2267.96,
+      4989.512
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/novel-protein-alligator/",
     "slug": "novel-protein-alligator",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/vet_np_cat_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/vet_np_cat_teaser.png",
     "line": "natural-veterinary-diet",
     "name": "NP Novel Protein",
     "rating": {
-      "average": 0.0,
-      "count": 0
+      "average": 4.0,
+      "count": 1
     },
-    "sku": "111210735"
+    "sku": "111210735",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/natural-veterinary-diet/mobile-product-image/nvd_cat_dry_adult_np_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/kidney-mobility/",
     "slug": "kidney-mobility",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-dry-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-dry-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "K+M Kidney + Mobility Support",
     "rating": {
-      "average": 0.0,
-      "count": 0
+      "average": 5.0,
+      "count": 2
     },
-    "sku": "111210635"
+    "sku": "111210635",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/natural-veterinary-diet/mobile-product-image/nvd_cat_dry_adult_km_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/hydrolyzed-intolerance/",
     "slug": "hydrolyzed-intolerance",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_hf_diet_slm_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_hf_diet_slm_dry_teaser.png",
     "line": "natural-veterinary-diet",
     "name": "HF Hydrolyzed for Food Intolerance",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210610"
+    "sku": "111210610",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/natural-veterinary-diet/mobile-product-image/nvd_cat_dry_adult_hf_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      3175.144
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/gastrointestinal-support/",
     "slug": "gastrointestinal-support",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_gi_diet_ckn_dry_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_gi_diet_ckn_dry_teaser.png",
     "line": "natural-veterinary-diet",
     "name": "GI Gastrointestinal Support",
-    "rating": {
-      "average": 0.0,
-      "count": 0
-    },
-    "sku": "111210608"
-  },
-  {
-    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/weight-management-urinary-care/",
-    "slug": "weight-management-urinary-care",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_wu_diet_dry_smallbag_teaser.png",
-    "line": "natural-veterinary-diet",
-    "name": "W+U Weight Management & Urinary Care",
     "rating": {
       "average": 5.0,
       "count": 1
     },
-    "sku": "111210621"
+    "sku": "111210608",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/natural-veterinary-diet/mobile-product-image/nvd_cat_dry_adult_gi_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      3175.144
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/dry-cat-food/blue-natural-veterinary-diet/weight-management-urinary-care/",
+    "slug": "weight-management-urinary-care",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/dog-dry-food/natural-veterinary-diet/teaser-product-image/cat_nveterinary_wu_diet_dry_smallbag_teaser.png",
+    "line": "natural-veterinary-diet",
+    "name": "W+U Weight Management & Urinary Care",
+    "rating": {
+      "average": 4.0,
+      "count": 2
+    },
+    "sku": "111210621",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-dry-food/natural-veterinary-diet/mobile-product-image/nvd_cat_dry_adult_wu_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      2948.348,
+      7257.472
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/weight-control/",
     "slug": "weight-control",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fithealthy_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fithealthy_us_teaser.png",
     "line": "true-solutions",
     "name": "Fit & Healthy Weight Control",
     "rating": {
       "average": 4.8,
       "count": 13
     },
-    "sku": "111210805"
+    "sku": "111210805",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/mobile-product-image/updated/truesolutions_cat_wet_fithealthy_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Help manage your cat\u2019s weight naturally with L-Carnitine, clinically proven to support ideal weight, plus added fiber to help cats feel full. Formulated by veterinarians and PhD animal nutritionists, chicken-first Fit & Healthy is made with natural ingredients enhanced with vitamins, minerals and other nutrients.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/kitten-chicken/",
     "slug": "kitten-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_kitten_chicken_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_kitten_chicken_pate_teaser.png",
     "line": "tastefuls",
     "name": "Kitten Chicken Pat\u00e9",
     "rating": {
       "average": 4.5,
-      "count": 156
+      "count": 159
     },
-    "sku": "111210829"
+    "sku": "111210829",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_kitten_chicken_pate_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "BLUE Tastefuls mouthwatering pat\u00e9 for kittens starts with real chicken as the first ingredient. Made with the finest natural ingredients plus vitamins, minerals and other nutrients, it\u2019s formulated with DHA to support cognitive development. One taste is all it takes for your kitten to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-chicken/",
     "slug": "kitten-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_ckn_wet_teaser.png",
     "line": "wilderness",
     "name": "Kitten Chicken Recipe",
     "rating": {
-      "average": 4.7,
-      "count": 21
+      "average": 4.6,
+      "count": 26
     },
-    "sku": "111210187"
+    "sku": "111210187",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_kitten_chicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Chicken Recipe for Kittens is a high-protein food with more of the real chicken kittens love. BLUE Wilderness lets your feline embrace her wild side, and is specially formulated with essential amino acids kittens need for healthy growth and development.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-salmon/",
     "slug": "kitten-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_slm_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_kitten_slm_wet_teaser.png",
     "line": "wilderness",
     "name": "Kitten Salmon Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 40
+      "average": 4.6,
+      "count": 77
     },
-    "sku": "111210303"
+    "sku": "111210303",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_kitten_salmon_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Salmon Recipe for Kittens is a high-protein food with more of the real salmon kittens love. BLUE Wilderness lets your feline embrace her wild side, and is formulated with essential nutrients like DHA for your kitten's healthy growth and development.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/kitten-flaked-chicken-trout/",
     "slug": "kitten-flaked-chicken-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_kitten_trout_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_kitten_trout_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten Flaked Chicken & Trout",
     "rating": {
-      "average": 4.4,
-      "count": 14
+      "average": 4.6,
+      "count": 36
     },
-    "sku": "111210555"
+    "sku": "111210555",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_kitten_flaked_chickentrout_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "BLUE Wilderness Wild Delights for Kittens features two delicious protein sources. Tender, flaky chicken and succulent trout are accompanied by a rich gravy, making this a true feline favorite. Wild Delights is specially formulated with essential amino acids to support your kitten's healthy growth and development.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/freedom/kitten-grain-free-indoor-chicken/",
     "slug": "kitten-grain-free-indoor-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_kitten_ckn_wet_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Kitten Chicken Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 4
+      "average": 4.9,
+      "count": 7
     },
-    "sku": "111210306"
+    "sku": "111210306",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/mobile-product-image/freedom_cat_wet_kitten_chicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "BLUE Freedom canned food is formulated to meet the needs of indoor kittens, with none of the grains that contain gluten. This delicious, grain-free recipe features real chicken and is specially formulated with DHA to support your kitten's cognitive development.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/basics/kitten-grain-free-turkey-potato/",
     "slug": "kitten-grain-free-turkey-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_kitten_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_kitten_tky_wet_teaser.png",
     "line": "basics",
     "name": "Kitten Grain-Free Turkey Recipe",
     "rating": {
-      "average": 0.0,
-      "count": 0
+      "average": 5.0,
+      "count": 1
     },
-    "sku": "111210118"
+    "sku": "111210118",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/mobile-product-image/basics_cat_wet_kitten_gfturkey_transition_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "BLUE Basics Grain-Free Turkey & Potato Entr\u00e9e for Kittens is a limited-ingredient diet formulated to minimize food sensitivities. Chicken-free BLUE Basics features high-quality turkey and easily digestible carbohydrates, omega fatty acids for healthy skin and coat, plus DHA to support your kitten's cognitive development.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-high-protein-salmon/",
     "slug": "kitten-high-protein-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-salmon-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-salmon-teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten High-Protein, Grain-Free Salmon Formula",
     "rating": {
       "average": 4.8,
-      "count": 34
+      "count": 40
     },
-    "sku": "840243134403"
+    "sku": "840243134403",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/mobile-product-image/babyblue_cat_wet_hpsalmon_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Support your kitten\u2019s higher energy needs with delicious, high-protein Baby BLUE wet food. Starting with more protein-rich salmon, this grain-free recipe features fruits and veggies, and unlike many other wet foods, is made without wheat, which may cause\u00a0adverse food reactions\u00a0in some kittens.\u00a0Added vitamins, minerals and nutrients like taurine to help promote heart health and DHA for supporting cognitive development for a healthy start.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-high-protein-chicken/",
     "slug": "kitten-high-protein-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-chicken-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-gf-chicken-teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten High-Protein, Grain-Free Chicken Formula",
     "rating": {
       "average": 4.8,
-      "count": 30
+      "count": 31
     },
-    "sku": "840243134427"
+    "sku": "840243134427",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/mobile-product-image/babyblue_cat_wet_hpchicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Support your kitten\u2019s higher energy needs with delicious, high-protein Baby BLUE wet food. Starting with more protein-rich chicken, this grain-free recipe features veggies, and unlike many other wet foods, is made without wheat, which may cause\u00a0adverse food reactions\u00a0in some kittens. Added vitamins, minerals and nutrients like taurine to help promote heart health and DHA for supporting cognitive development for a healthy start.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/baby-blue/kitten-chicken/",
     "slug": "kitten-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-chicken-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/teaser-product-image/baby-blue-kitten-wet-chicken-teaser.png",
     "line": "life-protection-formula",
     "name": "Kitten Chicken Recipe",
     "rating": {
       "average": 4.8,
-      "count": 37
+      "count": 49
     },
-    "sku": "840243134380"
+    "sku": "840243134380",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/baby-blue/mobile-product-image/babyblue_cat_wet_chicken_mobile.jpg",
+    "life_stage": "kitten",
+    "description": "Baby BLUE wet food starts with high-quality chicken, features healthy fruits and veggies, and unlike many other wet foods, is made without wheat, which may cause adverse food reactions in some kittens. Formulated with DHA to support cognitive development and taurine to help support heart health, Baby BLUE natural wet food is also enhanced with vitamins and minerals to help your kitten get the nutrition she needs to grow up strong and healthy.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-cuts-in-gravy-savory-singles/",
+    "slug": "chicken-cuts-in-gravy-savory-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_chicken_cutsingravy_new.png",
+    "line": "life-protection-formula",
+    "name": "Chicken Cuts in Gravy",
+    "rating": {
+      "average": 4.8,
+      "count": 163
+    },
+    "sku": "111210947",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_chicken_cutsingravy_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious entr\u00e9e made with natural ingredients, starts with mouthwatering morsels of real chicken in savory gravy, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and serve! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-cuts-in-gravy-savory-singles/",
+    "slug": "salmon-cuts-in-gravy-savory-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_salmon_cutsingravy_new.png",
+    "line": "life-protection-formula",
+    "name": "Salmon Cuts in Gravy",
+    "rating": {
+      "average": 4.8,
+      "count": 304
+    },
+    "sku": "111210948",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_salmon_cutsingravy_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious entr\u00e9e made with natural ingredients, starts with mouthwatering morsels of real salmon in savory gravy, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and serve! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/tuna-cuts-in-gravy-savory-singles/",
+    "slug": "tuna-cuts-in-gravy-savory-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_tuna_cutsingravy_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Tuna Cuts in Gravy",
+    "rating": {
+      "average": 4.7,
+      "count": 91
+    },
+    "sku": "111210950",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_tuna_cutsingravy_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious entr\u00e9e made with natural ingredients, starts with mouthwatering morsels of real tuna in savory gravy, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and serve! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/turkey-cuts-in-gravy-savory-singles/",
+    "slug": "turkey-cuts-in-gravy-savory-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_turkey_cutsingravy_new.png",
+    "line": "life-protection-formula",
+    "name": "Turkey Cuts in Gravy",
+    "rating": {
+      "average": 4.8,
+      "count": 168
+    },
+    "sku": "111210949",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_turkey_cutsingravy_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious entr\u00e9e made with natural ingredients, starts with mouthwatering morsels of real turkey in savory gravy, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and serve! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-pate-spoonless-singles/",
+    "slug": "chicken-pate-spoonless-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_chicken_pate_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Silky-Smooth Chicken Pat\u00e9",
+    "rating": {
+      "average": 4.7,
+      "count": 275
+    },
+    "sku": "111210934",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_chicken_pate_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious, silky-smooth pat\u00e9 is made with natural ingredients starting with real chicken first, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and chop! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/white-fish-and-tuna-pate-spoonless-singles/",
+    "slug": "white-fish-and-tuna-pate-spoonless-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_wft_pate_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Silky-Smooth Whitefish & Tuna Pat\u00e9",
+    "rating": {
+      "average": 4.7,
+      "count": 177
+    },
+    "sku": "111210937",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_wft_pate_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious, silky-smooth pat\u00e9 is made with natural ingredients starting with real whitefish first, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and chop! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-pate-spoonless-singles/",
+    "slug": "salmon-pate-spoonless-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_salmon_pate_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Silky-Smooth Salmon Pat\u00e9",
+    "rating": {
+      "average": 4.8,
+      "count": 134
+    },
+    "sku": "111210935",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_salmon_pate_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious, silky-smooth pat\u00e9 is made with natural ingredients starting with real salmon first, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and chop! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/turkey-pate-spoonless-singles/",
+    "slug": "turkey-pate-spoonless-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_turkey_pate_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Silky-Smooth Turkey Pat\u00e9",
+    "rating": {
+      "average": 4.6,
+      "count": 102
+    },
+    "sku": "111210938",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_turkey_pate_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious, silky-smooth pat\u00e9 is made with natural ingredients starting with real turkey first, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and chop! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/beef-pate/",
     "slug": "beef-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_beef_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_beef_pate_teaser.png",
     "line": "tastefuls",
     "name": "Adult Beef Pat\u00e9",
     "rating": {
       "average": 5.0,
       "count": 1
     },
-    "sku": "111210850"
+    "sku": "111210850",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_beef_pate_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls smooth pat\u00e9 starts with real beef as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-pate/",
     "slug": "chicken-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_pate_teaser.png",
     "line": "tastefuls",
     "name": "Adult Chicken Pat\u00e9",
     "rating": {
-      "average": 4.6,
-      "count": 527
+      "average": 4.5,
+      "count": 556
     },
-    "sku": "111210830"
+    "sku": "111210830",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_chicken_pate_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls smooth pat\u00e9 starts with real chicken as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/ocean-fish-tuna-pate/",
     "slug": "ocean-fish-tuna-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_fish_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_fish_pate_teaser.png",
     "line": "tastefuls",
-    "name": "Adult Ocean Fish & Tuna Pat\u00e9\t",
+    "name": "Adult Ocean Fish & Tuna Pat\u00e9",
     "rating": {
       "average": 4.6,
-      "count": 167
+      "count": 170
     },
-    "sku": "111210832"
+    "sku": "111210832",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_fish_pate_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls smooth pat\u00e9 starts with real whitefish as the first ingredient. Made with the finest natural ingredients, including tuna, and enhanced with vitamins, minerals and other nutrients, this wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-pate/",
     "slug": "salmon-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_pate_teaser.png",
     "line": "tastefuls",
     "name": "Adult Salmon Pat\u00e9",
     "rating": {
-      "average": 4.4,
-      "count": 165
+      "average": 4.3,
+      "count": 170
     },
-    "sku": "111210834"
+    "sku": "111210834",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_salmon_pate_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls smooth pat\u00e9 starts with real salmon as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/turkey-chicken-pate/",
     "slug": "turkey-chicken-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_turkey_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_turkey_pate_teaser.png",
     "line": "tastefuls",
     "name": "Adult Turkey & Chicken Pat\u00e9",
     "rating": {
-      "average": 4.6,
-      "count": 163
+      "average": 4.5,
+      "count": 177
     },
-    "sku": "111210831"
+    "sku": "111210831",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/canada/cat-wet-food/tastefuls/mobile-product-image/tastefuls-adult-cat-turkey--chicken-entree-pate_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls smooth pat\u00e9 starts with real turkey as the first ingredient. Made with the finest natural ingredients, including chicken, and enhanced with vitamins, minerals and other nutrients, this wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/tuna-flaked/",
     "slug": "tuna-flaked",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_flake_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_flake_teaser.png",
     "line": "tastefuls",
     "name": "Adult Flaked Tuna",
     "rating": {
       "average": 4.6,
-      "count": 395
+      "count": 399
     },
-    "sku": "111210837"
+    "sku": "111210837",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_tuna_flake_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with tender flakes of mouthwatering tuna as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-flaked/",
     "slug": "chicken-flaked",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_flake_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_flake_teaser.png",
     "line": "tastefuls",
     "name": "Adult Flaked Chicken",
     "rating": {
       "average": 4.6,
-      "count": 154
+      "count": 157
     },
-    "sku": "111210835"
+    "sku": "111210835",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_chicken_flake_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with tender flakes of mouthwatering chicken as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/fish-shrimp-flaked/",
     "slug": "fish-shrimp-flaked",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_shrimp_flake_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_shrimp_flake_teaser.png",
     "line": "tastefuls",
     "name": "Adult Flaked Fish & Shrimp",
     "rating": {
       "average": 4.6,
-      "count": 155
+      "count": 160
     },
-    "sku": "111210838"
+    "sku": "111210838",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_shrimp_flake_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with tender flakes of fish as the first ingredient. Made with the finest natural ingredients, including shrimp, and enhanced with vitamins, minerals and other nutrients, this wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/salmon-flaked/",
     "slug": "salmon-flaked",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_flake_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_salmon_flake_teaser.png",
     "line": "tastefuls",
     "name": "Adult Flaked Salmon",
     "rating": {
       "average": 4.6,
-      "count": 156
+      "count": 159
     },
-    "sku": "111210836"
+    "sku": "111210836",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_salmon_flake_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with tender flakes of mouthwatering salmon as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, Tastefuls wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/tuna-morsels/",
     "slug": "tuna-morsels",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_morsels_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_tuna_morsels_teaser.png",
     "line": "tastefuls",
     "name": "Adult Tuna Morsels",
     "rating": {
       "average": 4.6,
-      "count": 166
+      "count": 171
     },
-    "sku": "111210840"
+    "sku": "111210840",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_tuna_morsels_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with mouthwatering morsels of real tuna as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, this wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/chicken-morsels/",
     "slug": "chicken-morsels",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_morsel_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_adult_chicken_morsel_teaser.png",
     "line": "tastefuls",
     "name": "Adult Chicken Morsels",
     "rating": {
       "average": 4.6,
-      "count": 335
+      "count": 337
     },
-    "sku": "111210839"
+    "sku": "111210839",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_adult_chicken_morsel_mobile.jpg",
+    "life_stage": "adult",
+    "description": "This BLUE Tastefuls entr\u00e9e starts with mouthwatering morsels of real chicken as the first ingredient. Made with the finest natural ingredients enhanced with vitamins, minerals and other nutrients, this wet cat food is so delicious, one taste is all it takes for your feline to meow for more!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
+  },
+  {
+    "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/beef-pate-spoonless-singles/",
+    "slug": "beef-pate-spoonless-singles",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_single_adult_beef_pate_teaser-new.png",
+    "line": "life-protection-formula",
+    "name": "Silky-Smooth Beef Pat\u00e9",
+    "rating": {
+      "average": 4.7,
+      "count": 83
+    },
+    "sku": "111210936",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_single_adult_beef_pate_mobile.png",
+    "life_stage": "adult",
+    "description": "This delicious, silky-smooth pat\u00e9 is made with natural ingredients starting with real beef first, plus vitamins, minerals and other nutrients. Perfectly portioned cups come in a handy twin-pack: Just snap, peel, pop and chop! Try it and find out why one taste is all it takes!",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      73.7087
+    ],
+    "container": "bag"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken/",
     "slug": "chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_ckn_wet_teaser.png",
     "line": "wilderness",
     "name": "Chicken Recipe",
     "rating": {
       "average": 5.0,
       "count": 1
     },
-    "sku": "111210178"
+    "sku": "111210178",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_adult_chicken_mobile2.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Chicken Recipe is a high-protein food with more of the real chicken cats love. BLUE Wilderness lets your feline embrace her wild side.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225,
+      354.36875
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/duck/",
     "slug": "duck",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_duck_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_duck_wet_teaser.png",
     "line": "wilderness",
     "name": "Duck Recipe",
     "rating": {
-      "average": 3.0,
-      "count": 5
+      "average": 3.6,
+      "count": 7
     },
-    "sku": "111210179"
+    "sku": "111210179",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_adult_duck_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Duck Recipe is a high-protein food with more of the real duck cats love. BLUE Wilderness lets your feline embrace her wild side.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/denali-dinner-salmon-venison-halibut/",
     "slug": "denali-dinner-salmon-venison-halibut",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_denaliwet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_denaliwet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Wild Salmon, Venison & Halibut",
     "rating": {
-      "average": 5.0,
-      "count": 1
+      "average": 4.5,
+      "count": 2
     },
-    "sku": "111210746"
+    "sku": "111210746",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildcat_wet_adult_denalidinner_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx who hunted in the mountains of Alaska, BLUE Wilderness Denali Dinner is a tantalizing blend of protein-rich wild salmon, venison and halibut. Harnessing the best of the Alaskan frontier, Denali Dinner satisfies the wild instincts that live in your cat.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/turkey/",
     "slug": "turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_tky_wet_teaser.png",
     "line": "wilderness",
     "name": "Turkey Recipe",
     "rating": {
-      "average": 4.0,
-      "count": 2
+      "average": 4.7,
+      "count": 14
     },
-    "sku": "111210184"
+    "sku": "111210184",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_adult_turkey_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Turkey Recipe is a high-protein food with more of the real turkey cats love. BLUE Wilderness lets your feline embrace her wild side.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flatland-feast-turkey-quail-duck/",
     "slug": "flatland-feast-turkey-quail-duck",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_flatlandwet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/wildernesscat_flatlandwet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Turkey, Quail & Duck",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210747"
+    "sku": "111210747",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildcat_wet_adult_flatlandfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the Great Plains where the graceful lynx once hunted freely, Wilderness Flatland Feast is a protein-packed blend of turkey, quail and duck. Feed your feline this ancestral diet to satisfy the spirit of the lynx that lives inside her.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/salmon/",
     "slug": "salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_slm_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_slm_wet_teaser.png",
     "line": "wilderness",
     "name": "Salmon Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 4
+      "average": 4.3,
+      "count": 7
     },
-    "sku": "111210181"
+    "sku": "111210181",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_adult_salmon_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Salmon Recipe is a high-protein food with more of the real salmon cats love. BLUE Wilderness lets your feline embrace her wild side.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225,
+      354.36875
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/trout/",
     "slug": "trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_trout_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_trout_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Trout Feast",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210551"
+    "sku": "111210551",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildrmr_cat_wet_adult_troutfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The pure physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx chicken-free Rocky Mountain Recipe, featuring protein-rich trout, fruits and vegetables.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/red-meat/",
     "slug": "red-meat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_red_meat_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Red Meat Feast",
     "rating": {
       "average": 4.5,
       "count": 2
     },
-    "sku": "111210552"
+    "sku": "111210552",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildrmr_cat_wet_adult_redmeatfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The pure physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx chicken-free Rocky Mountain Recipe, featuring protein-rich red meat, fruits and vegetables.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-trout/",
     "slug": "flaked-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat-rmr-flaked-trout-adult-wet-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat-rmr-flaked-trout-adult-wet-teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Flaked Trout Feast",
     "rating": {
-      "average": 3.8,
-      "count": 5
+      "average": 4.4,
+      "count": 10
     },
-    "sku": "111210556"
+    "sku": "111210556",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildrmr_cat_wet_adult_flaked_troutfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The pure physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx chicken-free Rocky Mountain Recipe, featuring protein-rich trout, fruits and vegetables .",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-red-meat/",
     "slug": "flaked-red-meat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_flaked_red_meat_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_rmr_flaked_red_meat_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Flaked Red Meat Feast",
     "rating": {
-      "average": 4.9,
-      "count": 7
+      "average": 4.5,
+      "count": 15
     },
-    "sku": "111210557"
+    "sku": "111210557",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildrmr_cat_wet_adult_flaked_redmeatfeast_mobile.jpg",
+    "life_stage": "adult",
+    "description": "The pure physical grace of the lynx roaming the American West lives in your feline. Feed your cat's inner lynx chicken-free Rocky Mountain Recipe, featuring protein-rich beef, fruits and vegetables.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-chicken-turkey/",
     "slug": "flaked-chicken-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_tky_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Flaked Chicken & Turkey Recipe",
     "rating": {
       "average": 4.8,
       "count": 10
     },
-    "sku": "111210205"
+    "sku": "111210205",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_flaked_chickenturkey_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, flaky chicken and succulent turkey are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/flaked-chicken-trout/",
     "slug": "flaked-chicken-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_trout_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_flaked_trout_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Flaked Chicken & Trout Recipe",
     "rating": {
       "average": 4.7,
       "count": 111
     },
-    "sku": "111210206"
+    "sku": "111210206",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_flaked_chickentrout_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, flaky chicken and succulent trout are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-gravy/",
     "slug": "chicken-gravy",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_chicken_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_chicken_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Tasty Chicken Morsels",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210559"
+    "sku": "111210559",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildtastytoppers_cat_wet_adult_chicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Cuts Tasty Toppers make any meal feel like a treat! Added to dry or canned food, or just served on their own, these savory pouches contain tasty chunks of real chicken in an irresistible gravy.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "pouch"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/duck-gravy/",
     "slug": "duck-gravy",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_duck_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_duck_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Tasty Duck Morsels",
     "rating": {
       "average": 4.7,
-      "count": 12
+      "count": 39
     },
-    "sku": "111210560"
+    "sku": "111210560",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildtastytoppers_cat_wet_adult_duck_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Cuts Tasty Toppers make any meal feel like a treat! Added to dry or canned food, or just served on their own, these savory pouches contain tasty chunks of real duck in an irresistible gravy.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "pouch"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/salmon-gravy/",
     "slug": "salmon-gravy",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_slm_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_cuts_slm_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Tasty Salmon Morsels",
     "rating": {
-      "average": 4.8,
-      "count": 37
+      "average": 4.6,
+      "count": 77
     },
-    "sku": "111210561"
+    "sku": "111210561",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wildtastytoppers_cat_wet_adult_salmon_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Cuts Tasty Toppers make any meal feel like a treat! Added to dry or canned food, or just served on their own, these savory pouches contain tasty chunks of real salmon in an irresistible gravy.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "pouch"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-turkey/",
     "slug": "chicken-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_tky_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Chicken & Turkey Recipe",
     "rating": {
       "average": 5.0,
       "count": 1
     },
-    "sku": "111210177"
+    "sku": "111210177",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_morsels_chickenturkey_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, delectable chunks of real chicken and succulent turkey are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-salmon/",
     "slug": "chicken-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_slm_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_slm_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Chicken & Salmon Recipe",
     "rating": {
-      "average": 3.7,
-      "count": 3
+      "average": 3.8,
+      "count": 5
     },
-    "sku": "111210175"
+    "sku": "111210175",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_morsels_chickensalmon_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, delectable chunks of real chicken and succulent salmon are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/chicken-trout/",
     "slug": "chicken-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_trout_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_trout_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Chicken & Trout Recipe",
     "rating": {
       "average": 5.0,
       "count": 4
     },
-    "sku": "111210176"
+    "sku": "111210176",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_morsels_chickentrout_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, delectable chunks of real chicken and succulent trout are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/minced-chicken-turkey/",
     "slug": "minced-chicken-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_tky_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Minced Chicken & Turkey Recipe",
     "rating": {
-      "average": 4.8,
-      "count": 13
+      "average": 4.7,
+      "count": 27
     },
-    "sku": "111210554"
+    "sku": "111210554",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_minced_chickenturkey_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, minced chicken and delectable turkey are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/minced-chicken-trout/",
     "slug": "minced-chicken-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_trout_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_delights_minced_trout_wet_teaser.png",
     "line": "life-protection-formula",
     "name": "Adult Minced Chicken & Trout Recipe",
     "rating": {
-      "average": 4.5,
-      "count": 13
+      "average": 4.6,
+      "count": 34
     },
-    "sku": "111210553"
+    "sku": "111210553",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wilddelights_cat_wet_adult_minced_chickentrout_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Wilderness Wild Delights features two delicious protein sources. Tender, minced chicken and delectable trout are accompanied by a rich gravy, making this a true feline favorite.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-chicken/",
     "slug": "grain-free-indoor-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_ckn_wet_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Chicken Recipe",
     "rating": {
-      "average": 4.3,
-      "count": 11
+      "average": 4.1,
+      "count": 18
     },
-    "sku": "111210164"
+    "sku": "111210164",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/mobile-product-image/freedom_cat_wet_adult_chicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom canned food is formulated to meet the needs of indoor cats, with none of the grains that contain gluten. This delicious, grain-free recipe features real chicken and helps cats maintain an ideal, healthy body weight.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225,
+      354.36875
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-fish/",
     "slug": "grain-free-indoor-fish",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_fish_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/teaser-product-image/cat_freedom_indoor_fish_wet_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Fish Recipe",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210307"
+    "sku": "111210307",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/mobile-product-image/freedom_cat_wet_adult_fish_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom canned food is formulated to meet the needs of indoor cats, with none of the grains that contain gluten. This delicious, grain-free recipe features real chicken and helps cats maintain an ideal, healthy body weight.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/freedom/gain-free-indoor-flaked-chicken/",
     "slug": "gain-free-indoor-flaked-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_flaked_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_flaked_ckn_wet_teaser.png",
     "line": "freedom",
     "name": "Flaked Grain-Free Indoor Adult Chicken Recipe",
     "rating": {
-      "average": 4.3,
-      "count": 7
+      "average": 4.4,
+      "count": 10
     },
-    "sku": "111210547"
+    "sku": "111210547",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/mobile-product-image/freedom_cat_wet_adult_flakedchicken_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Freedom canned food is formulated to meet the needs of indoor cats, with none of the grains that contain gluten. This delicious recipe features high-quality, flaked chicken and helps maintain an ideal, healthy body weight.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-duck-potato/",
     "slug": "grain-free-indoor-duck-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_duck_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_duck_wet_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Duck and Potato",
     "rating": {
-      "average": 4.5,
-      "count": 21
+      "average": 4.7,
+      "count": 38
     },
-    "sku": "111210111"
+    "sku": "111210111",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/mobile-product-image/basics_cat_wet_adult_gfduck_transition_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Duck & Potato Entr\u00e9e is a limited-ingredient diet formulated to minimize food sensitivities. Chicken-free BLUE Basics features high-quality duck and easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-fish-potato/",
     "slug": "grain-free-indoor-fish-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_fish_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_fish_wet_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Fish and Potato",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210112"
+    "sku": "111210112",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/mobile-product-image/basics_cat_wet_adult_gffishpotato_transition_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Fish & Potato Entr\u00e9e is a limited-ingredient diet formulated to minimize food sensitivities. Chicken-free BLUE Basics features high-quality whitefish and easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/basics/grain-free-indoor-turkey-potato/",
     "slug": "grain-free-indoor-turkey-potato",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_tky_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_basics_indoor_tky_wet_teaser.png",
     "line": "basics",
     "name": "Adult Grain-Free Turkey and Potato",
     "rating": {
       "average": 4.7,
       "count": 7
     },
-    "sku": "111210114"
+    "sku": "111210114",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/mobile-product-image/basics_cat_wet_adult_gfturkey_mobile.jpg",
+    "life_stage": "adult",
+    "description": "BLUE Basics Grain-Free Turkey & Potato Entr\u00e9e is a limited-ingredient diet formulated to minimize food sensitivities. Chicken-free BLUE Basics features high-quality turkey and easily digestible carbohydrates, plus omega fatty acids for healthy skin and coat.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/digestive-care/",
     "slug": "digestive-care",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_blissfulbelly_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_blissfulbelly_us_teaser.png",
     "line": "true-solutions",
     "name": "Blissful Belly Digestive Care",
     "rating": {
-      "average": 4.4,
-      "count": 16
+      "average": 4.5,
+      "count": 17
     },
-    "sku": "111210804"
+    "sku": "111210804",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/mobile-product-image/truesolutions_cat_wet_blissfulbelly_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Support your cat\u2019s digestive health naturally with prebiotic fiber, clinically proven to support digestive health. Formulated by veterinarians and PhD animal nutritionists, chicken-first Blissful Belly is gentle on the stomach and made with natural ingredients enhanced with vitamins, minerals and other nutrients.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/skin-coat-care/",
     "slug": "skin-coat-care",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_perfectcoat_us_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_perfectcoat_us_teaser.png",
     "line": "true-solutions",
     "name": "Perfect Coat Skin & Coat Care",
     "rating": {
-      "average": 4.6,
-      "count": 14
+      "average": 4.4,
+      "count": 15
     },
-    "sku": "111210806"
+    "sku": "111210806",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/mobile-product-image/updated/truesolutions_cat_wet_perfectcoat_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Help your cat shine naturally with omega 3 & 6 fatty acids, clinically proven to support healthy skin and shiny coat. Formulated by veterinarians and PhD animal nutritionists, Perfect Coat is made with natural ingredients starting with real whitefish, is enhanced with vitamins, minerals and other nutrients, and contains NO corn, wheat, soy, dairy or eggs.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/true-solutions/indoor-cat/",
     "slug": "indoor-cat",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fabfeline_us_new.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/teaser-product-imgae/truesolutions_cat_wet_fabfeline_us_teaser.png",
     "line": "true-solutions",
     "name": "Fab Feline Indoor Formula",
     "rating": {
       "average": 4.8,
-      "count": 21
+      "count": 22
     },
-    "sku": "111210849"
+    "sku": "111210849",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/true-solutions/mobile-product-image/updated/truesolutions_cat_wet_fabfeline_us_mobile.jpg",
+    "life_stage": "adult",
+    "description": "Formulated by veterinarians, Fab Feline starts with protein-rich chicken, plus includes L-Carnitine to support ideal weight and body composition. Made with natural ingredients enhanced with vitamins, minerals and other nutrients, it contains prebiotic fiber, clinically proven to support digestive health.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/tastefuls/mature-chicken-pate/",
     "slug": "mature-chicken-pate",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_mature_chicken_pate_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/teaser--product-image/tastefuls_cat_wet_mature_chicken_pate_teaser.png",
     "line": "tastefuls",
     "name": "Mature Chicken Pat\u00e9",
     "rating": {
       "average": 4.6,
-      "count": 172
+      "count": 174
     },
-    "sku": "111210833"
+    "sku": "111210833",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/tastefuls/mobile-product-image/tastefuls_cat_wet_mature_chicken_pate_mobile.jpg",
+    "life_stage": "senior",
+    "description": "BLUE Tastefuls mouthwatering pat\u00e9 for mature cats starts with real chicken as the first ingredient. Made with the finest natural ingredients plus vitamins, minerals and other nutrients, it\u2019s formulated to help older cats stay active with energy from high-quality proteins and complex carbohydrates.",
+    "tag_lines": [
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/wilderness/mature-chicken/",
     "slug": "mature-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_mature_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/teaser-product-image/cat_wild_mature_ckn_wet_teaser.png",
     "line": "wilderness",
     "name": "Mature Chicken Recipe",
     "rating": {
-      "average": 3.4,
-      "count": 5
+      "average": 3.9,
+      "count": 7
     },
-    "sku": "111210204"
+    "sku": "111210204",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/wilderness/mobile-product-image/wild_cat_wet_mature_chicken_mobile.jpg",
+    "life_stage": "senior",
+    "description": "Inspired by the spirit of the lynx, BLUE Wilderness Chicken Recipe for Mature Cats is a high-protein food with more of the real chicken cats love. BLUE Wilderness lets your feline embrace her wild side by providing a protein-rich diet to support the energy she needs for an active life.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      85.04849999999999,
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/freedom/grain-free-indoor-mature-chicken/",
     "slug": "grain-free-indoor-mature-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_mature_ckn_wet_teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/basics/teaser-product-image/cat_freedom_indoor_mature_ckn_wet_teaser.png",
     "line": "freedom",
     "name": "Grain-Free Indoor Mature Chicken Recipe",
     "rating": {
-      "average": 4.5,
-      "count": 4
+      "average": 4.6,
+      "count": 11
     },
-    "sku": "111210545"
+    "sku": "111210545",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/freedom/mobile-product-image/freedom_cat_wet_mature_chicken_mobile.jpg",
+    "life_stage": "senior",
+    "description": "BLUE Freedom canned food is formulated to meet the needs of mature indoor cats, with none of the grains that contain gluten. This delicious recipe features high-quality chicken and helps maintain an ideal, healthy weight.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/novel-protein-alligator/",
     "slug": "novel-protein-alligator",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-np-cat-wet-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-np-cat-wet-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "NP Novel Protein",
     "rating": {
-      "average": 3.0,
-      "count": 1
+      "average": 3.3,
+      "count": 3
     },
-    "sku": "111210742"
+    "sku": "111210742",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/mobile-product-image/nvd_cat_wet_adult_np_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/kidney-mobility/",
     "slug": "kidney-mobility",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-wet-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-km-wet-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "K+M Kidney + Mobility Support",
     "rating": {
-      "average": 4.3,
-      "count": 4
+      "average": 4.4,
+      "count": 8
     },
-    "sku": "111210658"
+    "sku": "111210658",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/mobile-product-image/nvd_cat_wet_adult_km_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/hydrolyzed-food-intolerance/",
     "slug": "hydrolyzed-food-intolerance",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-hf-cat-wet-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/vet-hf-cat-wet-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "HF Hydrolyzed for Food Intolerance",
     "rating": {
-      "average": 0.0,
-      "count": 0
+      "average": 2.5,
+      "count": 2
     },
-    "sku": "111210740"
+    "sku": "111210740",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/mobile-product-image/nvd_cat_wet_adult_hf_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/weight-management-urinary/",
     "slug": "weight-management-urinary",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-wu-wet-5oz-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-wu-wet-5oz-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "W+U Weight Management + Urinary Care",
     "rating": {
-      "average": 5.0,
-      "count": 1
+      "average": 4.7,
+      "count": 3
     },
-    "sku": "111210649"
+    "sku": "111210649",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/mobile-product-image/nvd_cat_wet_adult_wu_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   },
   {
     "url": "https://bluebuffalo.com/wet-cat-food/natural-veterinary-diet/gastrointestinal/",
     "slug": "gastrointestinal",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-gi-wet-5oz-teaser.png",
+    "img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/teaser-product-image/cat-vet-diet-gi-wet-5oz-teaser.png",
     "line": "natural-veterinary-diet",
     "name": "GI Gastrointestinal Support",
     "rating": {
       "average": 0.0,
       "count": 0
     },
-    "sku": "111210639"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/baby-blue/kitten-crunchies-chicken/",
-    "slug": "kitten-crunchies-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/baby-blue/teaser-product-image/baby-blue-kitten-crunchy-treat-chicken-teaser.png",
-    "line": "life-protection-formula",
-    "name": "Kitten Crunchies Chicken Treats",
-    "rating": {
-      "average": 4.9,
-      "count": 35
-    },
-    "sku": "840243134748"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/baby-blue/kitten-crunchies-salmon/",
-    "slug": "kitten-crunchies-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/baby-blue/teaser-product-image/baby-blue-kitten-crunchy-treat-salmon-teaser.png",
-    "line": "life-protection-formula",
-    "name": "Kitten Crunchies Salmon Treats",
-    "rating": {
-      "average": 4.8,
-      "count": 32
-    },
-    "sku": "840243137091"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-chicken/",
-    "slug": "blue-bursts-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_ckn_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Paw-Lickin\u2019 Chicken Cat Treats",
-    "rating": {
-      "average": 4.8,
-      "count": 24
-    },
-    "sku": "111210797"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-liver-beef/",
-    "slug": "blue-bursts-liver-beef",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_lvrbef_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Delish Liver & Beef Cat Treats",
-    "rating": {
-      "average": 4.7,
-      "count": 9
-    },
-    "sku": "111210799"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/blue/blue-bursts-seafood/",
-    "slug": "blue-bursts-seafood",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/blue/teaser-product-image/lpf_cat_treat_bursts_sea_teaser.png",
-    "line": "life-protection-formula",
-    "name": "Savory Seafood Cat Treats",
-    "rating": {
-      "average": 4.7,
-      "count": 21
-    },
-    "sku": "111210798"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-trout/",
-    "slug": "grain-free-crunchy-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-trt-teaser.png",
-    "line": "wilderness",
-    "name": "Trout Flavor",
-    "rating": {
-      "average": 4.9,
-      "count": 18
-    },
-    "sku": "111210697"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-chicken/",
-    "slug": "grain-free-crunchy-chicken",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-ckn-teaser.png",
-    "line": "wilderness",
-    "name": "Chicken Flavor",
-    "rating": {
-      "average": 4.9,
-      "count": 91
-    },
-    "sku": "111210695"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-crunchy-salmon/",
-    "slug": "grain-free-crunchy-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat-wilderness-crunchy-treat-slm-teaser.png",
-    "line": "wilderness",
-    "name": "Salmon Flavor",
-    "rating": {
-      "average": 4.7,
-      "count": 118
-    },
-    "sku": "111210696"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-duck/",
-    "slug": "grain-free-soft-chicken-duck",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_duck_treats_teaser.png",
-    "line": "wilderness",
-    "name": "Chicken & Duck Cat Treats",
-    "rating": {
-      "average": 4.8,
-      "count": 129
-    },
-    "sku": "111210207"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-turkey/",
-    "slug": "grain-free-soft-chicken-turkey",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_tky_treats_teaser.png",
-    "line": "wilderness",
-    "name": "Chicken & Turkey Cat Treats",
-    "rating": {
-      "average": 4.5,
-      "count": 8
-    },
-    "sku": "111210105"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-chicken-salmon/",
-    "slug": "grain-free-chicken-salmon",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_slm_treats_teaser.png",
-    "line": "wilderness",
-    "name": "Chicken & Salmon Cat Treats",
-    "rating": {
-      "average": 4.0,
-      "count": 14
-    },
-    "sku": "111210208"
-  },
-  {
-    "url": "https://bluebuffalo.com/cat-treats/wilderness/grain-free-soft-chicken-trout/",
-    "slug": "grain-free-soft-chicken-trout",
-    "img": "https://bluebuffalo.com/globalassets/00-redesign/product-detail-pages/cat-treats/wilderness/teaser-product-image/cat_wild_trout_treats_teaser.png",
-    "line": "wilderness",
-    "name": "Chicken & Trout Cat Treats",
-    "rating": {
-      "average": 4.2,
-      "count": 13
-    },
-    "sku": "111210104"
+    "sku": "111210639",
+    "big_img": "https://bluebuffalo.com/globalassets/product-detail-pages/cat-wet-food/natural-veterinary-diet/mobile-product-image/nvd_cat_wet_adult_gi_mobile.jpg",
+    "life_stage": null,
+    "description": "Available exclusively through your veterinarian.",
+    "tag_lines": [
+      "Grain-free",
+      "NO chicken (or poultry) by-product meals",
+      "NO artificial flavors or preservatives",
+      "NO corn, wheat or soy"
+    ],
+    "sizes": [
+      155.92225
+    ],
+    "container": "can"
   }
 ]

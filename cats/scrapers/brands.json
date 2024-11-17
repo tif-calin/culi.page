@@ -2,11 +2,11 @@
   "blue": {
     "name": "Blue Buffalo",
     "slug": "blue",
-    "domain": "https://bluebuffalo.com/",
+    "domain": "https://bluebuffalo.com",
     "site": {
-      "all": "https://bluebuffalo.com/product-finder/cat/",
-      "dry": "https://bluebuffalo.com/product-finder/cat/dry-food/",
-      "wet": "https://bluebuffalo.com/product-finder/cat/wet-food/",
+      "all": "https://bluebuffalo.com/product-finder/cat",
+      "dry": "https://bluebuffalo.com/product-finder/cat/dry-food",
+      "wet": "https://bluebuffalo.com/product-finder/cat/wet-food",
       "treats": "https://bluebuffalo.com/product-finder/cat/treats"
     },
     "counts": {

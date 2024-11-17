@@ -19,13 +19,40 @@ body {
   padding: 2rem;
 }
 
+main:has(*.focus) > * {
+  opacity: 0.75;
+  filter: blur(1px);
+  transition: opacity 0.15s, filter 0.15s;
+}
+
+main .focus,
+main:has(section:hover) > * {
+  opacity: 1;
+  filter: blur(0);
+}
+
 h1, h2, h3 {
   margin: 0.25rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 ul {
   margin-top: 0;
   padding-left: 1.5rem;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li::before {
+  content: '•';
+  left: -0.75rem;
+  position: absolute;
 }
 
 main {

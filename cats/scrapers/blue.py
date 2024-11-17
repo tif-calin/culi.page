@@ -14,12 +14,19 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.firefox.options import Options
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.firefox.options import Options
 
 opts = Options()    
 opts.add_argument('--headless')
 opts.add_argument('--disable-gpu')
-driver = webdriver.Firefox(executable_path=r'./geckodriver', options=opts)
+# driver = webdriver.Firefox(executable_path=r'./geckodriver', options=opts)
+
+from webdriver_manager.chrome import ChromeDriverManager
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
 # settings
 LOUD = True
@@ -86,7 +93,7 @@ def parse_product_page(product, loud = LOUD):
   # first section (hero)
   try:
     product['big_img'] = DATA['domain'] + soup.select_one('.Hero picture > img').attrs['src']
-    product['life_stage'] = handle_life_stage(soup.select_one('.Hero-text p.Heading--subtitle').text)
+    product['life_stage'] = handle_life_stage(soup.select_one('.Hero-text p.Subtitle').text)
     product['description'] = soup.select_one('.Hero-info > p:first-of-type').text.strip()
     product['tag_lines'] = list(map(
       lambda x: x.text.strip(),
@@ -100,24 +107,33 @@ def parse_product_page(product, loud = LOUD):
     elif 'pouch' in sizes_text: product['container'] = 'pouch'
     else: product['container'] = 'bag'
   except Exception as e:
-    print('\n', e)
-    pp.pprint(product)
+    print(e)
+    print(product['url'])
     return None
 
   if loud: pp.pprint(product)
   return product
 
 def parse_listing(product, loud = LOUD):
+  # skip ads
+  if product.select_one('.product-info') is None: return None
+
   # bottom half
-  sku = product.select_one('[ps-sku]').attrs['ps-sku']
-  rating = float(product.select_one('.bv_text').text)
-  rating_count = int(product.select_one('div.bv_numReviews_component_container > .bv_text').text[1:-1])
-  # top half
-  url = DATA['domain'] + product.select_one('.product-info').attrs['href']
-  slug = url.split('/')[-2]
-  line = handle_blue_line(product.select_one('.text_wrapper > h5').text)
-  name = product.select_one('.text_wrapper > p').text.strip()
-  img = DATA['domain'] + product.select_one('img').attrs['src']
+  try:
+    sku = product.select_one('[ps-sku]').attrs['ps-sku']
+    rating = float(product.select_one('.bv_text').text)
+    rating_count = int(product.select_one('div.bv_numReviews_component_container > .bv_text').text[1:-1])
+
+    # top half
+    url = DATA['domain'] + product.select_one('.product-info').attrs['href']
+    slug = url.split('/')[-2]
+    line = handle_blue_line(product.select_one('.text_wrapper > h5').text)
+    name = product.select_one('.text_wrapper > p').text.strip()
+    img = DATA['domain'] + product.select_one('img').attrs['src']
+  except Exception as e:
+    print('\n', e)
+    pp.pprint(product.text)
+
 
   if loud: print(f'{name} - {line}: {sku}')
 
@@ -143,7 +159,8 @@ def scraper(products = [], opts = { 'parse_listings': True, 'parse_product_pages
     finally:
       soup = BeautifulSoup(driver.page_source, 'html.parser')
       products = list(map(parse_listing, soup.select('#productList > li')))
-      with open(f"{DATA['slug']}.json", 'w') as f:
+      products = [x for x in products if x]
+      with open(f"{DATA['slug']}_new.json", 'w') as f:
         json.dump(products, f, indent = 2)
       driver.close()
 
