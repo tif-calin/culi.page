@@ -14,7 +14,7 @@
   offwhite
   pervenche
   rosegold
-  sinoper or sinople
+  sinopia or sinoper or sinople
   vanilla
   verditer
   watchet
@@ -143,6 +143,9 @@ const colors = {
   'zaffre': '#0014a8'
 };
 
+/**
+ * @type {Record<string, [number, number, number]>}
+ */
 const colorsRgb = {
   aero: [124, 185, 232],
   acid: [0, 255, 37],
@@ -408,6 +411,9 @@ const cssColors = {
   'yellowgreen': '#9acd32'
 }
 
+/**
+ * @type {Record<string, [number, number, number]>}
+ */
 const cssColorsRgb = {
   "aliceblue": [240, 248, 255],
   "antiquewhite": [250, 235, 215],
@@ -615,6 +621,9 @@ const wikiColors = {
   "yellow": "#ffff00"
 };
 
+/**
+ * @type {Record<string, [number, number, number]>}
+ */
 const wikiColorsRgb = {
   "aero": [
     49,

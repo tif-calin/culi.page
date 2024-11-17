@@ -57,8 +57,14 @@ const createListItem = (dist, name, vals) => {
   return item;
 };
 
+/**
+ * @param {{
+ *  inventory?: Record<string, [number, number, number]>;
+ * }} options
+ */
 export default options => {
   const opts = {
+    inventory: RGB_COLORS,
     ...options
   };
 
@@ -118,7 +124,12 @@ export default options => {
   textInput.addEventListener('input', e => {
     e.preventDefault();
 
-    let current = e.target.value.toLowerCase();
+    if (!e.target) return;
+    if (!('value' in e.target)) return;
+    const targetValue = e.target.value;
+    if (!(typeof targetValue === 'string')) return;
+
+    let current = targetValue.toLowerCase();
     if (current[0] !== '#') current = `#${current}`;
     if (current.length > 7) current = `#${current.slice(-6)}`;
 
@@ -130,7 +141,12 @@ export default options => {
   colorInput.addEventListener('change', e => {
     e.preventDefault();
 
-    textInput.value = e.target.value;
+    if (!e.target) return;
+    if (!('value' in e.target)) return;
+    const targetValue = e.target.value;
+    if (!(typeof targetValue === 'string')) return;
+
+    textInput.value = targetValue;
 
     console.log(e.target.value);
 

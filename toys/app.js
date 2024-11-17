@@ -10,6 +10,13 @@ const settingsContainer = document.getElementById('settings-container');
 const toyContainer = document.querySelector('#toy-container');
 
 // setup state
+let prefs = {
+  opts_color2nearestname: {
+    inventory: {
+      gray_0: '#f8f9fa'
+    }
+  },
+};
 const TOY_INFO = {
   solarnoon: {
     name: 'solarnoon',
