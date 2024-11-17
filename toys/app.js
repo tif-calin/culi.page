@@ -10,8 +10,7 @@ const settingsContainer = document.getElementById('settings-container');
 const toyContainer = document.querySelector('#toy-container');
 
 // setup state
-let prefs = {};
-const toyInfo = {
+const TOY_INFO = {
   solarnoon: {
     name: 'solarnoon',
     description: '',
@@ -48,13 +47,13 @@ const toyInfo = {
 const loadToy = async key => {
   const toyTitle = document.createElement('h3');
   toyTitle.name = key;
-  toyTitle.innerHTML = toyInfo[key].name;
+  toyTitle.innerHTML = TOY_INFO[key].name;
   toyTitle.classList.add('toy-title');
-  const toy = await toyInfo[key].renderer(prefs['opts_' + key]);
+  const toy = await TOY_INFO[key].renderer(prefs['opts_' + key]);
   toy.classList.add('toy');
   toy.name = key;
 
-  const h2Category = document.querySelector(`.category-${toyInfo[key].category}`).nextSibling;
+  const h2Category = document.querySelector(`.category-${TOY_INFO[key].category}`).nextSibling;
   toyContainer.insertBefore(toyTitle, h2Category);
   toyContainer.insertBefore(toy, toyTitle.nextSibling);
 };
@@ -75,13 +74,13 @@ const loadPrefs = () => {
   updatePrefs(prefs);
 
   // generate checkboxes for each toy
-  for (let toy of Object.keys(toyInfo)) {
+  for (let toy of Object.keys(TOY_INFO)) {
     const chk = document.createElement('input');
     chk.type = 'checkbox';
     chk.name = toy;
     if (prefs['show_' + toy]) chk.checked = true;
     const lbl = document.createElement('label');
-    lbl.textContent = toyInfo[toy].name;
+    lbl.textContent = TOY_INFO[toy].name;
 
     // add event listener to handle checkbox change
     chk.addEventListener('change', async e => {
@@ -115,7 +114,7 @@ loadPrefs()
 
 // load toys
 const loadToysInCategories = () => {
-  const categories = Object.values(toyInfo).map(toy => toy.category).filter((v, i, a) => a.indexOf(v) === i);
+  const categories = Object.values(TOY_INFO).map(toy => toy.category).filter((v, i, a) => a.indexOf(v) === i);
   for (let category of categories) {
     const h2 = document.createElement('h2');
     h2.textContent = category;
@@ -123,8 +122,8 @@ const loadToysInCategories = () => {
     h2.style.display = 'none';
     toyContainer.appendChild(h2);
 
-    for (let toy of Object.keys(toyInfo)) {
-      if (prefs['show_' + toy] && toyInfo[toy].category === category) {
+    for (let toy of Object.keys(TOY_INFO)) {
+      if (prefs['show_' + toy] && TOY_INFO[toy].category === category) {
         h2.style.display = 'block';
         loadToy(toy);
       }
@@ -134,7 +133,7 @@ const loadToysInCategories = () => {
 loadToysInCategories();
 
 // const toysToLoad = {};
-// Object.keys(toyInfo).forEach(async key => {
+// Object.keys(TOY_INFO).forEach(async key => {
 //   if (prefs['show_' + key]) toysToLoad[key.category] = [...toysToLoad[key.category], key];
 // });
 // Object.keys(toysToLoad).forEach(category => {

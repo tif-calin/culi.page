@@ -1,6 +1,8 @@
 {
-  "editor.formatOnSave": false,
-  "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "liveServer.settings.port": 5501
+  "editor.formatOnSave": false,
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "liveServer.settings.port": 5501,
+  "prettier.printWidth": 100
 }

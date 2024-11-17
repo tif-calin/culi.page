@@ -1,20 +1,21 @@
 import { colorsRgb, wikiColorsRgb } from '../data/colors.js';
 import { hex2rgb, rgb2hsl } from '../utils/utils.js';
-const RGBCOLORS = { ...wikiColorsRgb, ...colorsRgb };
+
+let RGB_COLORS = { ...wikiColorsRgb, ...colorsRgb };
 
 const getClosestRGB = color => {
   const [R, G, B] = hex2rgb(color);
 
   // find distance for all the colors
-  const distances = Object.keys(RGBCOLORS).reduce((acc, clr) => {
-    const [r, g, b] = RGBCOLORS[clr];
+  const distances = Object.keys(RGB_COLORS).reduce((acc, clr) => {
+    const [r, g, b] = RGB_COLORS[clr];
     const dist = Math.sqrt(Math.pow(r - R, 2) + Math.pow(g - G, 2) + Math.pow(b - B, 2));
 
     return { ...acc, [clr]: dist };
   }, {});
 
   // sort the list of colors by how close they are to the input color
-  const matches = [...Object.keys(RGBCOLORS)].sort((a, b) => distances[a] - distances[b]);
+  const matches = [...Object.keys(RGB_COLORS)].sort((a, b) => distances[a] - distances[b]);
 
   return([matches, distances]);
 };
@@ -23,8 +24,8 @@ const getClosestHSL = color => {
   const [H, S, L] = rgb2hsl(hex2rgb(color), true);
 
   // find distances for all the colors
-  const distances = Object.keys(RGBCOLORS).reduce((acc, clr) => {
-    const [h, s, l] = rgb2hsl(RGBCOLORS[clr], true);
+  const distances = Object.keys(RGB_COLORS).reduce((acc, clr) => {
+    const [h, s, l] = rgb2hsl(RGB_COLORS[clr], true);
     const hDist = Math.min(Math.abs(h - H), Math.abs(360 - Math.abs(h + H)));
     const dist = Math.sqrt(Math.pow(hDist, 2) + Math.pow(s - S, 2) + Math.pow(l - L, 2));
 
@@ -32,7 +33,7 @@ const getClosestHSL = color => {
   }, {});
 
   // sort the list of colors by how close they are to the input color
-  const matches = [...Object.keys(RGBCOLORS)].sort((a, b) => distances[a] - distances[b]);
+  const matches = [...Object.keys(RGB_COLORS)].sort((a, b) => distances[a] - distances[b]);
 
   return([matches, distances]);
 };
@@ -42,7 +43,7 @@ const createListItem = (dist, name, vals) => {
 
   const spnDist = document.createElement('span');
   spnDist.textContent = `${dist.toFixed(1)}`;
-  
+
   const divSwatch = document.createElement('div');
   divSwatch.style.backgroundColor = vals;
   divSwatch.style.height = '1rem';
@@ -60,6 +61,8 @@ export default options => {
   const opts = {
     ...options
   };
+
+  RGB_COLORS = opts.inventory;
 
   // create parent element
   const parent = document.createElement('form');
@@ -102,9 +105,9 @@ export default options => {
 
     for (let i = 0; i <= 6; i++) {
       const rgbName = rgbSorted[i];
-      const rgbCSS = `rgb(${RGBCOLORS[rgbName].join(', ')})`;
+      const rgbCSS = `rgb(${RGB_COLORS[rgbName].join(', ')})`;
       const hslName = hslSorted[i];
-      const hsl = rgb2hsl(RGBCOLORS[hslName], true);
+      const hsl = rgb2hsl(RGB_COLORS[hslName], true);
       const hslCSS = `hsl(${hsl[0]}, ${hsl[1]}%, ${hsl[2]}%)`;
 
       resultsRGB.append(createListItem(distsRGB[rgbName], rgbName, rgbCSS));

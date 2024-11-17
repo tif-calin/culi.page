@@ -146,7 +146,7 @@ def scraper(products = [], opts = { 'parse_listings': True, 'parse_product_pages
       with open(f"{DATA['slug']}.json", 'w') as f:
         json.dump(products, f, indent = 2)
       driver.close()
-  
+
   if opts['parse_product_pages']:
     # for each product, load its page and get additional data
     products = [x for x in list(map(parse_product_page, products)) if x]

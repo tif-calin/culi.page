@@ -71,12 +71,12 @@ const newick2wikiclade = () => {
   buttonMain.addEventListener('click', () => {
     const output = newickToWiki(textAreaInput.value);
     textAreaOutput.value = output;
-  }); 
+  });
 
   buttonCleanInput.addEventListener('click', () => {
     textAreaInput.value = cleanInput(textAreaInput.value);
   });
-  
+
   buttonFormat.addEventListener('click', () => {
     textAreaOutput.value = formatForWikipedia(textAreaOutput.value);
   });
@@ -119,5 +119,5 @@ latin2ottol();
 
 const latin2wikidata = () => {
   const URL = 'https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&search=';
-  // e.g. https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&search=Orbexilum%20pedunculatum 
+  // e.g. https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&search=Orbexilum%20pedunculatum
 };
