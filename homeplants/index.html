@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homeplants | culi.page</title>
+  <meta name="description" content="Free your houseplants!">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js" defer></script>
+</head>
+
+<body>
+  <div class="layout wrapper">
+    <header>
+      <h1 class="title">
+        Homeplants
+      </h1>
+      <span class="subtitle">
+        Free your houseplants!
+      </span>
+    </header>
+
+    <main class="layout wrapper">
+      <section class="island">
+        <h2>Identifiers</h2>
+        <p>
+          What plant?
+        </p>
+        <form id="form_identifiers">
+          <label for="latin-name"><b>Name</b></label>
+          <input
+            name="latin-name"
+            readonly
+            type="text"
+            value="Dracaena trifasciata"
+          />
+          <br />
+          <label for="gbif-id"><b>GBIF</b></label>
+          <input
+            name="gbif-id"
+            readonly
+            type="text"
+            value="11041822"
+          />
+        </form>
+      </section>
+
+      <section class="island">
+        <h2>Locations</h2>
+
+      </section>
+
+      <section class="island">
+        <h2>Comparison</h2>
+        <p>
+          Rainfall pattern vs humidity vs elevation vs temperature vs ...
+        </p>
+      </section>
+    </main>
+
+    <footer></footer>
+  </div>
+</body>
+
+</html>
